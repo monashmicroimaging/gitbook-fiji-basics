@@ -6,7 +6,11 @@
 
 **Monash Micro Imaging at MHTP 1ST EDITION - February 2017**
 
-![](/assets/cover/fiji_logo.jpg)
+![](/assets/cover_image/fiji_logo.jpg)
 
 | ![](/assets/logos/logo_MMI.jpg) | ![](/assets/logos/logo_MHTP.jpg) | ![](/assets/logos/logo_hudson.jpg) |
 | :---: | :---: | :---: |
+
+
+
+
