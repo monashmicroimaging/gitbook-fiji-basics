@@ -258,25 +258,27 @@ Note: In the example images we have scaled the duplicated region to make it an e
 
 From the resulting window, select the image you want to overlay from the drop down list. You can also choose the overlay position. The co-ordinates for overlay position are given in pixels. Co- ordinates at 0,0 will place the image at the top left corner of the original.
 
-
+![](/assets/part2/add_image_overlay.jpg)
 
 Select **OK** to insert the picture.
 
+![](/assets/part2/add_image_overlay_example.jpg)
+
 At this point you can still undo the overlay by going to **Image Overlay Remove Overlay**. To create a permanent image with the overlays go to **Image Overlay Flatten**.
+
+![](/assets/part2/image_overlay_flatten.jpg)
 
 This creates a new image with the overlays irreversibly embedded.
 
-Original
-
-* Overlays
-
-New Image
+![](/assets/part2/image_overlay_flatten_result.jpg)
 
 ## Adding Text to Images {#adding-text-to-images}
 
 Adding text to images can be useful for labelling and incorporating image information.
 
 Select the **Text tool** from the tool bar**,** then click and drag on the image to create a text box and begin typing.
+
+
 
 You can alter the font, size and colour by opening the text options. Double click on the **Text** tool to open the **Fonts** options window. Text options can be modified either before or after typing your text and the changes will be applied.
 
