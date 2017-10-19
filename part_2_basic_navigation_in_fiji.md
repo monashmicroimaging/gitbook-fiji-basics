@@ -8,43 +8,63 @@ The image **Interstitium 2** will be used for demonstration throughout this sect
 
 The FIJI interface opens as a small rectangular window on your screen, containing 8 menu options and a series of buttons, which will be referred to here as the tool bar. An information bar below the tool bar will display details of the tools or image when you hover over them with the cursor.
 
-Menu Options Tool Bar Information bar
+![](/assets/part2/fiji_interface.jpg)
 
 ## Opening Files {#opening-files}
 
-To open files in FIJI go to **File Open** (or use shortcut Ctrl+O). Navigate to your folder and select the file you want to open.
+To open files in FIJI go to **File Open** \(or use shortcut Ctrl+O\). Navigate to your folder and select the file you want to open.
 
-You can also open files by dragging and dropping the file from your folder into the FIJI interface. If you already have a file open in FIJI you can move on the next file in the series using the “Open
+![](/assets/part2/open_file.jpg)
 
-Next” function. Go to **File Open Next** (or use shortcut Ctrl+Shift+O) and FIJI will automatically close the current file and replace it with the next file in the folder.
+You can also open files by dragging and dropping the file from your folder into the FIJI interface. If you already have a file open in FIJI you can move on the next file in the series using the “Open Next” function. Go to **File Open Next** \(or use shortcut Ctrl+Shift+O\) and FIJI will automatically close the current file and replace it with the next file in the folder.
+
+![](/assets/part2/open_next_file.jpg)
 
 ## Image Information Display {#image-information-display}
 
-Some basic image information can be found in the top left corner of your opened image. This display tells you the image name, dimensions (in pixels if scale has not been calibrated or m if calibrated), image type and file size.
+Some basic image information can be found in the top left corner of your opened image. This display tells you the image name, dimensions \(in pixels if scale has not been calibrated or m if calibrated\), image type and file size.
+
+![](/assets/part2/image_information.jpg)
 
 ## Zooming and Panning {#zooming-and-panning}
 
 Select the magnifying glass from the tool bar on the FIJI interface to activate the **Zoom Tool**.
 
+![](/assets/part2/zoom_toolbar_button.jpg)
+
 Once the zoom tool is active you can easily zoom in and out using the mouse buttons. Left click to zoom in on the image, right click to zoom out. The position of the cursor on the image will determine the zoom centre.
 
 Other zoom options are available under **Image Zoom**.
 
+![](/assets/part2/zoom_menu.jpg)
+
 When you are zoomed in on an image you will not be able to see the entire image in the window. To move the image you can use **Pan,** also known as the **Hand Tool.** To switch to pan mode, select the hand tool from the tool bar on the FIJI interface.
 
+![](/assets/part2/hand_toolbar_button.jpg)
+
 Click and drag with the left mouse button to move around the image. An overview window will be displayed in the top left corner of your image, showing your location within the original image.
+
+![](/assets/part2/zoom_overview_with_arrow.jpg)
 
 ## Duplicate Image {#duplicate-image}
 
 FIJI will often apply changes to the image as you work and some of these changes are irreversible. Therefore it can be useful to work with a copy of your image so that the original remains unchanged.
 
-To create a duplicate image to **Image Duplicate** (or use shortcut Ctrl+Shift+D). Alternatively, you can right click on the image and select **Duplicate** from the menu.
+To create a duplicate image to **Image Duplicate** \(or use shortcut Ctrl+Shift+D\). 
 
-You can give the duplicated image a new name or use the default (_original image name –x_), then select **OK**.
+![](/assets/part2/duplicate_menu.jpg)
+
+Alternatively, you can right click on the image and select **Duplicate** from the menu.
+
+![](/assets/part2/duplicate_right_click.jpg)
+
+You can give the duplicated image a new name or use the default \(_original image name –x_\), then select **OK**.
+
+![](/assets/part2/duplicate_options.jpg)
 
 A duplicate image will then be displayed alongside the original.
 
-ORIGINAL IMAGE DUPLICATE IMAGE
+![](/assets/part2/duplicate_image_result.jpg)
 
 Note: When duplicating an image that has an ROI selected only the selected part of the image will be duplicated. This can be a useful tool for cropping part of an image.
 
@@ -56,11 +76,11 @@ If you have multiple images or windows open that all require the same processing
 
 In the resulting window you can select which functions you want to synchronize and select specific images to synchronize from the list of all open images. Or you can synchronize all open windows by clicking on **Synchronize All** at the bottom.
 
-When synchronized, the images (made greyscale here for improved contrast) will be highlighted in the list and the cursor will display as a red cross visible in both the active image and the synchronized image(s).
+When synchronized, the images \(made greyscale here for improved contrast\) will be highlighted in the list and the cursor will display as a red cross visible in both the active image and the synchronized image\(s\).
 
 Active Image Synchronized Image
 
-Any movements or changes you apply to the active image will now automatically transfer to the synchronized image(s) as well. For example; scrolling through a z-series when synchronized will ensure that all images remain on the same focal plane. Or a region of interest drawn in the active image will also be displayed in the synchronized image(s).
+Any movements or changes you apply to the active image will now automatically transfer to the synchronized image\(s\) as well. For example; scrolling through a z-series when synchronized will ensure that all images remain on the same focal plane. Or a region of interest drawn in the active image will also be displayed in the synchronized image\(s\).
 
 When you have completed your tasks and no longer want to apply your changes to all images, select
 
@@ -68,7 +88,7 @@ When you have completed your tasks and no longer want to apply your changes to a
 
 ## Regions of Interest {#regions-of-interest}
 
-Regions of interest (or ROIs) are used to select a smaller area of an image for functions such as cropping or for analysis on that specific section. To create a region of interest choose one of the tools from the tool bar and select your area on the image.
+Regions of interest \(or ROIs\) are used to select a smaller area of an image for functions such as cropping or for analysis on that specific section. To create a region of interest choose one of the tools from the tool bar and select your area on the image.
 
 There are 7 selection tools in total; 5 simple shape/line tools and the angle and point tools. The boxes which have small red arrows indicate that several options are available in this tool category. Right click on these boxes to display the options and select from the list.
 
@@ -96,11 +116,11 @@ Click on three points of interest in the image to measure the angle between them
 
 The angle will be displayed in the information bar as you are making the selection.
 
-Or go to **Analyze Measure** (or use shortcut Ctrl+M) to display the angle in a results window.
+Or go to **Analyze Measure** \(or use shortcut Ctrl+M\) to display the angle in a results window.
 
 Point or Multi-Point Tools;
 
-Select point or multi-point from the drop down list (right click point tool icon on the tool bar).
+Select point or multi-point from the drop down list \(right click point tool icon on the tool bar\).
 
 Use this tool to select a single point or multiple points in your image for analysis. This tool is particularly useful for counting.
 
@@ -108,7 +128,7 @@ You can double click the point tool box to bring up options for points, such as 
 
 Single Point Options Multi-Point Options
 
-To add multiple points in your image without using ROI manager hold ‘Shift’ and select each point or use the multi-point tool. However, these will not be measured individually during analysis and essentially become a single ROI (more details on multiple selection and ROI manager are given below).
+To add multiple points in your image without using ROI manager hold ‘Shift’ and select each point or use the multi-point tool. However, these will not be measured individually during analysis and essentially become a single ROI \(more details on multiple selection and ROI manager are given below\).
 
 ## Deleting, Changing and Combining ROIs {#deleting-changing-and-combining-rois}
 
@@ -120,11 +140,11 @@ To resize an ROI click and drag on any of the small white boxes around to ROI bo
 
 Click and drag here to resize
 
-When resizing ROIs you can control the movements in several ways: ‘Shift’ + click &amp; drag – will resize the ROI symmetrically
+When resizing ROIs you can control the movements in several ways: ‘Shift’ + click & drag – will resize the ROI symmetrically
 
-‘Ctrl’ + click &amp; drag – free resize the ROI around the centre
+‘Ctrl’ + click & drag – free resize the ROI around the centre
 
-‘Alt’ + click &amp; drag – resize the ROI with constrained aspect ratio
+‘Alt’ + click & drag – resize the ROI with constrained aspect ratio
 
 ‘Alt’ + arrow keys – enlarge the ROI in any direction 1 pixel at a time
 
@@ -156,13 +176,13 @@ To subtract from an existing ROI, start outside the ROI and sweep the brush inwa
 
 To measure multiple ROIs individually, you must add them to the ROI manager. To find the ROI manager go to **Analyze Tools ROI manager**. This will open the ROI manager window.
 
-Select your ROI tool and make your selection then click **Add** in the ROI manager (or use shortcut t). This will add the co-ordinates of the ROI to the list in ROI manager.
+Select your ROI tool and make your selection then click **Add** in the ROI manager \(or use shortcut t\). This will add the co-ordinates of the ROI to the list in ROI manager.
 
 Only the most recent ROI will be active, and visible, in the image, but all ROIs are saved to the image. To view all saved ROIs, tick the box next to **Show All** in the ROI manager.
 
 Once you have selected and added all ROIs of interest to the list, select **Measure** from the ROI manager options to view results. Further options, such as saving the ROI list, are displayed by clicking **More** in the ROI manager.
 
-Click on a set of co-ordinates in the list to highlight an individual ROI. Both the co-ordinates in the list and the ROI outline on the image will show as blue. You can then make individual adjustments to this ROI from the ROI manager options (delete, measure, rename, etc). Click **Deselect** to return to the full list.
+Click on a set of co-ordinates in the list to highlight an individual ROI. Both the co-ordinates in the list and the ROI outline on the image will show as blue. You can then make individual adjustments to this ROI from the ROI manager options \(delete, measure, rename, etc\). Click **Deselect** to return to the full list.
 
 ## Overlay ROIs to a New Image {#overlay-rois-to-a-new-image}
 
@@ -176,7 +196,7 @@ You can also use the overlay tools to combine images. Here we have used an examp
 
 Open your second image or draw an ROI and duplicate part of the original.
 
-If you want to keep the ROI on your image as an outline, do not click outside the selection in the original image. Do click the title bar to make it the active image again. To keep the ROI as an outline of the area used in the overlay, go to **Image Overlay Add Selection** (or use shortcut Ctrl+B).
+If you want to keep the ROI on your image as an outline, do not click outside the selection in the original image. Do click the title bar to make it the active image again. To keep the ROI as an outline of the area used in the overlay, go to **Image Overlay Add Selection** \(or use shortcut Ctrl+B\).
 
 To add the second image as an overlay to the original, ensure the original image is the active window then go to **Image Overlay Add Image**.
 
@@ -192,7 +212,7 @@ This creates a new image with the overlays irreversibly embedded.
 
 Original
 
-+ Overlays
+* Overlays
 
 New Image
 
@@ -206,17 +226,17 @@ You can alter the font, size and colour by opening the text options. Double clic
 
 You can move the text after adding it to the image by clicking and dragging inside the text box, similar to moving an ROI.
 
-Do not click outside the text box as this will delete the text. To keep the text on the image go to **Image Overlay Add Selection** (or use shortcut Ctrl+B). You can then work with the text as you would any other overlay (show/hide) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
+Do not click outside the text box as this will delete the text. To keep the text on the image go to **Image Overlay Add Selection** \(or use shortcut Ctrl+B\). You can then work with the text as you would any other overlay \(show/hide\) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
 
-You can also go to **Edit Draw** (or shortcut Ctrl+D) to incorporate text into the image, but this will keep text only. If you have a background colour this will be lost with this option, so ensure your text colour is clearly visible. When working with stacks this option will allow you to apply the text to all images in the stack.
+You can also go to **Edit Draw** \(or shortcut Ctrl+D\) to incorporate text into the image, but this will keep text only. If you have a background colour this will be lost with this option, so ensure your text colour is clearly visible. When working with stacks this option will allow you to apply the text to all images in the stack.
 
 ## Saving; Formats, Options and Image Quality {#saving-formats-options-and-image-quality}
 
-To save changes go to **File Save** (or use shortcut Ctrl+S). This will overwrite the previous file and save any changes. If it is a new image the
+To save changes go to **File Save** \(or use shortcut Ctrl+S\). This will overwrite the previous file and save any changes. If it is a new image the
 
-default save format is TIFF (as _image_
+default save format is TIFF \(as _image_
 
-_name.tif_).
+_name.tif_\).
 
 To choose a specific format for saving, got to **File Save As**, and select the format you want to use for the image from the list. Select your folder and name your file as you normally would.
 
@@ -226,9 +246,9 @@ Unique, but Useful, File Formats:
 
 Image Sequence: saves each image from a stack as an individual TIFF file. You can select numbered images or use slice labels for naming.
 
-Selection: saves ROI(s) for re-use at a later time
+Selection: saves ROI\(s\) for re-use at a later time
 
-XY Co-ordinates: saves ROI(s) as a text list of x and y co-ordinates
+XY Co-ordinates: saves ROI\(s\) as a text list of x and y co-ordinates
 
 Saving Measurements:
 
@@ -242,14 +262,17 @@ Far too often people save their data directly from the microscope as a JPEG file
 
 This image information that is lost with JPEG compression can NEVER be restored. Even if you resave with a different level of compression or in a different file format the loss is irreversible. The more you open, edit and re-save a JPEG, the more information is lost.
 
-To maintain the quality of your images and the integrity of your resulting data, ALWAYS save your original data in the raw format (ie: .oif for Olympus, .nd2 for Nikon, .lif for Leica, etc) and keep the original raw file untouched. Save your working copies as TIFF files to avoid compression and loss of image quality and data. Only save as JPEG for the final version to be submitted to journals or used in presentations AND KEEP THE ORIGINAL AND THE TIFF as well for any further editing that may be required.
+To maintain the quality of your images and the integrity of your resulting data, ALWAYS save your original data in the raw format \(ie: .oif for Olympus, .nd2 for Nikon, .lif for Leica, etc\) and keep the original raw file untouched. Save your working copies as TIFF files to avoid compression and loss of image quality and data. Only save as JPEG for the final version to be submitted to journals or used in presentations AND KEEP THE ORIGINAL AND THE TIFF as well for any further editing that may be required.
 
 If your original data is requested by a journal, which is happening more frequently these days – sending them JPEGS will not be acceptable.
 
 To maintain quality and integrity of your data, remember these points when working with and saving your files:
 
-*   Always save from the microscope in the raw file format and keep that copy untouched
-*   Keep an unedited backup – duplicate your image and make the changes on that as some edits are irreversible, save and keep both copies as TIFFs
-*   Loss of pixels = unreliable measurements
-*   Save working copies as TIFF files to avoid continual compression
-*   Only go to JPEG at the very end for a final ‘submission’ copy of the image
+* Always save from the microscope in the raw file format and keep that copy untouched
+* Keep an unedited backup – duplicate your image and make the changes on that as some edits are irreversible, save and keep both copies as TIFFs
+* Loss of pixels = unreliable measurements
+* Save working copies as TIFF files to avoid continual compression
+* Only go to JPEG at the very end for a final ‘submission’ copy of the image
+
+
+
