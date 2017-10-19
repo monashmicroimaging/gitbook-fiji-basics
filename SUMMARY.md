@@ -1,0 +1,15 @@
+# Summary
+
+* [Fiji Basics](README.md)
+* [PART 1: INTRODUCTION TO FIJI](part_1_introduction_to_fiji.md)
+* [PART 2: BASIC NAVIGATION IN FIJI](part_2_basic_navigation_in_fiji.md)
+* [PART 3: BIO-FORMATS IMPORTER](part_3_bio-formats_importer.md)
+* [PART 4: IMAGE ADJUSTMENTS](part_4_image_adjustments.md)
+* [PART 5: SCALES AND SIZING](part_5_scales_and_sizing.md)
+* [PART 6: CHANNELS AND COLOURS](part_6_channels_and_colours.md)
+* [PART 7: WORKING WITH STACKS](part_7_working_with_stacks.md)
+* [PART 8: MASKS AND FILTERS](part_8_masks_and_filters.md)
+* [PART 9: SIMPLE IMAGE MEASUREMENTS](part_9_simple_image_measurements.md)
+* [Acknowledgements](acknowledgements.md)
+* [Use and Distribution of Workshop Notes](use_and_distribution_of_workshop_notes.md)
+* [Demonstration  Images](demonstration_images.md)
