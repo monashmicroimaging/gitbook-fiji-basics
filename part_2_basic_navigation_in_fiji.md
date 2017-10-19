@@ -162,7 +162,7 @@ To **resize** an ROI click and drag on any of the small white boxes around to RO
 
 ![](/assets/part2/resize_roi.jpg)
 
-When resizing ROIs you can control the movements in several ways: 
+When resizing ROIs you can control the movements in several ways:
 
 * ‘Shift’ + click & drag – will resize the ROI symmetrically
 
@@ -232,7 +232,11 @@ Click on a set of co-ordinates in the list to highlight an individual ROI. Both 
 
 When you have an ROI list in the manager, you can easily transfer this to a new image. Open the new image, then go to **Image Overlay From ROI Manager**.
 
+![](/assets/part2/image_overlay_from_roiManager_menu.jpg)
+
 All ROIs in the ROI manager will be duplicated on the second image.
+
+![](/assets/part2/image_overlay_rois_example.jpg)
 
 ## Overlaying Images {#overlaying-images}
 
@@ -240,13 +244,21 @@ You can also use the overlay tools to combine images. Here we have used an examp
 
 Open your second image or draw an ROI and duplicate part of the original.
 
+![](/assets/part2/duplicate_partial_image_example.jpg)
+
 If you want to keep the ROI on your image as an outline, do not click outside the selection in the original image. Do click the title bar to make it the active image again. To keep the ROI as an outline of the area used in the overlay, go to **Image Overlay Add Selection** \(or use shortcut Ctrl+B\).
 
+![](/assets/part2/image_overlay_add_selection.jpg)
+
 To add the second image as an overlay to the original, ensure the original image is the active window then go to **Image Overlay Add Image**.
+
+![](/assets/part2/image_overlay_add_image.jpg)
 
 Note: In the example images we have scaled the duplicated region to make it an enlargement. Scaling/resizing will be discussed in a later section.
 
 From the resulting window, select the image you want to overlay from the drop down list. You can also choose the overlay position. The co-ordinates for overlay position are given in pixels. Co- ordinates at 0,0 will place the image at the top left corner of the original.
+
+
 
 Select **OK** to insert the picture.
 
