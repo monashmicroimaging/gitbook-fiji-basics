@@ -2,9 +2,7 @@
 
 For proper presentation of images it is essential to include a scale bar. This allows the viewer to see the scale of the image being presented and make their own conclusions about the data. Calibrating an image is also important if you want to get meaningful size-related measurements out of the image in any later analysis. Calibration is also important when resizing your images. In this section we will show you how to find calibration information from the image, and how to set the scale if the image is not calibrated. We will also demonstrate how to add a scale bar and how to crop and resize images without altering the image data.
 
-This section uses the images **Interstitium 2** and **TrichromeIHC**, as well as the metadata form **TSA_1**
-
-for demonstration.
+This section uses the images **Interstitium 2** and **TrichromeIHC**, as well as the metadata form **TSA\_1 **for demonstration.
 
 ## Finding Scale Information in the Image Properties {#finding-scale-information-in-the-image-properties}
 
@@ -12,9 +10,15 @@ In some circumstances FIJI will be able to calibrate your image automatically by
 
 If the scale is already calibrated the dimensions shown on the image will be in microns instead of pixels.
 
-In a calibrated image you can find the scale in m/px by going to **Image Properties** (or use shortcut Ctrl+Shift+P).
+![](/assets/part5/scale_information.jpg)
+
+In a calibrated image you can find the scale in m/px by going to **Image Properties** \(or use shortcut Ctrl+Shift+P\).
+
+![](/assets/part5/image_properties_menu.jpg)
 
 This will open a display window showing the dimensions of the image and the scale will be automatically populated at the correct size.
+
+![](/assets/part5/image_properties_window.jpg)
 
 For this image we see the scale is automatically set at 2.2m/px.
 
@@ -22,39 +26,51 @@ You do no need to make any changes here, select **OK** or close the window to ex
 
 You can also find the calibrated scale, this time in px/m, by going to **Analyze Set Scale**.
 
+![](/assets/part5/set_scale_menu.jpg)
+
+![](/assets/part5/set_scale_options.jpg)
+
 Here you will also find the dimensions correctly populated from the metadata if your image was already calibrated.
 
-Under **Set Scale** the calibration (px/m) is the inverse of that shown under image properties (m/px).
+Under **Set Scale** the calibration \(px/m\) is the inverse of that shown under image properties \(m/px\).
 
 You do no need to make any changes here, select **OK** or close the window to exit.
 
 ## Finding Scale Information in Metadata {#finding-scale-information-in-metadata}
 
-When opening a file using bio-formats importer you can also find the calibration in the metadata, although this can sometimes be hard to find within the long list of
-
-parameters.
+When opening a file using bio-formats importer you can also find the calibration in the metadata, although this can sometimes be hard to find within the long list of parameters.
 
 To find the calibration in the metadata, ensure **Open Metadata** is selected in the bio-formats options as previously described.
 
+![](/assets/part5/metadata_display_option.jpg)
+
 Scroll down in the metadata window until you reach the **Reference Image Parameters**. Here you will find the fields **WidthConvertValue** and **WidthUnit.** These parameters represent the pixel calibration, ie: the scale for this image is 0.31m/px.
+
+
 
 ## Setting the Scale Manually {#setting-the-scale-manually}
 
 For a non-calibrated image, the dimensions of the image will appear in pixels in the top corner of the image.
 
-If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows. To input it via **Image Properties** go to **Image Properties** (or shortcut Ctrl+Shift+P), as previously described.
+![](/assets/part5/scale_information_uncalibrated.jpg)
 
-In an uncalibrated image the pixel dimensions will all be displayed as 1\. Change the unit of length from pixels to microns and enter the conversion factor in microns (ie: 1 px = x m). For the example used here, the calibration in m/px is 0.45.
+If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows. To input it via **Image Properties** go to **Image Properties** \(or shortcut Ctrl+Shift+P\), as previously described.
+
+![](/assets/part5/image_properties_menu_example2.jpg)
+
+In an uncalibrated image the pixel dimensions will all be displayed as 1. Change the unit of length from pixels to microns and enter the conversion factor in microns \(ie: 1 px = x m\). For the example used here, the calibration in m/px is 0.45.
+
+![](/assets/part5/calibrating_scale_information.jpg)
 
 Select **OK** to save the calibration changes, then save the image to maintain the calibration permanently.
 
-If preferred, you can also input the calibration in px/m via the **Set Scale** tool. To do this, go to
+If preferred, you can also input the calibration in px/m via the **Set Scale** tool. To do this, go to **Analyze Set Scale**, as previously described.
 
-**Analyze Set Scale**, as previously described.
+![](/assets/part5/set_scale_menu_example2.jpg)
 
-The pixel aspect ratio in the **Set Scale** window will be displayed as 1\. To enter the scale, change the unit from pixels to microns and enter either the distance in pixels (2.222 for this example) or in microns (0.45 for this example)
+The pixel aspect ratio in the **Set Scale** window will be displayed as 1. To enter the scale, change the unit from pixels to microns and enter either the distance in pixels \(2.222 for this example\) or in microns \(0.45 for this example\)
 
-## OR {#or}
+![](/assets/part5/calibrating_scale_information_example2.jpg)
 
 Select **OK** to save the scale, and save the image.
 
@@ -82,7 +98,7 @@ Right click in the selection and choose **Duplicate** from the drop down menu. I
 
 Click **OK** to create the duplicate as a new image.
 
-While it is always recommended that you keep the original image uncropped and create a duplicate in this way, you can also crop without creating a duplicate. Select your ROI tool and draw an ROI as above. Then go to **Image Crop** (or use shortcut Ctrl+Shift+X).
+While it is always recommended that you keep the original image uncropped and create a duplicate in this way, you can also crop without creating a duplicate. Select your ROI tool and draw an ROI as above. Then go to **Image Crop** \(or use shortcut Ctrl+Shift+X\).
 
 This will crop the active image to the selected ROI.
 
@@ -100,9 +116,9 @@ Select **OK** to apply the changes to the image.
 
 Note the difference in the pixel dimensions here following the image resizing.
 
-The next method is the **Scale** tool, which is found under **Image Scale** (or use shortcut Ctrl+E).
+The next method is the **Scale** tool, which is found under **Image Scale** \(or use shortcut Ctrl+E\).
 
-In the **Scale** window, enter the vale by which you want to scale your image (ie: scale factor of 2 will double the image size, scale factor of 0.5 will halve the image size). In the Scale tool, the aspect ration will automatically be constrained, when you change the scale factor for X, the Y scale factor will adjust accordingly. The height and width (in pixel) will also automatically adjust according to the scale factor entered.
+In the **Scale** window, enter the vale by which you want to scale your image \(ie: scale factor of 2 will double the image size, scale factor of 0.5 will halve the image size\). In the Scale tool, the aspect ration will automatically be constrained, when you change the scale factor for X, the Y scale factor will adjust accordingly. The height and width \(in pixel\) will also automatically adjust according to the scale factor entered.
 
 Select **Bilinear** from the **Interpolaiton** drop down menu and select **Average when downsizing**, and **Create new window** so changes will be made to a duplicate image, not the original.
 
@@ -112,7 +128,7 @@ A duplicated image at, at the new size, will be created alongside the original i
 
 The third method is **Binning**, which is found under **Image Transform Bin**.
 
-Binning reduces an image by pixels similar to scaling. In the window enter the **Shrink factor** (2 x 2 binning will shrink the pixel dimensions by 2, ie: half the image size).
+Binning reduces an image by pixels similar to scaling. In the window enter the **Shrink factor** \(2 x 2 binning will shrink the pixel dimensions by 2, ie: half the image size\).
 
 Select **Average** from the **Bin Method** drop down menu click
 
@@ -122,7 +138,7 @@ Note that with binning the image does not appear smaller in dimensions compared 
 
 The final method is **Scale to DPI**, which is found under **Image Adjust Scale to DPI**.
 
-Under **Scale to DPI** you can enter a final image resolution size in dots per inch (or DPI) and the image will be scaled accordingly.
+Under **Scale to DPI** you can enter a final image resolution size in dots per inch \(or DPI\) and the image will be scaled accordingly.
 
 Enter your final required DPI in the first box and select the **Interpolation** method from the drop down menu.
 
@@ -131,3 +147,4 @@ Select the check boxes next to **Average when downsizing** and **Create new wind
 Click **OK** to create the new image.
 
 A new window will be created with the re-sized image.
+
