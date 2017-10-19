@@ -278,43 +278,49 @@ Adding text to images can be useful for labelling and incorporating image inform
 
 Select the **Text tool** from the tool bar**,** then click and drag on the image to create a text box and begin typing.
 
-
+![](/assets/part2/text_toolbar_icon.jpg)
 
 You can alter the font, size and colour by opening the text options. Double click on the **Text** tool to open the **Fonts** options window. Text options can be modified either before or after typing your text and the changes will be applied.
 
+![](/assets/part2/text_options.jpg)
+
 You can move the text after adding it to the image by clicking and dragging inside the text box, similar to moving an ROI.
 
-Do not click outside the text box as this will delete the text. To keep the text on the image go to **Image Overlay Add Selection** \(or use shortcut Ctrl+B\). You can then work with the text as you would any other overlay \(show/hide\) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
+**Do not click outside the text box as this will delete the text.** To keep the text on the image go to **Image Overlay Add Selection** \(or use shortcut Ctrl+B\). You can then work with the text as you would any other overlay \(show/hide\) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
+
+![](/assets/part2/text_image_overlay_selection.jpg)
 
 You can also go to **Edit Draw** \(or shortcut Ctrl+D\) to incorporate text into the image, but this will keep text only. If you have a background colour this will be lost with this option, so ensure your text colour is clearly visible. When working with stacks this option will allow you to apply the text to all images in the stack.
 
+![](/assets/part2/edit_draw.jpg)
+
 ## Saving; Formats, Options and Image Quality {#saving-formats-options-and-image-quality}
 
-To save changes go to **File Save** \(or use shortcut Ctrl+S\). This will overwrite the previous file and save any changes. If it is a new image the
+To save changes go to **File Save** \(or use shortcut Ctrl+S\). This will overwrite the previous file and save any changes. If it is a new image the default save format is TIFF \(as _imagename.tif_\).
 
-default save format is TIFF \(as _image_
+![](/assets/part2/save_menu.jpg)
 
-_name.tif_\).
+To choose a specific format for saving, got to **File Save As**, and select the format you want to use for the image from the list. Select your folder and name your file as you normally would. Typical File formats: TIFF, JPEG, AVI, PNG, EPS, PDF.
 
-To choose a specific format for saving, got to **File Save As**, and select the format you want to use for the image from the list. Select your folder and name your file as you normally would.
+![](/assets/part2/save_menu_saveas.jpg)
 
-Typical File formats: TIFF, JPEG, AVI, PNG, EPS, PDF
+### Unique, but Useful, File Formats
 
-Unique, but Useful, File Formats:
+* Image Sequence: saves each image from a stack as an individual TIFF file. You can select numbered images or use slice labels for naming.
 
-Image Sequence: saves each image from a stack as an individual TIFF file. You can select numbered images or use slice labels for naming.
+* Selection: saves ROI\(s\) for re-use at a later time
 
-Selection: saves ROI\(s\) for re-use at a later time
+* XY Co-ordinates: saves ROI\(s\) as a text list of x and y co-ordinates
 
-XY Co-ordinates: saves ROI\(s\) as a text list of x and y co-ordinates
-
-Saving Measurements:
+### Saving Measurements
 
 Use **Save Results** from the file options to export all data in an active results window as a text file.
 
+![](/assets/part2/save_measurements.jpg)
+
 Or; to export results as an Excel file, click on the results window and within the window select **File Save As.** Select your folder and name the file as you normally would.
 
-An Important Note on Image Quality and Compression:
+### An Important Note on Image Quality and Compression
 
 Far too often people save their data directly from the microscope as a JPEG file. The JPEG file format seems good in theory, as the file sizes are smaller and it save space on your hard drives. But JPEG is what we call a ‘Lossy’ format. When you save as a JPEG your images are compressed – this is achieved by REMOVING PIXELS FROM THE IMAGE DATA.
 
