@@ -132,19 +132,23 @@ Click on three points of interest in the image to measure the angle between them
 
 The angle will be displayed in the information bar as you are making the selection.
 
-
+![](/assets/part2/roi_angle_information.jpg)
 
 Or go to **Analyze Measure** \(or use shortcut Ctrl+M\) to display the angle in a results window.
 
-Point or Multi-Point Tools;
+![](/assets/part2/analyze_measure_menu.jpg)
 
-Select point or multi-point from the drop down list \(right click point tool icon on the tool bar\).
+![](/assets/part2/analyze_measure_results.jpg)
+
+### Point or Multi-Point Tools
+
+![](/assets/part2/roi_point_icon.jpg) Select point or multi-point from the drop down list \(right click point tool icon on the tool bar\).
 
 Use this tool to select a single point or multiple points in your image for analysis. This tool is particularly useful for counting.
 
 You can double click the point tool box to bring up options for points, such as type, size and labelling of points. For single points, options like adding to ROI manager or automatic measurement of points are also available.
 
-Single Point Options Multi-Point Options
+![](/assets/part2/roi_point_options.jpg)
 
 To add multiple points in your image without using ROI manager hold ‘Shift’ and select each point or use the multi-point tool. However, these will not be measured individually during analysis and essentially become a single ROI \(more details on multiple selection and ROI manager are given below\).
 
@@ -152,55 +156,77 @@ To add multiple points in your image without using ROI manager hold ‘Shift’ 
 
 ROIs can be modified in a number of ways after selection. This means you can undo a mistake by deleting, resizing or altering the ROI.
 
-To delete an ROI click on the image outside of the ROI selection.
+To **delete** an ROI click on the image outside of the ROI selection.
 
-To resize an ROI click and drag on any of the small white boxes around to ROI border.
+To **resize** an ROI click and drag on any of the small white boxes around to ROI border.
 
-Click and drag here to resize
+![](/assets/part2/resize_roi.jpg)
 
-When resizing ROIs you can control the movements in several ways: ‘Shift’ + click & drag – will resize the ROI symmetrically
+When resizing ROIs you can control the movements in several ways: 
 
-‘Ctrl’ + click & drag – free resize the ROI around the centre
+* ‘Shift’ + click & drag – will resize the ROI symmetrically
 
-‘Alt’ + click & drag – resize the ROI with constrained aspect ratio
+* ‘Ctrl’ + click & drag – free resize the ROI around the centre
 
-‘Alt’ + arrow keys – enlarge the ROI in any direction 1 pixel at a time
+* ‘Alt’ + click & drag – resize the ROI with constrained aspect ratio
 
-To move an ROI left click inside the ROI selection and drag and drop to the new location. You can move the ROI more precisely using the arrow keys on the keyboard.
+* ‘Alt’ + arrow keys – enlarge the ROI in any direction 1 pixel at a time
 
-You can draw multiple ROIs by holding ‘Shift’ and drawing a second ROI of any type. However, as noted for multiple points, this is more like a merge ROIs function, as the two essentially become a single ROI and are not measured separately during analysis. This can be easily observed by drawing your second ROI overlapping an existing ROI. Once drawn the ROIs will merge into a single new shape. When using ‘Shift’ to add multiple ROIs this principle remains even for ROIs in separate parts of the image.
+To **move** an ROI left click inside the ROI selection and drag and drop to the new location. You can move the ROI more precisely using the arrow keys on the keyboard.
+
+You can **draw multiple** ROIs by holding ‘Shift’ and drawing a second ROI of any type. However, as noted for multiple points, this is more like a merge ROIs function, as the two essentially become a single ROI and are not measured separately during analysis. This can be easily observed by drawing your second ROI overlapping an existing ROI. Once drawn the ROIs will merge into a single new shape. When using ‘Shift’ to add multiple ROIs this principle remains even for ROIs in separate parts of the image.
+
+![](/assets/part2/draw_multiple_rois.jpg)
 
 To select multiple ROIs for individual measurements you must use the ROI manager as described in the next section.
 
 Holding ‘Shift’ when adding/merging the second ROI will create a symmetrical ROI. To avoid this, hold ‘Shift’ to initiate the second ROI then release it and drag the new ROI to the desired shape.
 
-You can also remove part of an ROI by holding ‘Alt’ and drawing a second ROI of any type
+You can also **remove part** of an ROI by holding ‘Alt’ and drawing a second ROI of any type overlapping an existing ROI. For example; hold ‘Alt’ and draw a second circular ROI inside an existing circular ROI to create a donut shaped ROI.
 
-overlapping an existing ROI. For example; hold ‘Alt’ and draw a second circular ROI inside an existing circular ROI to create a donut shaped ROI.
+![](/assets/part2/draw_donut_shaped_roi.jpg)
 
 Note that once this ROI is drawn it cannot be resized or moved, only the existing ROI can be modified further, as the inside of the second circle is no longer a selection.
 
-Brush Tool;
+### Brush Tool
 
 ROIs can also be added or modified using the **Selection Brush Tool**, which is found under the options for elliptical ROIs in the tool bar. Right Click on the icon to select the brush tool from the drop down menu. Double click on the brush tool icon to open options. Here you can modify the size of the brush in pixels.
 
+![](/assets/part2/selection_brush_toolbar_button.jpg)![](/assets/part2/selection_brush_toolbar_options.jpg) ![](/assets/part2/selection_brush_options.jpg)
+
 You can then use the brush Tool to paint on an ROI.
+
+![](/assets/part2/selection_brush_example.jpg)
 
 You can also add or delete regions of an existing ROI. To add a region to an existing ROI, start from the inside of the ROI and sweep outwards over the area you want to incorporate.
 
+![](/assets/part2/roi_enlargement_example.jpg)
+
 To subtract from an existing ROI, start outside the ROI and sweep the brush inwards.
+
+![](/assets/part2/roi_reduction_example.jpg)
 
 ## ROI Manager {#roi-manager}
 
 To measure multiple ROIs individually, you must add them to the ROI manager. To find the ROI manager go to **Analyze Tools ROI manager**. This will open the ROI manager window.
 
-Select your ROI tool and make your selection then click **Add** in the ROI manager \(or use shortcut t\). This will add the co-ordinates of the ROI to the list in ROI manager.
+![](/assets/part2/roiManager_menu_opening.jpg)
+
+Select your ROI tool and make your selection then click **Add** in the ROI manager \(or use the shortcut: Control+T\). This will add the co-ordinates of the ROI to the list in ROI manager.
+
+![](/assets/part2/roiManager_add_selection.jpg)
 
 Only the most recent ROI will be active, and visible, in the image, but all ROIs are saved to the image. To view all saved ROIs, tick the box next to **Show All** in the ROI manager.
 
+![](/assets/part2/roiManager_ShowAll_example.jpg)
+
 Once you have selected and added all ROIs of interest to the list, select **Measure** from the ROI manager options to view results. Further options, such as saving the ROI list, are displayed by clicking **More** in the ROI manager.
 
+![](/assets/part2/roiManger_measure.jpg)
+
 Click on a set of co-ordinates in the list to highlight an individual ROI. Both the co-ordinates in the list and the ROI outline on the image will show as blue. You can then make individual adjustments to this ROI from the ROI manager options \(delete, measure, rename, etc\). Click **Deselect** to return to the full list.
+
+![](/assets/part2/roiManager_coord_list_example.jpg)
 
 ## Overlay ROIs to a New Image {#overlay-rois-to-a-new-image}
 
