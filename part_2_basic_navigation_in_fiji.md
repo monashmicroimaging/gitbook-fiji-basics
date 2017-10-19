@@ -50,7 +50,7 @@ Click and drag with the left mouse button to move around the image. An overview 
 
 FIJI will often apply changes to the image as you work and some of these changes are irreversible. Therefore it can be useful to work with a copy of your image so that the original remains unchanged.
 
-To create a duplicate image to **Image Duplicate** \(or use shortcut Ctrl+Shift+D\). 
+To create a duplicate image to **Image Duplicate** \(or use shortcut Ctrl+Shift+D\).
 
 ![](/assets/part2/duplicate_menu.jpg)
 
@@ -72,15 +72,23 @@ Note: When duplicating an image that has an ROI selected only the selected part 
 
 If you have multiple images or windows open that all require the same processing you can easily link the windows. This allows you to perform a single action that will be applied to all images.
 
-## **Go to** Analyze Tools Synchronize Windows**.** {#go-to-analyze-tools-synchronize-windows}
+Go to **Analyze Tools Synchronize Windows.**
+
+![](/assets/part2/synchronize_windows_menu.jpg)
 
 In the resulting window you can select which functions you want to synchronize and select specific images to synchronize from the list of all open images. Or you can synchronize all open windows by clicking on **Synchronize All** at the bottom.
 
+![](/assets/part2/synchronize_windows_options_1.jpg)
+
+![](/assets/part2/synchronize_windows_options_2.jpg)
+
 When synchronized, the images \(made greyscale here for improved contrast\) will be highlighted in the list and the cursor will display as a red cross visible in both the active image and the synchronized image\(s\).
 
-Active Image Synchronized Image
+![](/assets/part2/synchronize_windows_roi.jpg)
 
 Any movements or changes you apply to the active image will now automatically transfer to the synchronized image\(s\) as well. For example; scrolling through a z-series when synchronized will ensure that all images remain on the same focal plane. Or a region of interest drawn in the active image will also be displayed in the synchronized image\(s\).
+
+![](/assets/part2/synchronize_windows_result.jpg)
 
 When you have completed your tasks and no longer want to apply your changes to all images, select
 
@@ -90,31 +98,41 @@ When you have completed your tasks and no longer want to apply your changes to a
 
 Regions of interest \(or ROIs\) are used to select a smaller area of an image for functions such as cropping or for analysis on that specific section. To create a region of interest choose one of the tools from the tool bar and select your area on the image.
 
+![](/assets/part2/roi_toolbar_buttons.jpg)
+
 There are 7 selection tools in total; 5 simple shape/line tools and the angle and point tools. The boxes which have small red arrows indicate that several options are available in this tool category. Right click on these boxes to display the options and select from the list.
 
-Simple Tools;
+![](/assets/part2/roi_toolbar_button_options.jpg)
 
-Rectangle or Rounded Rectangle tool – Creates a rectangular ROI. Hold shift when selecting the area of interest to constrain to a square.
+### Simple Tools
 
-Oval or Elliptical tool – Creates a circular ROI. Select freely for oval or elliptical shape, hold down shift during area selection to constrain to a circle.
+![](/assets/part2/roi_rectangle_icon.jpg) Rectangle or Rounded Rectangle tool – Creates a rectangular ROI. Hold shift when selecting the area of interest to constrain to a square.
 
-Polygon Selection tool – Define your own ROI shape by clicking around your area of interest to generate line segments. Double click, or click within the small box at the first
+![](/assets/part2/roi_oval_icon.jpg) Oval or Elliptical tool – Creates a circular ROI. Select freely for oval or elliptical shape, hold down shift during area selection to constrain to a circle.
 
-point, to complete the shape.
+![](/assets/part2/roi_polygon_icon.jpg) Polygon Selection tool – Define your own ROI shape by clicking around your area of interest to generate line segments. Double click, or click within the small box at the first point, to complete the shape.
 
-Freehand Selection tool – Click and drag with the mouse to draw your ROI of choice.
+![](/assets/part2/roi_freehand_icon.jpg) Freehand Selection tool – Click and drag with the mouse to draw your ROI of choice.
 
-Line tools – Select which type of line you want from the drop down list and click and drag to add straight, freehand or arrowhead lines of interest on your image. Click along multiple points in the image to create a segmented line. The line tool also has an option when you double click on the button to set the width of the line.
+![](/assets/part2/roi_line_icon.jpg) Line tools – Select which type of line you want from the drop down list and click and drag to add straight, freehand or arrowhead lines of interest on your image. Click along multiple points in the image to create a segmented line. The line tool also has an option when you double click on the button to set the width of the line.
+
+![](/assets/part2/roi_line_example.jpg)
 
 The co-ordinates and size of any ROI will be displayed in the information bar when drawing, moving or resizing the ROI.
 
-Angle Tool;
+![](/assets/part2/roi_coordinate_information.jpg)
 
-Select the angle tool form the tool bar.
+### Angle Tool
+
+![](/assets/part2/roi_angle_icon.jpg) Select the angle tool form the tool bar.
 
 Click on three points of interest in the image to measure the angle between them.
 
+![](/assets/part2/roi_angle_example.jpg)
+
 The angle will be displayed in the information bar as you are making the selection.
+
+
 
 Or go to **Analyze Measure** \(or use shortcut Ctrl+M\) to display the angle in a results window.
 
