@@ -10,9 +10,15 @@ To make a simple measure of the stained area, we first want to threshold the ima
 
 Open the image, and go to **Image Adjust Threshold**.
 
+![](/assets/part9/adjust_threshold_menu.jpg)
+
 Fit your threshold to the data as best as possible.
 
+![](/assets/part9/adjust_threshold_options.jpg)
+
 Click **Apply**, or generate mask as previously described.
+
+![](/assets/part9/adjust_threshold_result.jpg)
 
 We now have a mask for the nuclei in this image but there are a few blemishes that may affect the measurement. You can see below we have some areas detected outside the nuclei, as well as some spots within the nuclei that are not masked.
 
@@ -20,11 +26,19 @@ To fix this we are first going to **Fill Holes** in the mask using the binary to
 
 Then we will remove the small spots detected outside the nucleus using the **Remove Outliers** filter. Go to **Process Noise Remove Outliers**. Turn on the preview and set a pixel radius that captures all spots outside the nuclei and the click **OK** to apply the filter.
 
+![](/assets/part9/remove_outliers_options.jpg)
+
 You should now have a mask that nicely represents the nuclei in the original image.
+
+![](/assets/part9/result_filtered_binary_image.jpg)
 
 To measure the area you first need to set your output parameters. Go to **Analyse Set Measurements**.
 
+![](/assets/part9/set_measurements_menu.jpg)
+
 In the **Set Measurements** window you can choose what you want to measure by clicking on or off the checkboxes beside different parameters.
+
+![](/assets/part9/set_measurements_options.jpg)
 
 Here we will turn on **Area** only.
 
@@ -32,9 +46,13 @@ Ensure you have **Limit to threshold** selected, or the program will measure the
 
 Select **OK** to save the output parameters.
 
-To measure the area of the nuclei using the parameters you have just set go to **Analyze Measure** (or shortcut Ctrl+M).
+To measure the area of the nuclei using the parameters you have just set go to **Analyze Measure** \(or shortcut Ctrl+M\).
+
+![](/assets/part9/measure_menu.jpg)
 
 This will give you a results table with the area of the nuclei.
+
+![](/assets/part9/measure_results_table.jpg)
 
 You will notice there is only one measurement. This is because this method measures the mask as a whole.
 
@@ -42,35 +60,47 @@ You will notice there is only one measurement. This is because this method measu
 
 To generate a basic intensity measurement we apply a similar method as the basic area measurement. Although, even with the output parameters set to **Limit to threshold**, if we try to measure a mask we will only get intensity readings on the pixel intensity values within the mask itself, not in the image. Meaning all values will be shown as 255, the upper limit of the mask.
 
+![](/assets/part9/results_table_measurements_BEFORE.jpg)
+
 Therefore, for intensity measurements, we need to measure the image before turning it into a mask. To do this, open your image and repeat your thresholding. Go to **Image Adjust**
 
 **Threshold**. Find the threshold to best fit the data. But this time DO NOT press apply!
 
 Leaving the threshold window open, without applying the mask, go to the **Analyze** window and set your measurements as before.
 
-This time we want to set **Area, Min &amp; max gray value, Integrated density** and **Mean gray value**.
+![](/assets/part9/set_measurements_options_limit_to_threshold.jpg)
+
+This time we want to set **Area, Min & max gray value, Integrated density** and **Mean gray value**.
 
 Again ensure the checkbox next to **Limit to threshold** is selected.
 
 Select **OK** to save the changes.
 
-Repeat the measurement process as before. Go to **Analyze Measure** (or shortcut Ctrl+M).
+Repeat the measurement process as before. Go to **Analyze Measure** \(or shortcut Ctrl+M\).
 
 This will give you a measurement for the intensity in the original image, limited to the area under the threshold you have set.
 
-## Intensity Map (Rainbow RGB LUT) {#intensity-map-rainbow-rgb-lut}
+![](/assets/part9/results_table_measurements_AFTER.jpg)
+
+## Intensity Map \(Rainbow RGB LUT\) {#intensity-map-rainbow-rgb-lut}
 
 For a visual representation of the intensity, you can map the intensities across the image very simply using a LUT.
 
-Open your image and go to **Image Look up Tables**, and select the LUT **Rainbow RGB** from the bottom of the list (or select the Rainbow LUT form the LUT menu in the tool bar).
+Open your image and go to **Image Look up Tables**, and select the LUT **Rainbow RGB** from the bottom of the list \(or select the Rainbow LUT form the LUT menu in the tool bar\).
 
 This will apply a multi-coloured LUT to your image, in shades of red, blue or green. The highest 33% of intensities are reds, the middle 33% are greens and the bottom 33% are blues. This gives the viewer the ability to easily see the range of intensities present in the image.
 
+![](/assets/part9/lookup_table_rainbow_menu.jpg) ![](/assets/part9/lookup_table_rainbow_result.jpg)
+
 You can add a calibration bar for the intensities by going to **Analyze Tools Calibration Bar**.
+
+![](/assets/part9/calibration_bar_menu.jpg)  ![](/assets/part9/calibration_bar_options.jpg)
 
 In the **Calibration Bar** window you can specify the position and configuration of the calibration bar. The **Overlay** tick box allows you to create the bar as an overlay of the original image, instead of burning it into the image permanently.
 
 Click **OK** to add the calibration bar to your image.
+
+![](/assets/part9/calibration_bar_result.jpg)
 
 ## Simple Counting {#simple-counting}
 
@@ -108,9 +138,9 @@ We can get several pieces of information from time series by tracking the object
 
 Open your time series and then open the **Manual Tracking** tool from the menu **Analyze Tracking**.
 
-In the **Tracking** window set your parameters, including **Time Interval** (5mins for this example).
+In the **Tracking** window set your parameters, including **Time Interval** \(5mins for this example\).
 
-If the xy calibration (scale) is not set automatically, enter the calibration value too.
+If the xy calibration \(scale\) is not set automatically, enter the calibration value too.
 
 Select the option to show the tracks on the image if required by checking the box next to **Show path?**
 
@@ -124,7 +154,7 @@ Continue until you have reached the end of the series. If you have selected an o
 
 Measurements will be displayed separately for each time point, these can be exported to excel and averaged.
 
-Note: the first measurements will not be accurate as the object has not moved yet (ie: first measurement for distance is -1) and these should be removed before averaging.
+Note: the first measurements will not be accurate as the object has not moved yet \(ie: first measurement for distance is -1\) and these should be removed before averaging.
 
 ## Overlay Masks {#overlay-masks}
 
@@ -151,3 +181,4 @@ measurements you should apply the ROIs or redirect to the original image as inte
 To apply the ROIs to another image, select your second image and go to **Image Overlay From ROI Manager**.
 
 The ROIs generated from the mask will be applied to the second image and you can now set your measurements for the second image and measure the same area.
+
