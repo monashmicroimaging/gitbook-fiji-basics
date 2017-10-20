@@ -8,21 +8,35 @@ The image **Nuclei-1** and image set ‘**RGBstackProjection, RGB-blue, RGB-gree
 
 For a number of basic measurements an image first needs to have a threshold applied to it.
 
-To apply a threshold, select your image and go to **Image Adjust Threshold** (or shortcut Ctrl+Shift+T).
+To apply a threshold, select your image and go to **Image Adjust Threshold** \(or shortcut Ctrl+Shift+T\).
+
+![](/assets/part9/adjust_threshold_menu.jpg)
 
 A red mask will be placed on the parts of the image that are selected by the threshold and a window will open where you can adjust the threshold on the image.
 
-In the window that opens, ensure the box beside **Dark background** is checked. The drop down box on the left (the one that says default) has 16 different auto threshold algorithms to choose from. You can adjust the threshold by moving the sliders. The top slider sets the bottom range of the threshold and the bottom slider adjusts the top range of the threshold. The red box on the histogram shows which parts of the histogram are being thresholded.
+![](/assets/part8/threshold_options.jpg)
+
+In the window that opens, ensure the box beside **Dark background** is checked. The drop down box on the left \(the one that says default\) has 16 different auto threshold algorithms to choose from. You can adjust the threshold by moving the sliders. The top slider sets the bottom range of the threshold and the bottom slider adjusts the top range of the threshold. The red box on the histogram shows which parts of the histogram are being thresholded.
+
+![](/assets/part8/threshold_options_automatic_methods.jpg)
 
 Select the threshold that best suits your data and adjust as needed.
+
+![](/assets/part8/threshold_image_result.jpg)
 
 You can also automatically test the range of threshold algorithms on your image without scrollin through the dropdown list one at a time.
 
 To use the auto-test for thresholds, go to **Image Adjust Auto Threshold**.
 
+![](/assets/part8/auto_threshold_menu.jpg)
+
 In the dialog box that opens up set the **Method** to **Try All**, make sure the **White objects on black background** and **Show threshold values in log window** boxes are ticked. Press **OK**.
 
+![](/assets/part8/auto_threshold_options.jpg)
+
 A montage will be generated showing what each auto threshold algorithm would produce on the image. The list in the log that was created will show the order of the algorithms used in the montage.
+
+![](/assets/part8/auto_threshold_results.jpg)
 
 ## Creating a Mask {#creating-a-mask}
 
@@ -30,33 +44,41 @@ If you need to convert your threshold to a mask, or binary, there are several op
 
 You can also go to **Process Binary Convert to Mask**.
 
+![](/assets/part8/binary_mask_menu.jpg)
+
 To generate a binary go to **Process Binary Make Binary**.
+
+![](/assets/part8/binary_make_binary_menu.jpg)
 
 A window will open with binary options, select your options and click **OK** to generate the binary image.
 
-Threshold Mask Binary
+![](/assets/part8/binary_options.jpg)
+
+![](/assets/part8/binary_mask_threshold_results.jpg)
 
 ## Making Adjustments to Masks and Binaries {#making-adjustments-to-masks-and-binaries}
 
 Sometimes adjustments need to be made to binaries/masks before analysis to ensure it is accurately representing the data. There are a number of tools available to help you get the best fit to your data. All of these tools can be found under **Process Binary**.
 
+![](/assets/part8/process_binary_menu.jpg)
+
 Small gaps left in the mask after thresholding can easily be corrected for by using the **Close** tool.
 
-Original Closed
+![](/assets/part8/process_binary_close_operation.jpg)
 
 Similar to this is **Fill Holes**.
 
-Original Filled
+![](/assets/part8/process_binary_fill_holes.jpg)
 
 Sometimes you will need to add or remove a small layer from the edges of the mask. This could be useful for things like membrane measurements or morphology analysis.
 
 To add or remove from the edges of a mask or binary you can use the **Dilate** or **Erode** tools. **Dilate** will add a thin layer around the edge of the existing mask. **Erode** will remove a thin layer from around the edge of the mask.
 
-Dilate Original Erode
+![](/assets/part8/process_binary_dilate_erode.jpg)
 
 Sometimes separate objects in your image will be touching. When you create a mask of these they will appear as a single object. This can be a problem for some types of analysis, such as counting. But you can use the **Watershed** tool to detect and separate these objects within the mask so they can be counted as individual objects again.
 
-Original Watershed
+![](/assets/part8/process_binary_watershed.jpg)
 
 ## Clear Inside/Outside {#clear-inside-outside}
 
@@ -80,9 +102,9 @@ The **Image Calculator** can be found under **Process Image Calculator**.
 
 In the resulting window you can select image 1 and image 2 from the drop down menus and choose your operation from the list in the middle. Check the box next to **Create new window** to generate the calculation as a new image, otherwise it will override image 1.
 
-In the image calculator **Add** creates a new image with the pixels from image 1 added to the pixels from image 2\. This is demonstrated below, combining two images into a single image for measurements.
+In the image calculator **Add** creates a new image with the pixels from image 1 added to the pixels from image 2. This is demonstrated below, combining two images into a single image for measurements.
 
-**Subtract** will remove the pixels in image 2 from image 1\. This is demonstrated below with two masks of the same image. The mask in image 2 has been eroded and will be subtracted from the original to leave only the edge of the nuclei for analysis.
+**Subtract** will remove the pixels in image 2 from image 1. This is demonstrated below with two masks of the same image. The mask in image 2 has been eroded and will be subtracted from the original to leave only the edge of the nuclei for analysis.
 
 You can also use a mask to subtract an area of an image prior to analysis. For example we use the mask of the nucleus here to subtract pixels from the green channel so only cytoplasmic signal remains for analysis.
 
@@ -124,7 +146,7 @@ Sharpen:
 
 Despeckle:
 
-Despeckle (mask):
+Despeckle \(mask\):
 
 Remove Outliers:
 
@@ -139,3 +161,4 @@ Gausian Blur:
 This filter uses convolution to produce a smoothing effect. Here you again, need to specify the radius. Select the checkbox next to **Preview** to see the changes before you apply them and click **OK** when you want to apply changes to the image.
 
 Note: As with a lot of functions used to aid analysis, filters should be used with care and caution so as to not manipulate the outcome of the data. Filters should only be applied to allow the best fit to the image and not to force the image to fit a preconceived idea.
+
