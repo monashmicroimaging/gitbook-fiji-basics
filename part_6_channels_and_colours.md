@@ -106,11 +106,17 @@ You can also use the Channels Tool to assign different colours to each channel i
 
 To do this in composite mode, select the channel you wish to change using the slider at the bottom of the image. Then go to **More** and select your colour from the menu.
 
+![](/assets/part6/channel_tool_assign_colors1.jpg)
+
 You can also do this in colour or greyscale mode by selecting the channel using the check box or slider and repeating these steps.
+
+![](/assets/part6/channel_tool_assign_colors2.jpg)
 
 Colours can also be changed in composites by selecting the channel and changing the LUT using the same methods as described for monochrome images above.
 
 You can change all channels in the image in this way \(for example to give magenta, yellow & cyan instead of red, green & blue\) and then convert to a 24bit RGB image in the same way as above to create a single merged image in the new colours.
+
+![](/assets/part6/channel_tool_assign_colors_result.jpg)
 
 ## Merging Images/Assigning Colours with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
@@ -118,19 +124,31 @@ There are only 8 options available when using the **Merge Channels** tool. So in
 
 Open the images you want to merge then go to **Images Stack Images to Stack**.
 
+![](/assets/part6/images_to_stack_menu.jpg)
+
 In the resulting window make sure both boxes are ticked. You can give the stack a name, or just leave it as the default name - _Stack_.
+
+![](/assets/part6/images_to_stack_options.jpg)
 
 Note: The images will be added into the stack in alphabetical order based on their names.
 
 To be able to change to colour of each channel in the stack, it needs to be converted to a composite image. Go to **Image Colour Make Composite**.
 
+![](/assets/part6/color_make_composite_menu.jpg)
+
 In the options window, leave the **Display Mode** as **Composite** and press **OK**.
+
+![](/assets/part6/color_make_composite_options.jpg)
 
 This will create a composite stack of your channels. In this example, we only have 3 channels, but this method can be used for any number of channels.
 
 Note: Colours will be assigned to images in the stack in the order Red-Green-Blue, if the alphabetical ordering in the stack does not match the channels, this will cause the colours to be incorrectly assigned. That’s OK – because we are doing this to change the colours anyway.
 
+![](/assets/part6/color_make_composite_result.jpg)
+
 You can now apply different colours to the channels in this composite stack and then create your RGB image using the methods shown above.
+
+![](/assets/part6/color_make_composite_result_example1.jpg)
 
 ## Saturation Indicator {#saturation-indicator}
 
@@ -138,7 +156,11 @@ The saturation indicator or **HiLo LUT** creates an image with some pixels in re
 
 To check the saturation levels, select your image and go to **Image Lookup Tables HiLo**.
 
+![](/assets/part6/HiLo_lookup_table_menu.jpg)
+
 In the demonstration image here we have adjusted the image to show a high level of over- and under-saturation, as shown by the red and blue in the resulting image.
+
+![](/assets/part6/HiLo_lookup_table_result.jpg)
 
 ## Working with Colours in IHC Images {#working-with-colours-in-ihc-images}
 
