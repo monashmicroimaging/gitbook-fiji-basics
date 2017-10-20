@@ -108,9 +108,15 @@ Often we want to know how many cells or object we have in an image. For a low nu
 
 Open your image and select the multi-point tool from the FIJI tool bar.
 
+![](/assets/part9/count_cells_point_tool.jpg)
+
 Right click the tool and open the **Point Tool** options window. Set up your points as you want them to appear on your image. Ensure **Label Points** and **Show All** are selected. Leave the window open.
 
+![](/assets/part9/count_points_options.jpg)
+
 Return to your image and click once on every object you want to count. A point will appear on the image for each click. As you click you will see a counter increasing at the bottom of the **Points Tool** window. Once you have clicked on all of your objects, the final number will be your object count. Each object will also be marked in the image as a check of whether you correctly counted the object.
+
+![](/assets/part9/count_cells_point_tool_results.jpg)
 
 ## Analyse Particles {#analyse-particles}
 
