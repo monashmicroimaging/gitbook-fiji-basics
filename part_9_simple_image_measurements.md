@@ -124,17 +124,29 @@ For an image with a large number of objects manually clicking to count can be a 
 
 To use this tool, you first need to threshold your image as previously shown. Select a threshold that fits your data then click **Apply** to create a mask.
 
+![](/assets/part9/threshold_options.jpg)
+
 You will see several issues with this mask; gaps within the nuclei and small particles detected outside the nuclei. For counting these small particles can be problematic as they will be counted as an object, when they are in fact a false positive.
 
 To remove these errors, apply the **Fill Holes** and **Remove Outliers** tools to the mask. This will give a mask covering the objects to be counted.
 
+![](/assets/part9/threshold_mask_result.jpg)
+
 There is one problem remaining that will result in a false count with this mask. In several areas, nuclei were touching resulting in them being masked as a single object. To separate these we need to apply a **Watershed** binary filter to the mask. Select this from the **Analyze Binary** menu as previously described to separate touching objects.
+
+![](/assets/part9/threshold_watershed_result.jpg)
 
 Now that we have an appropriate mask for the data we can count our objects using **Analyze Particles**. Find this under the **Analyze** menu.
 
+![](/assets/part9/analyze_particles_menu.jpg)
+
 In the resulting window, leave **Size** and **Circularity** at their default values. Set **Show:** to **Outlines** and tick the boxes as below. Press **OK** to measure the objects.
 
+![](/assets/part9/analyze_particles_options.jpg)
+
 The results, including count, area and size, are shown in the table and counted objects are shown in the outline image.
+
+![](/assets/part9/analyze_particles_result.jpg)
 
 Outliers are still visible in the outlines image. You can go back and alter the size to remove these smaller objects and remeasure for more accurate results.
 
