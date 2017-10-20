@@ -168,29 +168,45 @@ This mask can be used in combination with cell stains to segment and measure ind
 
 Filters can be used to “smooth” your images before analysis. These are another helpful tool for removing blemishes or ensuring that your mask fits the data well before analysis.
 
-You can find some filters directly under the **Process** menu. Others are found under **Process Filters** or **Process Noise**.
+You can find some filters directly under the **Process** menu. Others are found under **Process &gt; Filters** or **Process &gt; Noise**.
+
+![](/assets/part8/filters_menu.jpg)
 
 The different filters are demonstrated below with before and after images
 
-Smooth:
+### Smooth:
 
-Sharpen:
+![](/assets/part8/filter_smooth_result.jpg)
 
-Despeckle:
+### Sharpen:
 
-Despeckle \(mask\):
+![](/assets/part8/filter_sharpen_result.jpg)
 
-Remove Outliers:
+### Despeckle:
+
+![](/assets/part8/filter_despeckle_result.jpg)
+
+### Despeckle \(mask\):
+
+![](/assets/part8/filter_despeckle_mask_result.jpg)
+
+### Remove Outliers:
 
 In this filter, you need to specify the outlier radius in pixels, and threshold. Select the checkbox next to **Preview** to see the changes before you apply them to the image. Click **OK** when you are happy with your changes.
 
-Median:
+![](/assets/part8/filter_remove_outliers.jpg)
+
+### Median:
 
 Again, in this filter, you need to specify the radius in pixels. Select the checkbox next to **Preview** to see the changes before you apply them to the image. Click **OK** when you are happy with your changes.
 
-Gausian Blur:
+![](/assets/part8/filter_median_result.jpg)
+
+### Gaussian Blur:
 
 This filter uses convolution to produce a smoothing effect. Here you again, need to specify the radius. Select the checkbox next to **Preview** to see the changes before you apply them and click **OK** when you want to apply changes to the image.
+
+![](/assets/part8/filter_gaussian_blur_result.jpg)
 
 Note: As with a lot of functions used to aid analysis, filters should be used with care and caution so as to not manipulate the outcome of the data. Filters should only be applied to allow the best fit to the image and not to force the image to fit a preconceived idea.
 
