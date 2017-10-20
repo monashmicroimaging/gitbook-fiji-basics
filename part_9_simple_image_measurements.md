@@ -156,7 +156,7 @@ We can get several pieces of information from time series by tracking the object
 
 Open your time series and then open the **Manual Tracking** tool from the menu **Analyze Tracking**.
 
-![](/assets/part9/tracking_menu.jpg) 
+![](/assets/part9/tracking_menu.jpg)
 
 ![](/assets/part9/tracking_options.jpg)
 
@@ -190,19 +190,31 @@ Generate a mask for your first image and make any measurements you require. Once
 
 In the **Set Measurements** window, select the measurement criteria, if different from the previous, then select your second image from the drop down menu under **Redirect to:**.
 
+![](/assets/part9/set_measurements_redirect_option.jpg)
+
 Click **OK** to perform the measurements on the second image. You will now get measurement for the second image in the areas under the original mask.
+
+![](/assets/part9/set_measurements_results_table.jpg)
 
 ## Masks to ROIs {#masks-to-rois}
 
 To get individual measurements for areas in a mask, generate your mask as required then go to **Analyze Anylze Particles**. This time in the **Analyze particles** window, tick off every options box except **Add to Manager**. Select **OK**.
 
+![](/assets/part9/analyze_particles_options_add_rois_to_manager.jpg)
+
 The mask will be converted to ROIs in the ROI manager.
 
-You can now use this to make multiple measurements on your original image. Set your measurements and then click on **Measure** in the ROI manager. Note that for intensity
+![](/assets/part9/analyze_particles_result_rois_in_manager.jpg)
 
-measurements you should apply the ROIs or redirect to the original image as intensity can’t be measured in a mask.
+You can now use this to make multiple measurements on your original image. Set your measurements and then click on **Measure** in the ROI manager. Note that for intensity measurements you should apply the ROIs or redirect to the original image as intensity can’t be measured in a mask.
 
 To apply the ROIs to another image, select your second image and go to **Image Overlay From ROI Manager**.
 
+![](/assets/part9/overlay_roi_manager_menu.jpg)
+
 The ROIs generated from the mask will be applied to the second image and you can now set your measurements for the second image and measure the same area.
+
+![](/assets/part9/overlay_roi_manager_result.jpg)
+
+![](/assets/part9/overlay_roi_manager_results_table.jpg)
 
