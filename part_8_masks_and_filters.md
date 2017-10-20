@@ -84,15 +84,21 @@ Sometimes separate objects in your image will be touching. When you create a mas
 
 Clear inside and outside can also be useful for adjusting your binaries before making measurements. Sometimes there can be small blemishes in your image that effect your measurements. Or you may want to focus your measurement on a single area of the image. You can crop the image to remove items before analysis, or you can use the clear functions.
 
-Note: We strongly advise against removing objects from images before analysis and publishing of results. Removal of any image information that can alter the outcome can be considered image manipulation. Use these functions with care and caution.
+Note: We strongly advise against removing objects from images before analysis and publishing of results. **Removal of any image information that can alter the outcome can be considered image manipulation.** Use these functions with care and caution.
 
 To use the clear functions you first need to draw an ROI around the area you wish to clear, or keep.
 
 In this example we are using cells for emphasis, but clear functions are usually applied to binaries/masks to remove blemishes or mistakes prior to analysis and we do not recommend removing cells from images in this manner.
 
+![](/assets/part8/clear_image_BEFORE.jpg)
+
 Once you have your ROI, go to **Edit Clear** to clear the inside of the ROI.
 
+![](/assets/part8/clear_menu.jpg) ![](/assets/part8/clear_image_after.jpg)
+
 Or use **Edit Clear Outside**, to clear the rest of the image outside the ROI.
+
+![](/assets/part8/clear_outside_menu.jpg) ![](/assets/part8/clear_outside_result.jpg)
 
 ## Image Calculator {#image-calculator}
 
