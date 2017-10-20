@@ -168,9 +168,15 @@ Immunohistochemistry images do not have individual RGB channels like fluorescenc
 
 To find the **Colour Devoncolution** tool go to **Image Color Colour Deconvolution**.
 
+![](/assets/part6/color_deconvolution_menu.jpg)
+
 In the colour deconvolution window, there are a number of options in the drop down menu. The first option, **From ROI**, lets you specify the different stains in your image manually. The others are preconfigured to work with most standard histological stains. Select your stain and press **OK** \(In this example we are using Masson Trichrome\).
 
+![](/assets/part6/color_deconvolution_options.jpg)
+
 This will separate the image into 3 ‘channels’ – in this case, each is representative of one dye used. For two colour stains such as H&E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used for separation.
+
+![](/assets/part6/color_deconvolution_result.jpg)
 
 You can now use any of these ‘channels’ for measurements like counts, or area. The methods for these are described in later sections.
 
@@ -178,7 +184,15 @@ You can also use these separated images to transform a histological stained imag
 
 First you will need to invert each of the individual images. As previously described, do this for each image by selecting the image and going to **Edit Invert** \(or using shortcut Ctrl+Shift+I\).
 
+![](/assets/part6/color_deconvolution_invert_result.jpg)
+
 You can then assign LUTs to each image and merge the ‘channels’ using the methods previously described.
 
+![](/assets/part6/color_deconvolution_merge_inverted_results_1.jpg)
+
+![](/assets/part6/color_deconvolution_merge_inverted_results_2.jpg)
+
 This will give you a pseudo-fluorescent version of your immunohistochemistry image.
+
+![](/assets/part6/color_deconvolution_pseudo_fluorescent_image_result.jpg)
 
