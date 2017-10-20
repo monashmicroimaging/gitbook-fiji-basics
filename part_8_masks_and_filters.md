@@ -106,13 +106,25 @@ Image calculator is another way to select for specific areas where you want to a
 
 The **Image Calculator** can be found under **Process Image Calculator**.
 
+![](/assets/part8/image_calculator_menu.jpg)
+
 In the resulting window you can select image 1 and image 2 from the drop down menus and choose your operation from the list in the middle. Check the box next to **Create new window** to generate the calculation as a new image, otherwise it will override image 1.
+
+![](/assets/part8/image_calculator_options.jpg)
 
 In the image calculator **Add** creates a new image with the pixels from image 1 added to the pixels from image 2. This is demonstrated below, combining two images into a single image for measurements.
 
+![](/assets/part8/image_calculator_addition_example1.jpg)
+
 **Subtract** will remove the pixels in image 2 from image 1. This is demonstrated below with two masks of the same image. The mask in image 2 has been eroded and will be subtracted from the original to leave only the edge of the nuclei for analysis.
 
+![](/assets/part8/image_calculator_subtraction_example1.jpg)
+
 You can also use a mask to subtract an area of an image prior to analysis. For example we use the mask of the nucleus here to subtract pixels from the green channel so only cytoplasmic signal remains for analysis.
+
+![](/assets/part8/image_calculator_subtraction_example2_input_images.jpg)
+
+![](/assets/part8/image_calculator_subtraction_example2_result.jpg)
 
 Image calculators can be useful in a number of different analysis techniques. Although not all examples can be shown here, they are worth taking some time to explore as a part of your image analysis.
 
@@ -120,11 +132,19 @@ Image calculators can be useful in a number of different analysis techniques. Al
 
 The **Find Edges** and **Find Maxima** tools can help you segment your images. Both of these tools can be found under the **Process** menu.
 
+![](/assets/part8/find_edges_find_maxima_menu.jpg)
+
 To segment the edges of your image, select the image and then select **Find Edges**. FIJI will ‘outline’ the edges of the signal in your image.
+
+![](/assets/part8/find_edges_result.jpg)
 
 You can then threshold this image to select edges of the signal only.
 
+![](/assets/part8/find_edges_threshold_result.jpg)
+
 Once you are happy with the threshold, click **Apply** or create a mask or binary as previously shown.
+
+![](/assets/part8/find_edges_threshold_mask.jpg)
 
 **Find Maxima** is particularly helpful for segmenting images of dense cell populations or objects.
 
@@ -132,9 +152,15 @@ Select your image and the go to **Find Maxima**. A window will open with options
 
 Select the box next to **Preview point selection** to see the default settings. These default settings will create a dense selection. Ensure **Exclude edge maxima** is selected.
 
+![](/assets/part8/find_maxima_options_1.jpg)
+
 Increase the **Noise tolerance** to show reduce the point selection range on the image. For segmentation, 1 point per cell is ideal. In this example, a noise tolerance of 1200 is needed to best select the data. For segmentation, select **Segmented Particles** from the drop down list under **Output type**.
 
+![](/assets/part8/find_maxima_options_2.jpg)
+
 When you are happy with your selection click **OK** to generate a segmented image mask.
+
+![](/assets/part8/find_maxima_segmentation_result.jpg)
 
 This mask can be used in combination with cell stains to segment and measure individual cells.
 
