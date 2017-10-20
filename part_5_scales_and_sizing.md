@@ -46,8 +46,6 @@ To find the calibration in the metadata, ensure **Open Metadata** is selected in
 
 Scroll down in the metadata window until you reach the **Reference Image Parameters**. Here you will find the fields **WidthConvertValue** and **WidthUnit.** These parameters represent the pixel calibration, ie: the scale for this image is 0.31m/px.
 
-
-
 ## Setting the Scale Manually {#setting-the-scale-manually}
 
 For a non-calibrated image, the dimensions of the image will appear in pixels in the top corner of the image.
@@ -76,11 +74,17 @@ Select **OK** to save the scale, and save the image.
 
 Whichever method you chose, you will now have a calibrated image that you can easily add a scale bar too, or make accurate measurements on.
 
+![](/assets/part5/calibrating_scale_information_result.jpg)
+
 ## Adding Scale Bars {#adding-scale-bars}
 
 To add a scale bar to your calibrated image, select the image and go to **Analyze Tools Scale Bar**.
 
+![](/assets/part5/scalebar_menu.jpg)
+
 In the resulting window, enter you scale bar preferences.
+
+![](/assets/part5/scalebar_options.jpg)
 
 Under **width** enter the size you’d like the scale bar to represent.
 
@@ -90,33 +94,53 @@ To show the scale bar only without dimensions check the box next to **Hide text*
 
 You will see a preview of the scale bar on the image as you make changes. Select **OK** and save the image to save the scale bar.
 
+![](/assets/part5/scalebar_result.jpg)
+
 ## Cropping Images {#cropping-images}
 
 You can easily crop an image by drawing an ROI and duplicating the section. Select your ROI tool, as previously described, and draw a region of interest around the area you want to crop.
 
+![](/assets/part5/crop_images_with_duplicate.jpg)
+
 Right click in the selection and choose **Duplicate** from the drop down menu. In the Duplication window you can give the image a new name or keep the default.
+
+![](/assets/part5/duplicate_options.jpg)
 
 Click **OK** to create the duplicate as a new image.
 
+![](/assets/part5/duplicate_result.jpg)
+
 While it is always recommended that you keep the original image uncropped and create a duplicate in this way, you can also crop without creating a duplicate. Select your ROI tool and draw an ROI as above. Then go to **Image Crop** \(or use shortcut Ctrl+Shift+X\).
 
+![](/assets/part5/crop_menu.jpg)
+
 This will crop the active image to the selected ROI.
+
+![](/assets/part5/crop_result.jpg)
 
 ## Resizing or Scaling Images {#resizing-or-scaling-images}
 
 You can resize, or scale, your image using several different methods. All of these methods resize your image by scaling the pixels. While size changes can be undone until the image is saved, but it is still recommended you work with a duplicate image when making changes to pixel information.
 
-Because these methods alter the pixel information within the image they should not be used if any measurements are to be made on the image.
+Because these methods alter the pixel information within the image they **should not** be used if any measurements are to be made on the image.
 
 The first method is the **Image Size** tool, which is found under **Image Adjust Size**.
+
+![](/assets/part5/image_adjust_size_menu.jpg)
 
 This will open the **Resize** options window, where you can enter the new image size in pixels. You can also select to **Constrain Aspect Ratio** for the image and the **Interpolaiton**.
 
 Select **OK** to apply the changes to the image.
 
+![](/assets/part5/image_adjust_size_result.jpg)
+
 Note the difference in the pixel dimensions here following the image resizing.
 
 The next method is the **Scale** tool, which is found under **Image Scale** \(or use shortcut Ctrl+E\).
+
+![](/assets/part5/scale_menu.jpg)
+
+![](/assets/part5/scale_options.jpg)
 
 In the **Scale** window, enter the vale by which you want to scale your image \(ie: scale factor of 2 will double the image size, scale factor of 0.5 will halve the image size\). In the Scale tool, the aspect ration will automatically be constrained, when you change the scale factor for X, the Y scale factor will adjust accordingly. The height and width \(in pixel\) will also automatically adjust according to the scale factor entered.
 
@@ -126,17 +150,25 @@ You can give the new image a different name or keep the default. Click **OK** to
 
 A duplicated image at, at the new size, will be created alongside the original image.
 
+![](/assets/part5/scale_result.jpg)
+
 The third method is **Binning**, which is found under **Image Transform Bin**.
+
+![](/assets/part5/bin_image_menu.jpg)
+
+![](/assets/part5/bin_image_options.jpg)
 
 Binning reduces an image by pixels similar to scaling. In the window enter the **Shrink factor** \(2 x 2 binning will shrink the pixel dimensions by 2, ie: half the image size\).
 
-Select **Average** from the **Bin Method** drop down menu click
+Select **Average** from the **Bin Method** drop down menu click **OK** to apply the changes to the image.
 
-**OK** to apply the changes to the image.
+![](/assets/part5/bin_image_result.jpg)
 
 Note that with binning the image does not appear smaller in dimensions compared to the original but half of the pixels have been removed from the image. Binning is more useful for change the file size than the actual image size dimensions.
 
 The final method is **Scale to DPI**, which is found under **Image Adjust Scale to DPI**.
+
+![](/assets/part5/scale_dots_per_inch_menu.jpg)
 
 Under **Scale to DPI** you can enter a final image resolution size in dots per inch \(or DPI\) and the image will be scaled accordingly.
 
@@ -146,5 +178,9 @@ Select the check boxes next to **Average when downsizing** and **Create new wind
 
 Click **OK** to create the new image.
 
+![](/assets/part5/scale_dots_per_inch_options.jpg)
+
 A new window will be created with the re-sized image.
+
+![](/assets/part5/scale_dots_per_inch_result.jpg)
 
