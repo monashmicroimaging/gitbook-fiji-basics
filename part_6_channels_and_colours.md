@@ -1,16 +1,18 @@
 # PART 6: CHANNELS AND COLOURS {#part-6-channels-and-colours}
 
-Immunofluorescence experiments are almost always captured on highly sensitive monochrome cameras. This means that each fluorophore is captured as a different image with no associated colour. Often you will want to add colour to each channel (usually in the colour of the fluorophores emission) and to create composite images of 2 or more of the channels combined. This section will show you how to arrange and alter multi-channel images and change the colour of your images.
+Immunofluorescence experiments are almost always captured on highly sensitive monochrome cameras. This means that each fluorophore is captured as a different image with no associated colour. Often you will want to add colour to each channel \(usually in the colour of the fluorophores emission\) and to create composite images of 2 or more of the channels combined. This section will show you how to arrange and alter multi-channel images and change the colour of your images.
 
 We will use **NeuralTube** plus **NeuralTube Blue Saturated** and **TrichromeIHC** and the image set ‘**RGB- blue, RGB-green** and **RGB-red**’ for demonstration purposes.
 
 ## Bit Depth {#bit-depth}
 
-The bit depth of an image will be determined by the camera that the image was captured on. Images may be captured in 8-bit, 12-bit, or 16-bit. Most three colour fluorescent images are RGB 24-bit format (3 x 8bit colour channels). This is the format most standard image viewers and presentation software will show. Images at other bit-depths may appear as black boxes. Changing a single 12, 14 or 16bit image to 24bit RGB is very simple.
+The bit depth of an image will be determined by the camera that the image was captured on. Images may be captured in 8-bit, 12-bit, or 16-bit. Most three colour fluorescent images are RGB 24-bit format \(3 x 8bit colour channels\). This is the format most standard image viewers and presentation software will show. Images at other bit-depths may appear as black boxes. Changing a single 12, 14 or 16bit image to 24bit RGB is very simple.
 
 Select your image then navigate to **Image Type** and select **RGB Color** from the list.
 
-Likewise, some functions of FIJI will not work on an RGB 24-bit image (ie: thresholding). You can convert a single channel RGB image to 8-bit using the same steps as above, but selecting **8-bit** from the choices. In a merged RGB image you can create 3 x 8-bit images by splitting channels as shown below.
+![](/assets/part6/bit_depth_menu.jpg)
+
+Likewise, some functions of FIJI will not work on an RGB 24-bit image \(ie: thresholding\). You can convert a single channel RGB image to 8-bit using the same steps as above, but selecting **8-bit** from the choices. In a merged RGB image you can create 3 x 8-bit images by splitting channels as shown below.
 
 NOTE: **DO NOT** alter bit and colour depth if you plan to do any analysis on the image, always work on a duplicate image and/or save the results of the conversion as a separate file to preserve your original image.
 
@@ -18,9 +20,15 @@ NOTE: **DO NOT** alter bit and colour depth if you plan to do any analysis on th
 
 To separate the channels in a merged image go to **Image Color Split Channels**.
 
+![](/assets/part6/split_channels_menu.jpg)
+
 This will automatically detect and separate red, green and blue into individual monochrome images.
 
+![](/assets/part6/split_channels_result.jpg)
+
 The channel will be identified for each image next to the image name.
+
+![](/assets/part6/split_channel_information.jpg)
 
 ## Assigning or Changing Image Colours Using LUTs {#assigning-or-changing-image-colours-using-luts}
 
@@ -28,27 +36,43 @@ Monochrome images have a grey look up table applied, meaning that each intensity
 
 Click on the image you want to change and then go to **Image LUTS** and select the colour/LUT you want to apply to the image.
 
+![](/assets/part6/lookup_tables_menu.jpg)
+
 A red LUT has now been applied to this image.
 
+![](/assets/part6/lookup_tables_result.jpg)
+
 You can also find LUTs from the **LUT** icon in the tool bar. Click the icon to open the list of LUTs and select the one you want to apply to your image.
+
+![](/assets/part6/lookup_tables_toolbar_button.jpg)
+
+![](/assets/part6/lookup_tables_toolbar_options.jpg)
 
 ## Merge Channels {#merge-channels}
 
 If you have individual images of channels that you want to merge, select **Image Color Merge Channels**.
 
+![](/assets/part6/merge_channels_menu.jpg)
+
 A window will open with different channel/colour options. It will attempt to automatically input the correct images into the different channel options. If they are loaded incorrectly you can assign the individual images to the correct channel using the drop down menus.
+
+![](/assets/part6/merge_channels_options.jpg)
 
 If you want to keep the original single channel images open, check the box next to **Keep source images.** For a simple merge, where you do not want to continue altering individual channels you can uncheck **Create composite.** However, if you want to make further alterations to channels within the merged image, keep this box selected.
 
 Select **OK** to create the merged image.
 
-Flat Merge Composite
+![](/assets/part6/merge_channels_examples.png)
 
 ## Channels Tool {#channels-tool}
 
-A composite image will present as a stack with each channel represented by one slice of that stack. To make alterations to channels within a composite image you can use the channels tools. To open this tool, go to **Image Color Channels Tool** (or use shortcut Ctrl+Shift+Z).
+A composite image will present as a stack with each channel represented by one slice of that stack. To make alterations to channels within a composite image you can use the channels tools. To open this tool, go to **Image Color Channels Tool** \(or use shortcut Ctrl+Shift+Z\).
+
+![](/assets/part6/channel_tool_menu.jpg)
 
 In the **Channels** tool window you can select from the dropdown menu whether you want to work in composite mode, colour or greyscale.
+
+![](/assets/part6/channel_tool_options.jpg)
 
 In **Composite** mode – all images in the stack will appear to be a merged RGB image, however the active channel will be shown by the colour box surrounding the image.
 
@@ -58,15 +82,23 @@ In **Grayscale** – each channel will be displayed as an individual image in th
 
 In colour and greyscale you can switch between channels by selecting the check boxes next to the channel or by moving the slider at the bottom of the image.
 
-When working in composite mode you can turn channels on and off by checking, or unchecking, the box beside that channel. In the example below we turn off the DAPI, or blue channel, by unchecking the box beside channel 3\. Channels are ordered Red-Green-Blue (RGB).
+![](/assets/part6/channel_tool_example1.jpg)
 
-You can convert the composite to RGB at any time by selecting **More Convert to RGB** in the
+When working in composite mode you can turn channels on and off by checking, or unchecking, the box beside that channel. In the example below we turn off the DAPI, or blue channel, by unchecking the box beside channel 3. Channels are ordered Red-Green-Blue \(RGB\).
 
-**Channels** tool window.
+![](/assets/part6/channel_tool_example2.jpg)
+
+You can convert the composite to RGB at any time by selecting **More Convert to RGB** in the **Channels** tool window.
+
+![](/assets/part6/channel_tool_convert_to_rgb.jpg)
 
 You can also convert to RGB via **Image Color Stack to RGB.**
 
-This will create a flat RGB image of whatever is displayed in the active slice. (RGB) will be displayed beside the image title in the new image window.
+![](/assets/part6/convert_to_rgb_menu.jpg)
+
+This will create a flat RGB image of whatever is displayed in the active slice. \(RGB\) will be displayed beside the image title in the new image window.
+
+![](/assets/part6/convert_to_rgb_result.jpg)
 
 ## Assigning or Changing Image Colours in Composites {#assigning-or-changing-image-colours-in-composites}
 
@@ -78,7 +110,7 @@ You can also do this in colour or greyscale mode by selecting the channel using 
 
 Colours can also be changed in composites by selecting the channel and changing the LUT using the same methods as described for monochrome images above.
 
-You can change all channels in the image in this way (for example to give magenta, yellow &amp; cyan instead of red, green &amp; blue) and then convert to a 24bit RGB image in the same way as above to create a single merged image in the new colours.
+You can change all channels in the image in this way \(for example to give magenta, yellow & cyan instead of red, green & blue\) and then convert to a 24bit RGB image in the same way as above to create a single merged image in the new colours.
 
 ## Merging Images/Assigning Colours with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
@@ -102,7 +134,7 @@ You can now apply different colours to the channels in this composite stack and 
 
 ## Saturation Indicator {#saturation-indicator}
 
-The saturation indicator or **HiLo LUT** creates an image with some pixels in red and some pixels in blue. The red and blue pixels represent intensity values at the two extremes of the range. Red pixels are fully saturated (i.e. pure white) and blue pixels are fully under saturated (i.e. totally black). Both these types of pixels contain no measurable information as you cannot be sure how far above or below saturation they are.
+The saturation indicator or **HiLo LUT** creates an image with some pixels in red and some pixels in blue. The red and blue pixels represent intensity values at the two extremes of the range. Red pixels are fully saturated \(i.e. pure white\) and blue pixels are fully under saturated \(i.e. totally black\). Both these types of pixels contain no measurable information as you cannot be sure how far above or below saturation they are.
 
 To check the saturation levels, select your image and go to **Image Lookup Tables HiLo**.
 
@@ -114,16 +146,17 @@ Immunohistochemistry images do not have individual RGB channels like fluorescenc
 
 To find the **Colour Devoncolution** tool go to **Image Color Colour Deconvolution**.
 
-In the colour deconvolution window, there are a number of options in the drop down menu. The first option, **From ROI**, lets you specify the different stains in your image manually. The others are preconfigured to work with most standard histological stains. Select your stain and press **OK** (In this example we are using Masson Trichrome).
+In the colour deconvolution window, there are a number of options in the drop down menu. The first option, **From ROI**, lets you specify the different stains in your image manually. The others are preconfigured to work with most standard histological stains. Select your stain and press **OK** \(In this example we are using Masson Trichrome\).
 
-This will separate the image into 3 ‘channels’ – in this case, each is representative of one dye used. For two colour stains such as H&amp;E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used for separation.
+This will separate the image into 3 ‘channels’ – in this case, each is representative of one dye used. For two colour stains such as H&E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used for separation.
 
 You can now use any of these ‘channels’ for measurements like counts, or area. The methods for these are described in later sections.
 
 You can also use these separated images to transform a histological stained image into a pseudo fluorescent image.
 
-First you will need to invert each of the individual images. As previously described, do this for each image by selecting the image and going to **Edit Invert** (or using shortcut Ctrl+Shift+I).
+First you will need to invert each of the individual images. As previously described, do this for each image by selecting the image and going to **Edit Invert** \(or using shortcut Ctrl+Shift+I\).
 
 You can then assign LUTs to each image and merge the ‘channels’ using the methods previously described.
 
 This will give you a pseudo-fluorescent version of your immunohistochemistry image.
+
