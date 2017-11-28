@@ -8,7 +8,7 @@ In this section we use the images **RGB-blue, RGB-green, Nuclei-1** and **MovieS
 
 To make a simple measure of the stained area, we first want to threshold the image. Without a threshold, the program would give an area measurement for the entire image, rather than just the stain.
 
-Open the image, and go to **Image Adjust Threshold**.
+Open the image, and go to **Image -&gt; Adjust -&gt; Threshold**.
 
 ![](/assets/part9/adjust_threshold_menu.jpg)
 
@@ -22,9 +22,9 @@ Click **Apply**, or generate mask as previously described.
 
 We now have a mask for the nuclei in this image but there are a few blemishes that may affect the measurement. You can see below we have some areas detected outside the nuclei, as well as some spots within the nuclei that are not masked.
 
-To fix this we are first going to **Fill Holes** in the mask using the binary tool. Go to **Process Binary Fill Holes**.
+To fix this we are first going to **Fill Holes** in the mask using the binary tool. Go to **Process -&gt; Binary -&gt; Fill Holes**.
 
-Then we will remove the small spots detected outside the nucleus using the **Remove Outliers** filter. Go to **Process Noise Remove Outliers**. Turn on the preview and set a pixel radius that captures all spots outside the nuclei and the click **OK** to apply the filter.
+Then we will remove the small spots detected outside the nucleus using the **Remove Outliers** filter. Go to **Process -&gt; Noise -&gt; Remove Outliers**. Turn on the preview and set a pixel radius that captures all spots outside the nuclei and the click **OK** to apply the filter.
 
 ![](/assets/part9/remove_outliers_options.jpg)
 
@@ -32,7 +32,7 @@ You should now have a mask that nicely represents the nuclei in the original ima
 
 ![](/assets/part9/result_filtered_binary_image.jpg)
 
-To measure the area you first need to set your output parameters. Go to **Analyse Set Measurements**.
+To measure the area you first need to set your output parameters. Go to **Analyse -&gt; Set Measurements**.
 
 ![](/assets/part9/set_measurements_menu.jpg)
 
@@ -46,7 +46,7 @@ Ensure you have **Limit to threshold** selected, or the program will measure the
 
 Select **OK** to save the output parameters.
 
-To measure the area of the nuclei using the parameters you have just set go to **Analyze Measure** \(or shortcut Ctrl+M\).
+To measure the area of the nuclei using the parameters you have just set go to **Analyze -&gt; Measure** \(or shortcut Ctrl+M\).
 
 ![](/assets/part9/measure_menu.jpg)
 
@@ -62,9 +62,7 @@ To generate a basic intensity measurement we apply a similar method as the basic
 
 ![](/assets/part9/results_table_measurements_BEFORE.jpg)
 
-Therefore, for intensity measurements, we need to measure the image before turning it into a mask. To do this, open your image and repeat your thresholding. Go to **Image Adjust**
-
-**Threshold**. Find the threshold to best fit the data. But this time DO NOT press apply!
+Therefore, for intensity measurements, we need to measure the image before turning it into a mask. To do this, open your image and repeat your thresholding. Go to **Image -&gt; Adjust Threshold**. Find the threshold to best fit the data. But this time DO NOT press apply!
 
 Leaving the threshold window open, without applying the mask, go to the **Analyze** window and set your measurements as before.
 
@@ -76,7 +74,7 @@ Again ensure the checkbox next to **Limit to threshold** is selected.
 
 Select **OK** to save the changes.
 
-Repeat the measurement process as before. Go to **Analyze Measure** \(or shortcut Ctrl+M\).
+Repeat the measurement process as before. Go to **Analyze -&gt; Measure** \(or shortcut Ctrl+M\).
 
 This will give you a measurement for the intensity in the original image, limited to the area under the threshold you have set.
 
@@ -86,13 +84,13 @@ This will give you a measurement for the intensity in the original image, limite
 
 For a visual representation of the intensity, you can map the intensities across the image very simply using a LUT.
 
-Open your image and go to **Image Look up Tables**, and select the LUT **Rainbow RGB** from the bottom of the list \(or select the Rainbow LUT form the LUT menu in the tool bar\).
+Open your image and go to **Image -&gt; Look up Tables**, and select the LUT **Rainbow RGB** from the bottom of the list \(or select the Rainbow LUT form the LUT menu in the tool bar\).
 
 This will apply a multi-coloured LUT to your image, in shades of red, blue or green. The highest 33% of intensities are reds, the middle 33% are greens and the bottom 33% are blues. This gives the viewer the ability to easily see the range of intensities present in the image.
 
 ![](/assets/part9/lookup_table_rainbow_menu.jpg) ![](/assets/part9/lookup_table_rainbow_result.jpg)
 
-You can add a calibration bar for the intensities by going to **Analyze Tools Calibration Bar**.
+You can add a calibration bar for the intensities by going to **Analyze -&gt; Tools -&gt; Calibration Bar**.
 
 ![](/assets/part9/calibration_bar_menu.jpg)  ![](/assets/part9/calibration_bar_options.jpg)
 
@@ -132,7 +130,7 @@ To remove these errors, apply the **Fill Holes** and **Remove Outliers** tools t
 
 ![](/assets/part9/threshold_mask_result.jpg)
 
-There is one problem remaining that will result in a false count with this mask. In several areas, nuclei were touching resulting in them being masked as a single object. To separate these we need to apply a **Watershed** binary filter to the mask. Select this from the **Analyze Binary** menu as previously described to separate touching objects.
+There is one problem remaining that will result in a false count with this mask. In several areas, nuclei were touching resulting in them being masked as a single object. To separate these we need to apply a **Watershed** binary filter to the mask. Select this from the **Analyze -&gt; Binary** menu as previously described to separate touching objects.
 
 ![](/assets/part9/threshold_watershed_result.jpg)
 
@@ -154,7 +152,7 @@ Outliers are still visible in the outlines image. You can go back and alter the 
 
 We can get several pieces of information from time series by tracking the objects over time. The simple method for tracking objects over time is to manually track them using the **Manual Tracking** tool.
 
-Open your time series and then open the **Manual Tracking** tool from the menu **Analyze Tracking**.
+Open your time series and then open the **Manual Tracking** tool from the menu **Analyze -&gt; Tracking**.
 
 ![](/assets/part9/tracking_menu.jpg)
 
@@ -186,7 +184,7 @@ Masks generated on one image can also be used to make measurements on another im
 
 The easiest method for applying your mask to a different image during measurement is to redirect.
 
-Generate a mask for your first image and make any measurements you require. Once that is complete, open your second image. Click on the mask again then go to **Analyze Set Measurements**.
+Generate a mask for your first image and make any measurements you require. Once that is complete, open your second image. Click on the mask again then go to **Analyze -&gt; Set Measurements**.
 
 In the **Set Measurements** window, select the measurement criteria, if different from the previous, then select your second image from the drop down menu under **Redirect to:**.
 
@@ -198,7 +196,7 @@ Click **OK** to perform the measurements on the second image. You will now get m
 
 ## Masks to ROIs {#masks-to-rois}
 
-To get individual measurements for areas in a mask, generate your mask as required then go to **Analyze Anylze Particles**. This time in the **Analyze particles** window, tick off every options box except **Add to Manager**. Select **OK**.
+To get individual measurements for areas in a mask, generate your mask as required then go to **Analyze -&gt; Anylze Particles**. This time in the **Analyze particles** window, tick off every options box except **Add to Manager**. Select **OK**.
 
 ![](/assets/part9/analyze_particles_options_add_rois_to_manager.jpg)
 
@@ -208,7 +206,7 @@ The mask will be converted to ROIs in the ROI manager.
 
 You can now use this to make multiple measurements on your original image. Set your measurements and then click on **Measure** in the ROI manager. Note that for intensity measurements you should apply the ROIs or redirect to the original image as intensity can’t be measured in a mask.
 
-To apply the ROIs to another image, select your second image and go to **Image Overlay From ROI Manager**.
+To apply the ROIs to another image, select your second image and go to **Image -&gt; Overlay -&gt; From ROI Manager**.
 
 ![](/assets/part9/overlay_roi_manager_menu.jpg)
 
