@@ -2,7 +2,7 @@
 
 ## FIJI {#fiji}
 
-FIJI stands for **F**iji **I**s **J**ust **I**mageJ. FIJI and ImageJ are very similar and for most functions are interchangeable. Both are open source image analysis software packages, available to download for free. The main difference between FIJI and ImageJ is that FIJI comes pre-bundled with a number of useful plugins which would require separate download and installation in ImageJ. FIJI also has an auto-update function that ImageJ does not have. This workshop focuses specifically on FIJI, rather than ImageJ. As such, some things may differ if you are using ImageJ.
+FIJI stands for "**F**iji **I**s **J**ust **I**mageJ". FIJI and ImageJ are very similar and for most functions are interchangeable. Both are open source image analysis software packages, available to download for free. The main difference between FIJI and ImageJ is that FIJI comes pre-bundled with a number of useful plugins which would require separate download and installation in ImageJ. FIJI also has an auto-update function that ImageJ does not have. This workshop focuses specifically on FIJI, rather than ImageJ. As such, some things may differ if you are using ImageJ.
 
 ## Downloading FIJI {#downloading-fiji}
 
@@ -28,7 +28,7 @@ Once the updates have been installed you will be asked to restart the program. S
 
 ![](/assets/part1/auto_update_successful.jpg)
 
-You can also run a manual update in FIJI. Select **Help Update FIJI**. FIJI will then run through the same update steps as above. Again, you will need to restart FIJI once this process is completed.
+You can also run a manual update in FIJI. Select **Help -&gt; Update FIJI**. FIJI will then run through the same update steps as above. Again, you will need to restart FIJI once this process is completed.
 
 Also under this **Help** menu, you can find a link to the **FIJI Wiki** page which has helpful information on FIJI functions and plugins, or go to [https://imagej.net/Category:Tutorials](https://imagej.net/Category:Tutorials).
 
