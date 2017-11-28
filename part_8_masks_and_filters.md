@@ -8,7 +8,7 @@ The image **Nuclei-1** and image set ‘**RGBstackProjection, RGB-blue, RGB-gree
 
 For a number of basic measurements an image first needs to have a threshold applied to it.
 
-To apply a threshold, select your image and go to **Image Adjust Threshold** \(or shortcut Ctrl+Shift+T\).
+To apply a threshold, select your image and go to **Image -&gt; Adjust -&gt; Threshold** \(or shortcut Ctrl+Shift+T\).
 
 ![](/assets/part9/adjust_threshold_menu.jpg)
 
@@ -26,7 +26,7 @@ Select the threshold that best suits your data and adjust as needed.
 
 You can also automatically test the range of threshold algorithms on your image without scrollin through the dropdown list one at a time.
 
-To use the auto-test for thresholds, go to **Image Adjust Auto Threshold**.
+To use the auto-test for thresholds, go to **Image -&gt; Adjust -&gt; Auto Threshold**.
 
 ![](/assets/part8/auto_threshold_menu.jpg)
 
@@ -42,11 +42,11 @@ A montage will be generated showing what each auto threshold algorithm would pro
 
 If you need to convert your threshold to a mask, or binary, there are several options you can use. If you select **Apply** in the threshold window it will convert the threshold to a mask.
 
-You can also go to **Process Binary Convert to Mask**.
+You can also go to **Process -&gt; Binary -&gt; Convert to Mask**.
 
 ![](/assets/part8/binary_mask_menu.jpg)
 
-To generate a binary go to **Process Binary Make Binary**.
+To generate a binary go to **Process -&gt; Binary -&gt; Make Binary**.
 
 ![](/assets/part8/binary_make_binary_menu.jpg)
 
@@ -58,7 +58,7 @@ A window will open with binary options, select your options and click **OK** to 
 
 ## Making Adjustments to Masks and Binaries {#making-adjustments-to-masks-and-binaries}
 
-Sometimes adjustments need to be made to binaries/masks before analysis to ensure it is accurately representing the data. There are a number of tools available to help you get the best fit to your data. All of these tools can be found under **Process Binary**.
+Sometimes adjustments need to be made to binaries/masks before analysis to ensure it is accurately representing the data. There are a number of tools available to help you get the best fit to your data. All of these tools can be found under **Process -&gt; Binary**.
 
 ![](/assets/part8/process_binary_menu.jpg)
 
@@ -92,11 +92,11 @@ In this example we are using cells for emphasis, but clear functions are usually
 
 ![](/assets/part8/clear_image_BEFORE.jpg)
 
-Once you have your ROI, go to **Edit Clear** to clear the inside of the ROI.
+Once you have your ROI, go to **Edit -&gt; Clear** to clear the inside of the ROI.
 
 ![](/assets/part8/clear_menu.jpg) ![](/assets/part8/clear_image_after.jpg)
 
-Or use **Edit Clear Outside**, to clear the rest of the image outside the ROI.
+Or use **Edit -&gt; Clear Outside**, to clear the rest of the image outside the ROI.
 
 ![](/assets/part8/clear_outside_menu.jpg) ![](/assets/part8/clear_outside_result.jpg)
 
@@ -104,7 +104,7 @@ Or use **Edit Clear Outside**, to clear the rest of the image outside the ROI.
 
 Image calculator is another way to select for specific areas where you want to apply your analysis. Image calculator performs arithmetic operations between two images. These can be your original images or stacks, an image/stack and a mask or two masks.
 
-The **Image Calculator** can be found under **Process Image Calculator**.
+The **Image Calculator** can be found under **Process -&gt; Image Calculator**.
 
 ![](/assets/part8/image_calculator_menu.jpg)
 
@@ -168,7 +168,7 @@ This mask can be used in combination with cell stains to segment and measure ind
 
 Filters can be used to “smooth” your images before analysis. These are another helpful tool for removing blemishes or ensuring that your mask fits the data well before analysis.
 
-You can find some filters directly under the **Process** menu. Others are found under **Process &gt; Filters** or **Process &gt; Noise**.
+You can find some filters directly under the **Process** menu. Others are found under **Process -&gt; Filters** or **Process -&gt; Noise**.
 
 ![](/assets/part8/filters_menu.jpg)
 
