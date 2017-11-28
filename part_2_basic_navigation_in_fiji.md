@@ -12,11 +12,13 @@ The FIJI interface opens as a small rectangular window on your screen, containin
 
 ## Opening Files {#opening-files}
 
-To open files in FIJI go to **File Open** \(or use shortcut Ctrl+O\). Navigate to your folder and select the file you want to open.
+To open files in FIJI go to **File -&gt; Open** \(or use shortcut Ctrl+O\). Navigate to your folder and select the file you want to open.
 
 ![](/assets/part2/open_file.jpg)
 
-You can also open files by dragging and dropping the file from your folder into the FIJI interface. If you already have a file open in FIJI you can move on the next file in the series using the “Open Next” function. Go to **File Open Next** \(or use shortcut Ctrl+Shift+O\) and FIJI will automatically close the current file and replace it with the next file in the folder.
+You can also open files by dragging and dropping the file from your folder into the FIJI interface. 
+
+If you already have a file open in FIJI you can move on the next file in the series using the “Open Next” function. Go to **File -&gt; Open Next** \(or use shortcut Ctrl+Shift+O\) and FIJI will automatically close the current file and replace it with the next file in the folder.
 
 ![](/assets/part2/open_next_file.jpg)
 
@@ -34,7 +36,7 @@ Select the magnifying glass from the tool bar on the FIJI interface to activate 
 
 Once the zoom tool is active you can easily zoom in and out using the mouse buttons. Left click to zoom in on the image, right click to zoom out. The position of the cursor on the image will determine the zoom centre.
 
-Other zoom options are available under **Image Zoom**.
+Other zoom options are available under **Image -&gt; Zoom**.
 
 ![](/assets/part2/zoom_menu.jpg)
 
@@ -50,7 +52,7 @@ Click and drag with the left mouse button to move around the image. An overview 
 
 FIJI will often apply changes to the image as you work and some of these changes are irreversible. Therefore it can be useful to work with a copy of your image so that the original remains unchanged.
 
-To create a duplicate image to **Image Duplicate** \(or use shortcut Ctrl+Shift+D\).
+To create a duplicate image to **Image -&gt; Duplicate** \(or use shortcut Ctrl+Shift+D\).
 
 ![](/assets/part2/duplicate_menu.jpg)
 
@@ -72,7 +74,7 @@ Note: When duplicating an image that has an ROI selected only the selected part 
 
 If you have multiple images or windows open that all require the same processing you can easily link the windows. This allows you to perform a single action that will be applied to all images.
 
-Go to **Analyze Tools Synchronize Windows.**
+Go to **Analyze -&gt; Tools -&gt; Synchronize Windows.**
 
 ![](/assets/part2/synchronize_windows_menu.jpg)
 
@@ -134,7 +136,7 @@ The angle will be displayed in the information bar as you are making the selecti
 
 ![](/assets/part2/roi_angle_information.jpg)
 
-Or go to **Analyze Measure** \(or use shortcut Ctrl+M\) to display the angle in a results window.
+Or go to **Analyze -&gt; Measure** \(or use shortcut Ctrl+M\) to display the angle in a results window.
 
 ![](/assets/part2/analyze_measure_menu.jpg)
 
@@ -208,7 +210,7 @@ To subtract from an existing ROI, start outside the ROI and sweep the brush inwa
 
 ## ROI Manager {#roi-manager}
 
-To measure multiple ROIs individually, you must add them to the ROI manager. To find the ROI manager go to **Analyze Tools ROI manager**. This will open the ROI manager window.
+To measure multiple ROIs individually, you must add them to the ROI manager. To find the ROI manager go to **Analyze -&gt; Tools -&gt; ROI manager**. This will open the ROI manager window.
 
 ![](/assets/part2/roiManager_menu_opening.jpg)
 
@@ -230,7 +232,7 @@ Click on a set of co-ordinates in the list to highlight an individual ROI. Both 
 
 ## Overlay ROIs to a New Image {#overlay-rois-to-a-new-image}
 
-When you have an ROI list in the manager, you can easily transfer this to a new image. Open the new image, then go to **Image Overlay From ROI Manager**.
+When you have an ROI list in the manager, you can easily transfer this to a new image. Open the new image, then go to **Image -&gt; Overlay -&gt; From ROI Manager**.
 
 ![](/assets/part2/image_overlay_from_roiManager_menu.jpg)
 
@@ -246,11 +248,11 @@ Open your second image or draw an ROI and duplicate part of the original.
 
 ![](/assets/part2/duplicate_partial_image_example.jpg)
 
-If you want to keep the ROI on your image as an outline, do not click outside the selection in the original image. Do click the title bar to make it the active image again. To keep the ROI as an outline of the area used in the overlay, go to **Image Overlay Add Selection** \(or use shortcut Ctrl+B\).
+If you want to keep the ROI on your image as an outline, do not click outside the selection in the original image. Do click the title bar to make it the active image again. To keep the ROI as an outline of the area used in the overlay, go to **Image -&gt; Overlay -&gt; Add Selection** \(or use shortcut Ctrl+B\).
 
 ![](/assets/part2/image_overlay_add_selection.jpg)
 
-To add the second image as an overlay to the original, ensure the original image is the active window then go to **Image Overlay Add Image**.
+To add the second image as an overlay to the original, ensure the original image is the active window then go to **Image -&gt; Overlay -&gt; Add Image**.
 
 ![](/assets/part2/image_overlay_add_image.jpg)
 
@@ -264,7 +266,7 @@ Select **OK** to insert the picture.
 
 ![](/assets/part2/add_image_overlay_example.jpg)
 
-At this point you can still undo the overlay by going to **Image Overlay Remove Overlay**. To create a permanent image with the overlays go to **Image Overlay Flatten**.
+At this point you can still undo the overlay by going to **Image -&gt; Overlay -&gt; Remove Overlay**. To create a permanent image with the overlays go to **Image -&gt; Overlay -&gt; Flatten**.
 
 ![](/assets/part2/image_overlay_flatten.jpg)
 
@@ -286,21 +288,21 @@ You can alter the font, size and colour by opening the text options. Double clic
 
 You can move the text after adding it to the image by clicking and dragging inside the text box, similar to moving an ROI.
 
-**Do not click outside the text box as this will delete the text.** To keep the text on the image go to **Image Overlay Add Selection** \(or use shortcut Ctrl+B\). You can then work with the text as you would any other overlay \(show/hide\) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
+**Do not click outside the text box as this will delete the text.** To keep the text on the image go to **Image -&gt; Overlay -&gt; Add Selection** \(or use shortcut Ctrl+B\). You can then work with the text as you would any other overlay \(show/hide\) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
 
 ![](/assets/part2/text_image_overlay_selection.jpg)
 
-You can also go to **Edit Draw** \(or shortcut Ctrl+D\) to incorporate text into the image, but this will keep text only. If you have a background colour this will be lost with this option, so ensure your text colour is clearly visible. When working with stacks this option will allow you to apply the text to all images in the stack.
+You can also go to **Edit -&gt; Draw** \(or shortcut Ctrl+D\) to incorporate text into the image, but this will keep text only. If you have a background colour this will be lost with this option, so ensure your text colour is clearly visible. When working with stacks this option will allow you to apply the text to all images in the stack.
 
 ![](/assets/part2/edit_draw.jpg)
 
 ## Saving; Formats, Options and Image Quality {#saving-formats-options-and-image-quality}
 
-To save changes go to **File Save** \(or use shortcut Ctrl+S\). This will overwrite the previous file and save any changes. If it is a new image the default save format is TIFF \(as _imagename.tif_\).
+To save changes go to **File -&gt; Save** \(or use shortcut Ctrl+S\). This will overwrite the previous file and save any changes. If it is a new image the default save format is TIFF \(as _imagename.tif_\).
 
 ![](/assets/part2/save_menu.jpg)
 
-To choose a specific format for saving, got to **File Save As**, and select the format you want to use for the image from the list. Select your folder and name your file as you normally would. Typical File formats: TIFF, JPEG, AVI, PNG, EPS, PDF.
+To choose a specific format for saving, got to **File -&gt; Save As**, and select the format you want to use for the image from the list. Select your folder and name your file as you normally would. Typical File formats: TIFF, JPEG, AVI, PNG, EPS, PDF.
 
 ![](/assets/part2/save_menu_saveas.jpg)
 
@@ -318,7 +320,7 @@ Use **Save Results** from the file options to export all data in an active resul
 
 ![](/assets/part2/save_measurements.jpg)
 
-Or; to export results as an Excel file, click on the results window and within the window select **File Save As.** Select your folder and name the file as you normally would.
+Or; to export results as an Excel file, click on the results window and within the window select **File -&gt; Save As.** Select your folder and name the file as you normally would.
 
 ### An Important Note on Image Quality and Compression
 
