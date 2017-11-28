@@ -12,7 +12,7 @@ If the scale is already calibrated the dimensions shown on the image will be in 
 
 ![](/assets/part5/scale_information.jpg)
 
-In a calibrated image you can find the scale in m/px by going to **Image Properties** \(or use shortcut Ctrl+Shift+P\).
+In a calibrated image you can find the scale in m/px by going to **Image -&gt; Properties** \(or use shortcut Ctrl+Shift+P\).
 
 ![](/assets/part5/image_properties_menu.jpg)
 
@@ -24,7 +24,7 @@ For this image we see the scale is automatically set at 2.2m/px.
 
 You do no need to make any changes here, select **OK** or close the window to exit.
 
-You can also find the calibrated scale, this time in px/m, by going to **Analyze Set Scale**.
+You can also find the calibrated scale, this time in px/m, by going to **Analyze -&gt; Set Scale**.
 
 ![](/assets/part5/set_scale_menu.jpg)
 
@@ -52,7 +52,7 @@ For a non-calibrated image, the dimensions of the image will appear in pixels in
 
 ![](/assets/part5/scale_information_uncalibrated.jpg)
 
-If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows. To input it via **Image Properties** go to **Image Properties** \(or shortcut Ctrl+Shift+P\), as previously described.
+If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows. To input it via **Image Properties** go to **Image -&gt; Properties** \(or shortcut Ctrl+Shift+P\), as previously described.
 
 ![](/assets/part5/image_properties_menu_example2.jpg)
 
@@ -62,7 +62,7 @@ In an uncalibrated image the pixel dimensions will all be displayed as 1. Change
 
 Select **OK** to save the calibration changes, then save the image to maintain the calibration permanently.
 
-If preferred, you can also input the calibration in px/m via the **Set Scale** tool. To do this, go to **Analyze Set Scale**, as previously described.
+If preferred, you can also input the calibration in px/m via the **Set Scale** tool. To do this, go to **Analyze -&gt; Set Scale**, as previously described.
 
 ![](/assets/part5/set_scale_menu_example2.jpg)
 
@@ -78,7 +78,7 @@ Whichever method you chose, you will now have a calibrated image that you can ea
 
 ## Adding Scale Bars {#adding-scale-bars}
 
-To add a scale bar to your calibrated image, select the image and go to **Analyze Tools Scale Bar**.
+To add a scale bar to your calibrated image, select the image and go to **Analyze -&gt; Tools -&gt; Scale Bar**.
 
 ![](/assets/part5/scalebar_menu.jpg)
 
@@ -110,7 +110,7 @@ Click **OK** to create the duplicate as a new image.
 
 ![](/assets/part5/duplicate_result.jpg)
 
-While it is always recommended that you keep the original image uncropped and create a duplicate in this way, you can also crop without creating a duplicate. Select your ROI tool and draw an ROI as above. Then go to **Image Crop** \(or use shortcut Ctrl+Shift+X\).
+While it is always recommended that you keep the original image uncropped and create a duplicate in this way, you can also crop without creating a duplicate. Select your ROI tool and draw an ROI as above. Then go to **Image -&gt; Crop** \(or use shortcut Ctrl+Shift+X\).
 
 ![](/assets/part5/crop_menu.jpg)
 
@@ -124,7 +124,7 @@ You can resize, or scale, your image using several different methods. All of the
 
 Because these methods alter the pixel information within the image they **should not** be used if any measurements are to be made on the image.
 
-The first method is the **Image Size** tool, which is found under **Image Adjust Size**.
+The first method is the **Image Size** tool, which is found under **Image -&gt; Adjust -&gt; Size**.
 
 ![](/assets/part5/image_adjust_size_menu.jpg)
 
@@ -136,7 +136,7 @@ Select **OK** to apply the changes to the image.
 
 Note the difference in the pixel dimensions here following the image resizing.
 
-The next method is the **Scale** tool, which is found under **Image Scale** \(or use shortcut Ctrl+E\).
+The next method is the **Scale** tool, which is found under **Image -&gt; Scale** \(or use shortcut Ctrl+E\).
 
 ![](/assets/part5/scale_menu.jpg)
 
@@ -152,7 +152,7 @@ A duplicated image at, at the new size, will be created alongside the original i
 
 ![](/assets/part5/scale_result.jpg)
 
-The third method is **Binning**, which is found under **Image Transform Bin**.
+The third method is **Binning**, which is found under **Image -&gt; Transform -&gt; Bin**.
 
 ![](/assets/part5/bin_image_menu.jpg)
 
@@ -166,7 +166,7 @@ Select **Average** from the **Bin Method** drop down menu click **OK** to apply 
 
 Note that with binning the image does not appear smaller in dimensions compared to the original but half of the pixels have been removed from the image. Binning is more useful for change the file size than the actual image size dimensions.
 
-The final method is **Scale to DPI**, which is found under **Image Adjust Scale to DPI**.
+The final method is **Scale to DPI**, which is found under **Image -&gt; Adjust -&gt; Scale to DPI**.
 
 ![](/assets/part5/scale_dots_per_inch_menu.jpg)
 
