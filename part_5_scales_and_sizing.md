@@ -46,6 +46,8 @@ To find the calibration in the metadata, ensure **Open Metadata** is selected in
 
 Scroll down in the metadata window until you reach the **Reference Image Parameters**. Here you will find the fields **WidthConvertValue** and **WidthUnit.** These parameters represent the pixel calibration, ie: the scale for this image is 0.31m/px.
 
+![](/assets/ScaleInformationInMetadata.png)
+
 ## Setting the Scale Manually {#setting-the-scale-manually}
 
 For a non-calibrated image, the dimensions of the image will appear in pixels in the top corner of the image.
