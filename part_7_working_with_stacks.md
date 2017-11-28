@@ -20,7 +20,7 @@ You can monitor the slice number in the image information at the top left of the
 
 ## Creating and Dismantling Stacks {#creating-and-dismantling-stacks}
 
-To create a stack from multiple individual images go to **Image Stacks Images to Stack.**
+To create a stack from multiple individual images go to **Image -&gt; Stacks -&gt; Images to Stack.**
 
 ![](/assets/part7/images_to_stack_menu.jpg)
 
@@ -32,19 +32,19 @@ Click **OK** to generate the stack.
 
 ![](/assets/part7/images_to_stack_result.jpg)
 
-To reverse this and generate multiple single images from a stack go to **Image Stacks Stack to Images.**
+To reverse this and generate multiple single images from a stack go to **Image -&gt; Stacks -&gt; Stack to Images.**
 
 ## Altering Stack Slices {#altering-stack-slices}
 
 You can alter the slices in a stack by adding, deleting or rearranging them.
 
-To add or delete slices from a stack, navigate to the slice you want to modify and go to **Image Stacks**, and select the desired option.
+To add or delete slices from a stack, navigate to the slice you want to modify and go to **Image -&gt; Stacks**, and select the desired option.
 
 ![](/assets/part7/add_slice_menu.jpg)
 
 Selecting add slice will insert a new blank/black slice into the current stack position. Selecting delete slice will remove the current slice from the stack.
 
-You can also add and delete multiple slices using the **Slice Keeper** or **Slice Remover** tools. To find these go to **Image Stacks Tools**.
+You can also add and delete multiple slices using the **Slice Keeper** or **Slice Remover** tools. To find these go to **Image -&gt; Stacks -&gt; Tools**.
 
 ![](/assets/part7/slice_keeper_menu.jpg) ![](/assets/part7/slice_remover_menu.jpg)
 
@@ -56,7 +56,7 @@ You can also add and delete multiple slices using the **Slice Keeper** or **Slic
 
 ![](/assets/part7/slice_remover_options.jpg)
 
-You can also rearrange the order of slices in a stack using the **Stack Sorter** tool. Go to **Image Stacks Tools Stack Sorter.**
+You can also rearrange the order of slices in a stack using the **Stack Sorter** tool. Go to **Image -&gt; Stacks -&gt; Tools -&gt; Stack Sorter.**
 
 ![](/assets/part7/stack_sorter_menu.jpg) ![](/assets/part7/stack_sorter_options.jpg)
 
@@ -72,7 +72,7 @@ You can also select **Reverse** \(6\) to reverse the order of the entire stack.
 
 ## Split and Concatenate Stacks {#split-and-concatenate-stacks}
 
-You can split a stack into smaller parts by selecting **Image Stacks Tools Stack Splitter.**
+You can split a stack into smaller parts by selecting **Image -&gt; Stacks -&gt; Tools -&gt; Stack Splitter.**
 
 ![](/assets/part7/stack_splitter_menu.jpg)
 
@@ -84,7 +84,7 @@ Note: The smaller stacks must be of equal size, so you need to enter a number di
 
 ![](/assets/part7/stack_splitter_result.jpg)
 
-To combine multiple small stacks into one select **Image Stacks Tools Concatenate.**
+To combine multiple small stacks into one select **Image -&gt; Stacks -&gt; Tools -&gt; Concatenate.**
 
 ![](/assets/part7/concatenate_stacks_menu.jpg)
 
@@ -96,7 +96,7 @@ Then select **OK** to generate the combined stack.
 
 ## Make Montage {#make-montage}
 
-You can use image stacks to generate side by side montages of channels, time points or z-sections. Select your stack then go to **Image Stacks Make Montage.**
+You can use image stacks to generate side by side montages of channels, time points or z-sections. Select your stack then go to **Image -&gt; Stacks -&gt; Make Montage.**
 
 ![](/assets/part7/montage_menu.jpg)
 
@@ -114,7 +114,7 @@ In the example below we have generated a montage of the individual channels and 
 
 ## Maximum Intensity Projections {#maximum-intensity-projections}
 
-To create a maximum intensity projection of a confocal z-stack, open your stack and go to **Image Stacks Z-Project.**
+To create a maximum intensity projection of a confocal z-stack, open your stack and go to **Image -&gt; Stacks -&gt; Z-Project.**
 
 ![](/assets/part7/z_project_menu.jpg)
 
@@ -128,7 +128,7 @@ A new window will open with the projected, single plane image. The new image wil
 
 ## 3D Projections {#3d-projections}
 
-When working with z-stacks, you can create a 3D projection of the stack by going to **Image Stacks 3D Project**.
+When working with z-stacks, you can create a 3D projection of the stack by going to **Image -&gt; Stacks -&gt; 3D Project**.
 
 ![](/assets/part7/3d_project_menu.jpg)
 
@@ -150,7 +150,7 @@ The resulting projection will have a slider at the bottom \(similar to a stack\)
 
 An orthogonal projection is a view created in the YZ or XZ dimension of an image stack. An orthogonal projection allows you to visualise depth information one slice at a time in your sample.
 
-To generate orthogonal slices select your z-stack and go to **Image Stack Orthogonal View** \(or use shortcut Ctrl+Shift+H\).
+To generate orthogonal slices select your z-stack and go to **Image -&gt; Stack -&gt; Orthogonal View** \(or use shortcut Ctrl+Shift+H\).
 
 ![](/assets/part7/orthogonal_views_menu.jpg)
 
@@ -164,7 +164,7 @@ To change the view seen in each window, move the yellow cross hair in the origin
 
 The orthogonal projection only lets you see one slice at a time and it has the overlay lines in the way. Sometimes it can be useful to generate a stack of orthogonal slices instead. This is easily achieved by reslicing the stack along a different axis.
 
-To generate an orthogonal stack go to **Image Stacks Reslice.**
+To generate an orthogonal stack go to **Image -&gt; Stacks -&gt; Reslice.**
 
 ![](/assets/part7/reslice_menu.jpg)
 
@@ -188,7 +188,7 @@ Time series will also open as a stack that you can work with in a similar manner
 
 Here, the slider or play button move through the time points, rather than the channels or z-slices.
 
-You can save your time series as a movie using FIJI by selecting **File Save As**, and choosing **AVI **as the file type.
+You can save your time series as a movie using FIJI by selecting **File -&gt; Save As**, and choosing **AVI **as the file type.
 
 ![](/assets/part7/save_movie_menu.jpg)
 
@@ -208,7 +208,7 @@ The movie will not open and play automatically. You can open and play the movie 
 
 ![](/assets/part7/save_movie_result.jpg)
 
-Before saving your movie you can also include add a time stamp using FIJI. To add a time stamp, select your time series stack and go to **Image Stack Time Stamper**.
+Before saving your movie you can also include add a time stamp using FIJI. To add a time stamp, select your time series stack and go to **Image -&gt; Stack -&gt; Time Stamper**.
 
 ![](/assets/part7/time_stamp_menu.jpg)
 
@@ -238,11 +238,11 @@ You can scroll through each dimension independently, you can also use the same t
 
 ![](/assets/part7/hyperstack_delete.jpg)
 
-You can also use hyperstack tools to reduce dimensionality. To find these go to **Image Hyperstack**.
+You can also use hyperstack tools to reduce dimensionality. To find these go to **Image -&gt; Hyperstack**.
 
 ![](/assets/part7/myperstack_menu.jpg)
 
-**Hyperstack to Stack** will combine all dimensions into a single stack with c_z_t frames \(ie; here 61 z- planes \* 25 time points = 1525 frames\).
+**Hyperstack to Stack** will combine all dimensions into a single stack with c\_z\_t frames \(ie; here 61 z- planes \* 25 time points = 1525 frames\).
 
 ![](/assets/part7/hyperstack_to_stack.jpg)
 
