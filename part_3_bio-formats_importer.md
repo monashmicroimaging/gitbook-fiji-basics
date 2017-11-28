@@ -6,7 +6,7 @@ Examples of the different file types discussed in this section \(Leica, Olympus,
 
 ## Configuration {#configuration}
 
-You can check the file types enabled in the Bio-Formats importer, as well as turn specific formats on and off and change preferences by opening the configuration settings. To do this go to **Plugins Bio-Formats Bio-Formats Plugin Configurations.**
+You can check the file types enabled in the Bio-Formats importer, as well as turn specific formats on and off and change preferences by opening the configuration settings. To do this go to **Plugins -&gt; Bio-Formats -&gt; Bio-Formats Plugin Configurations.**
 
 ![](/assets/part3/bioformats_plugin_configuration.jpg)
 
@@ -22,11 +22,11 @@ Selecting the **Windowless** box will open these file formats without first open
 
 ## Opening with Bio-Formats {#opening-with-bio-formats}
 
-You can import files by going to **Plugins Bio-Formats Bio-Formats Importer**.
+You can import files by going to **Plugins -&gt; Bio-Formats -&gt; Bio-Formats Importer**.
 
 ![](/assets/part3/bioformats_importer_menu.jpg)
 
-With the Bio-Formats plugin installed, you can also open compatible file types by going to **File Open** and selecting your file, or dragging and dropping onto the FIJI interface as you would any other image file.
+With the Bio-Formats plugin installed, you can also open compatible file types by going to **File -&gt; Open** and selecting your file, or dragging and dropping onto the FIJI interface as you would any other image file.
 
 During the opening process for all file formats the **Import Options** window will open, unless you have previously set ‘windowless’ opening for that file type under configurations. In the options window you can change the settings for metadata, separating channels, z-planes or time points into single image windows and colour options.
 
