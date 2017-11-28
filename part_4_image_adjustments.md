@@ -8,7 +8,7 @@ In this section we use the images **Nuclei-1**, **RGBstackProjected** and **Neur
 
 ## Brightness and Contrast {#brightness-and-contrast}
 
-To adjust the brightness and contrast in an image, select the image and go to **Image Adjust Brightness/Contrast** \(or use shortcut Crtl+Shift+C\).
+To adjust the brightness and contrast in an image, select the image and go to **Image -&gt; Adjust -&gt; Brightness/Contrast** \(or use shortcut Crtl+Shift+C\).
 
 ![](/assets/part4/birghtness_contrast_menu.jpg)
 
@@ -34,7 +34,7 @@ Below we see the difference between the original image and a duplicate with the 
 
 ## Gamma {#gamma}
 
-Gamma adjustments can be made to the image by selecting your image then going to **Process Math Gamma**.
+Gamma adjustments can be made to the image by selecting your image then going to **Process -&gt; Math -&gt; Gamma**.
 
 ![](/assets/part4/gamma_menu.jpg)
 
@@ -48,13 +48,13 @@ You will see from the images below that gamma adjustments have a significant imp
 
 ## Colour Balance {#colour-balance}
 
-You can also adjust the levels of individual colours within an RGB image using the **Color Balance** tool. To find this go to **Image Adjust Color Balance**.
+You can also adjust the levels of individual colours within an RGB image using the **Color Balance** tool. To find this go to **Image -&gt; Adjust -&gt; Color Balance**.
 
 ![](/assets/part4/color_balance_menu.jpg)
 
 In the Colour Balance window you can select the channel from the drop down menu, then use the sliders to adjust the **Minimum** and **Maximum** as described above for a monochrome image.
 
-![](/assets/part4/color_balance_window.jpg) 
+![](/assets/part4/color_balance_window.jpg)
 
 ![](/assets/part4/color_balance_options.jpg)
 
@@ -66,7 +66,7 @@ In the example below you can see the difference between the original image on th
 
 ## Inverting Images {#inverting-images}
 
-Inverting an image will switch the colour and background, or “light and dark”, in the image. To invert, select the image and go to **Edit Invert** \(or shortcut Ctrl+Shift+I\).
+Inverting an image will switch the colour and background, or “light and dark”, in the image. To invert, select the image and go to **Edit -&gt; Invert** \(or shortcut Ctrl+Shift+I\).
 
 ![](/assets/part4/invert_image_menu.jpg)
 
@@ -80,7 +80,7 @@ Inverting the image is reversible until saved, but it is still best to start out
 
 You can easily straighten an object in your image with the **Image Rotation** tool. Using this tool you can rotate to a defined angle, or completely flip the image. For images with specific structural arrangements it is advised that you use image flipping and rotation with caution, as complex structures may become distorted.
 
-To flip or rotate your image, go to **Image Transform** and select your option.
+To flip or rotate your image, go to **Image -&gt; Transform** and select your option.
 
 ![](/assets/part4/rotate_image_menu.jpg)
 
@@ -106,7 +106,7 @@ Once you are happy with your rotation angel click **OK** to apply it to the imag
 
 ## Image Translation {#image-translation}
 
-You can also shift the image within the frame using the **Translate** tool. This can also be found under **Image Transform**. This will open a window where you can enter your offset values to shift the image in x and y. The values are entered in pixels.
+You can also shift the image within the frame using the **Translate** tool. This can also be found under **Image -&gt; Transform**. This will open a window where you can enter your offset values to shift the image in x and y. The values are entered in pixels.
 
 ![](/assets/part4/translate_image_options.jpg)
 
