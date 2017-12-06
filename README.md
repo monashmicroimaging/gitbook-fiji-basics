@@ -1,4 +1,4 @@
-# Fiji Basics Workshop Notes {#fiji-basics}
+# FIJI Basics Workshop Notes {#fiji-basics}
 
 ![](/assets/cover_image/fiji_logo.jpg)
 
@@ -28,13 +28,9 @@
 
 
 
-
-
-
-
-
-
-
-
 | ![](/assets/logos/logo_MMI.jpg) | ![](/assets/logos/logo_MHTP.jpg) | ![](/assets/logos/logo_hudson.jpg) |
 | :---: | :---: | :---: |
+
+
+
+
