@@ -30,7 +30,7 @@ Once the updates have been installed you will be asked to restart the program. S
 
 You can also run a manual update in FIJI. Select **Help -&gt; Update FIJI**. FIJI will then run through the same update steps as above. Again, you will need to restart FIJI once this process is completed.
 
-Also under this **Help** menu, you can find a link to the **FIJI Wiki** page which has helpful information on FIJI functions and plugins, or go to [https://imagej.net/Category:Tutorials](https://imagej.net/Category:Tutorials).
-
 ![](/assets/part1/auto_update_menu.jpg)
+
+Also under this **Help** menu, you can find a link to the **FIJI Wiki** page which has helpful information on FIJI functions and plugins, or go to [https://imagej.net/Category:Tutorials](https://imagej.net/Category:Tutorials).
 
