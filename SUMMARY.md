@@ -8,8 +8,7 @@
 * [PART 5: SCALES AND SIZING](part_5_scales_and_sizing.md)
 * [PART 6: CHANNELS AND COLOURS](part_6_channels_and_colours.md)
 * [PART 7: WORKING WITH STACKS](part_7_working_with_stacks.md)
-* [PART 8: MASKS AND FILTERS](part_8_masks_and_filters.md)
-* [PART 9: SIMPLE IMAGE MEASUREMENTS](part_9_simple_image_measurements.md)
 * [Acknowledgements](acknowledgements.md)
 * [Use and Distribution of Workshop Notes](use_and_distribution_of_workshop_notes.md)
 * [Demonstration  Images](demonstration_images.md)
+
