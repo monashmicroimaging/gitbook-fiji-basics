@@ -8,34 +8,6 @@
 
 **Monash Micro Imaging at MHTP 2ND EDITION - January 2017**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 | ![](/assets/logos/logo_MMI.jpg) | ![](/assets/logos/logo_MHTP.jpg) | ![](/assets/logos/logo_hudson.jpg) |
 | :---: | :---: | :---: |
 
