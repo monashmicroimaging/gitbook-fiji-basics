@@ -6,7 +6,7 @@
 
 #### Workshop Presented by Dr Kirstin Elgass and Dr Sarah Creed
 
-**Monash Micro Imaging at MHTP 2ND EDITION - January 2017**
+**Monash Micro Imaging at MHTP 2ND EDITION - January 2018**
 
 
 
