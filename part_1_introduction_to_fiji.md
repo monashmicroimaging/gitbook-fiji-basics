@@ -2,7 +2,7 @@
 
 ## FIJI {#fiji}
 
-FIJI stands for "**F**iji **I**s **J**ust **I**mageJ". FIJI and ImageJ are very similar and for most functions are interchangeable. Both are open source image analysis software packages, available to download for free. The main difference between FIJI and ImageJ is that FIJI comes pre-bundled with a number of useful plugins which would require separate download and installation in ImageJ. FIJI also has an auto-update function that ImageJ does not have. This workshop focuses specifically on FIJI, rather than ImageJ. As such, some things may differ if you are using ImageJ.
+FIJI stands for "**F**iji **I**s **J**ust **I**mageJ". FIJI and ImageJ are very similar and for most functions are interchangeable. Both are open source image analysis software packages, available to download for free. The main difference between FIJI and ImageJ is that FIJI comes pre-bundled with a number of useful plugins which would require separate download and installation in ImageJ. FIJI also has an auto-update function that ImageJ does not have, and for advanced users is more user firendly and compatible for Macro writting. Our workshops focus specifically on FIJI, rather than ImageJ. As such, some things may differ if you are using ImageJ.
 
 ## Downloading FIJI {#downloading-fiji}
 
