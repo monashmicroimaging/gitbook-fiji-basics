@@ -10,7 +10,7 @@ FIJI downloads for PC and Mac can be found here: [https://fiji.sc/](https://fiji
 
 ## Updates {#updates}
 
-FIJI has a built in auto-update function which will run, as required, upon opening the program. To allow the updater to run, select **Yes, please** from the drop down menu and click **OK**. 
+FIJI has a built in auto-update function which will run, as required, upon opening the program. To allow the updater to run, select **Yes, please** from the drop down menu and click **OK**.
 
 ![](/assets/Part 1/Auto updater combined.JPG)
 
@@ -30,19 +30,27 @@ Once the updates have been installed you will be asked to restart the program. S
 
 ![](/assets/Part 1/Auto updater 5.JPG)
 
-
-
 **Note:** It is recommend that you always run the updater when it pops up. Extended periods without running the updater may result in FIJI no longer functioning correctly.
 
 You can also run a manual update in FIJI. Select **Help -&gt; Update**. FIJI will then run through the same update steps as above. Again, you will need to restart FIJI once this process is completed.
 
 ![](/assets/Part 1/Manual Update.jpg)
 
-
-
 ## Managing Update Sites
 
+Specific sites can be included \(ie: to use a specific plugin, you may need to add their website to updates\) or removed \(ie: a site from a plugin you no longer use and have uninstalled\) from your updates . To do this select **Manage Update Sites** from the Updater Window when it appears.
 
+![](/assets/Part 1/Manage Update Sites 1.JPG)
+
+This will open a list of all available websites assoaciated with ImageJ/FIJI and their plugins.
+
+![](/assets/Part 1/Manage Update Sites 2.JPG)
+
+Select the site you want to change by ticking the checkbox next to the name, then click **Add Update Site** to include updates from this website in the current and all furute updates, or **Remove** to stop using this site for updates.
+
+![](/assets/Part 1/Manage Update Sites 3.JPG)
+
+Select Close when you have finished managing your update sites then continue with your FIJI update as above.
 
 ## ImageJ/FIJI Online Documentation and Tutorials
 
