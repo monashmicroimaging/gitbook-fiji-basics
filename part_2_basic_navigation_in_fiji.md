@@ -1,6 +1,6 @@
 # PART 2: BASIC NAVIGATION IN FIJI {#part-2-basic-navigation-in-fiji}
 
-The FIJI interface has many menus and options. In this section we will go through the basics for navigating the FIJI interface and working with your images in the FIJI software.
+The FIJI interface has many menus and options. In this section we will go through the basics for navigating the FIJI interface and opening and working with your images in the FIJI software.
 
 The image **Interstitium 2** will be used for demonstration throughout this section.
 
@@ -16,7 +16,7 @@ To open files in FIJI go to **File -&gt; Open** \(or use shortcut Ctrl+O\). Navi
 
 ![](/assets/part2/open_file.jpg)
 
-You can also open files by dragging and dropping the file from your folder into the FIJI interface. 
+You can also open files by dragging and dropping the file from your folder into the FIJI interface.
 
 If you already have a file open in FIJI you can move on the next file in the series using the “Open Next” function. Go to **File -&gt; Open Next** \(or use shortcut Ctrl+Shift+O\) and FIJI will automatically close the current file and replace it with the next file in the folder.
 
@@ -24,7 +24,7 @@ If you already have a file open in FIJI you can move on the next file in the ser
 
 ## Image Information Display {#image-information-display}
 
-Some basic image information can be found in the top left corner of your opened image. This display tells you the image name, dimensions \(in pixels if scale has not been calibrated or m if calibrated\), image type and file size.
+Some basic image information can be found in the top left corner of your opened image. This display tells you the image name, dimensions \(in pixels if scale has not been calibrated or microns if calibrated\), image type and file size.
 
 ![](/assets/part2/image_information.jpg)
 
@@ -116,7 +116,7 @@ There are 7 selection tools in total; 5 simple shape/line tools and the angle an
 
 ![](/assets/part2/roi_freehand_icon.jpg) Freehand Selection tool – Click and drag with the mouse to draw your ROI of choice.
 
-![](/assets/part2/roi_line_icon.jpg) Line tools – Select which type of line you want from the drop down list and click and drag to add straight, freehand or arrowhead lines of interest on your image. Click along multiple points in the image to create a segmented line. The line tool also has an option when you double click on the button to set the width of the line.
+![](/assets/part2/roi_line_icon.jpg) Line tools – Select which type of line you want from the drop down list and click and drag to add straight, freehand or arrowhead lines of interest on your image. Al of these are created by clicking and ragging with the mouse. Select Segmented line from the options then click along multiple points in the image to create a segmented line. The line tool also has an option when you double click on the button to set the width of the line.
 
 ![](/assets/part2/roi_line_example.jpg)
 
@@ -144,7 +144,7 @@ Or go to **Analyze -&gt; Measure** \(or use shortcut Ctrl+M\) to display the ang
 
 ### Point or Multi-Point Tools
 
-![](/assets/part2/roi_point_icon.jpg) Select point or multi-point from the drop down list \(right click point tool icon on the tool bar\).
+![](/assets/part2/roi_point_icon.jpg) Select point or multi-point from the drop down list \(right click point tool icon on the tool bar to choose between the two\).
 
 Use this tool to select a single point or multiple points in your image for analysis. This tool is particularly useful for counting.
 
@@ -174,7 +174,11 @@ When resizing ROIs you can control the movements in several ways:
 
 * ‘Alt’ + arrow keys – enlarge the ROI in any direction 1 pixel at a time
 
-To **move** an ROI left click inside the ROI selection and drag and drop to the new location. You can move the ROI more precisely using the arrow keys on the keyboard.
+* Polygon ROIs will only move at the selected point to create a new shape, they will not resize in the current shape. Holding 'Shift" and clicking a point, splits it into 2 points. Holding 'Alt' and clicking a point eliminates that point from the polygon.
+
+* Freehand ROIs can not be resized, There are no points to click on within the ROI outline. Freehand ROIs  must be redrawn to change the shape or size.
+
+To **move** any ROI left click inside the ROI selection and drag and drop to the new location. You can move the ROI more precisely using the arrow keys on the keyboard.
 
 You can **draw multiple** ROIs by holding ‘Shift’ and drawing a second ROI of any type. However, as noted for multiple points, this is more like a merge ROIs function, as the two essentially become a single ROI and are not measured separately during analysis. This can be easily observed by drawing your second ROI overlapping an existing ROI. Once drawn the ROIs will merge into a single new shape. When using ‘Shift’ to add multiple ROIs this principle remains even for ROIs in separate parts of the image.
 
@@ -184,11 +188,15 @@ To select multiple ROIs for individual measurements you must use the ROI manager
 
 Holding ‘Shift’ when adding/merging the second ROI will create a symmetrical ROI. To avoid this, hold ‘Shift’ to initiate the second ROI then release it and drag the new ROI to the desired shape.
 
+**Note: **if you click and drag a point within a "merged" ROI, only that point will move, it will not resize the ROI in its current shape. The merged ROI essentially behaves as a polygon ROI.
+
+
+
 You can also **remove part** of an ROI by holding ‘Alt’ and drawing a second ROI of any type overlapping an existing ROI. For example; hold ‘Alt’ and draw a second circular ROI inside an existing circular ROI to create a donut shaped ROI.
 
 ![](/assets/part2/draw_donut_shaped_roi.jpg)
 
-Note that once this ROI is drawn it cannot be resized or moved, only the existing ROI can be modified further, as the inside of the second circle is no longer a selection.
+**Note:** once this second ROI is drawn neither ROI can be resized, and as the inside of the second ROI is no longer considered a selection you must click and drag withint the space wbetween the original and second ROIs to move.
 
 ### Brush Tool
 
@@ -226,7 +234,7 @@ Once you have selected and added all ROIs of interest to the list, select **Meas
 
 ![](/assets/part2/roiManger_measure.jpg)
 
-Click on a set of co-ordinates in the list to highlight an individual ROI. Both the co-ordinates in the list and the ROI outline on the image will show as blue. You can then make individual adjustments to this ROI from the ROI manager options \(delete, measure, rename, etc\). Click **Deselect** to return to the full list.
+Click on a set of co-ordinates in the list to highlight an individual ROI. The co-ordinates in the list will be highlights blueand ROI will display in the imge \(or show as the active ROI if 'Show All' is selected\). You can then make individual adjustments to this ROI from the ROI manager options \(delete, rename, etc\) or measure it independantly by clicking measure. Click **Deselect** to return to the full list.
 
 ![](/assets/part2/roiManager_coord_list_example.jpg)
 
@@ -239,6 +247,8 @@ When you have an ROI list in the manager, you can easily transfer this to a new 
 All ROIs in the ROI manager will be duplicated on the second image.
 
 ![](/assets/part2/image_overlay_rois_example.jpg)
+
+**Note: **these ROIs in the second image can't be resized or moved and will act as a 'merged' ROI in that only a single measurment for all ROIs combined wil be given.
 
 ## Overlaying Images {#overlaying-images}
 
@@ -256,7 +266,7 @@ To add the second image as an overlay to the original, ensure the original image
 
 ![](/assets/part2/image_overlay_add_image.jpg)
 
-Note: In the example images we have scaled the duplicated region to make it an enlargement. Scaling/resizing will be discussed in a later section.
+
 
 From the resulting window, select the image you want to overlay from the drop down list. You can also choose the overlay position. The co-ordinates for overlay position are given in pixels. Co- ordinates at 0,0 will place the image at the top left corner of the original.
 
@@ -288,7 +298,7 @@ You can alter the font, size and colour by opening the text options. Double clic
 
 You can move the text after adding it to the image by clicking and dragging inside the text box, similar to moving an ROI.
 
-**Do not click outside the text box as this will delete the text.** To keep the text on the image go to **Image -&gt; Overlay -&gt; Add Selection** \(or use shortcut Ctrl+B\). You can then work with the text as you would any other overlay \(show/hide\) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
+**Do not click outside the text box as this will delete the text.** To keep the text on the image go to **Image -&gt; Overlay -&gt; Add Selection** \(or use shortcut Ctrl+B\). You can then work with the text as you would any other overlay \(show/hide/remove\) and select flatten to create a new image with text completely incorporated into the image. If you are working with a stack, this option will only add the text to the first image in the series.
 
 ![](/assets/part2/text_image_overlay_selection.jpg)
 
