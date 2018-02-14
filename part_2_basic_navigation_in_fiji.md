@@ -8,7 +8,7 @@ The image **Interstitium 2** will be used for demonstration throughout this sect
 
 The FIJI interface opens as a small rectangular window on your screen, containing 8 menu options and a series of buttons, which will be referred to here as the tool bar. An information bar below the tool bar will display details of the tools or image when you hover over them with the cursor.
 
-![](/assets/part2/fiji_interface.jpg)
+
 
 ## Opening Files {#opening-files}
 
@@ -190,8 +190,6 @@ Holding ‘Shift’ when adding/merging the second ROI will create a symmetrical
 
 **Note: **if you click and drag a point within a "merged" ROI, only that point will move, it will not resize the ROI in its current shape. The merged ROI essentially behaves as a polygon ROI.
 
-
-
 You can also **remove part** of an ROI by holding ‘Alt’ and drawing a second ROI of any type overlapping an existing ROI. For example; hold ‘Alt’ and draw a second circular ROI inside an existing circular ROI to create a donut shaped ROI.
 
 ![](/assets/part2/draw_donut_shaped_roi.jpg)
@@ -265,8 +263,6 @@ If you want to keep the ROI on your image as an outline, do not click outside th
 To add the second image as an overlay to the original, ensure the original image is the active window then go to **Image -&gt; Overlay -&gt; Add Image**.
 
 ![](/assets/part2/image_overlay_add_image.jpg)
-
-
 
 From the resulting window, select the image you want to overlay from the drop down list. You can also choose the overlay position. The co-ordinates for overlay position are given in pixels. Co- ordinates at 0,0 will place the image at the top left corner of the original.
 
