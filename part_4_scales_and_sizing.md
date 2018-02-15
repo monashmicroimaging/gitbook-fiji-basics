@@ -1,4 +1,4 @@
-# PART 5: SCALES AND SIZING {#part-5-scales-and-sizing}
+# PART 4: SCALES AND SIZING {#part-5-scales-and-sizing}
 
 For proper presentation of images it is essential to include a scale bar. This allows the viewer to see the scale of the image being presented and make their own conclusions about the data. Calibrating an image is also important if you want to get meaningful size-related measurements out of the image in any later analysis. Calibration is also important when resizing your images. In this section we will show you how to find calibration information from the image, and how to set the scale if the image is not calibrated. We will also demonstrate how to add a scale bar and how to crop and resize images without altering the image data.
 
