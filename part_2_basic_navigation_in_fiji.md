@@ -204,7 +204,7 @@ You can also **remove part** of an ROI by holding ‘Alt’ and drawing a second
 
 ### Brush Tool
 
-ROIs can also be added or modified using the **Selection Brush Tool**, which is found under the options for oval/elliptical ROIs in the tool bar. Right Click on the icon to select the brush tool from the drop down menu. 
+ROIs can also be added or modified using the **Selection Brush Tool**, which is found under the options for oval/elliptical ROIs in the tool bar. Right Click on the icon to select the brush tool from the drop down menu.
 
 ![](/assets/Part 2/Brush Tool/Brush 1 - Tool Bar.jpg)
 
@@ -266,13 +266,11 @@ All ROIs in the ROI manager will be duplicated on the second image.
 
 **Note: **These ROIs in the second image can't be resized or moved and will act as a 'merged' ROI in that only a single measurment for all ROIs combined will be given.
 
-If you want to measure the ROIs in he new image individually that is still possible. Click on the new image to make it the active image then select one of the ROIs in the ROI Manager. 
+If you want to measure the ROIs in the new image individually that is still possible. Click on the new image to make it the active image then select one of the ROIs in the ROI Manager.
 
+![](/assets/Part 2/Overlay ROIs/Overlay from ROI 3 - individual ROI.JPG)
 
-
-This will now appear in the new image and you can click **Measure** in the ROI manager to get an individual measurement. Repeat for all ROIs.
-
-
+This ROI will now appear in the new image and you can click **Measure** in the ROI manager to get an individual measurement. Repeat for all ROIs.
 
 ## Overlaying Images {#overlaying-images}
 
