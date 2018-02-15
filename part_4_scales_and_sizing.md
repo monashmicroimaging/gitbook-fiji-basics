@@ -10,15 +10,15 @@ In some circumstances FIJI will be able to calibrate your image automatically by
 
 If the scale is already calibrated the dimensions shown on the image will be in microns instead of pixels.
 
-![](/assets/part5/scale_information.jpg)
+
 
 In a calibrated image you can find the scale in m/px by going to **Image -&gt; Properties** \(or use shortcut Ctrl+Shift+P\).
 
-![](/assets/part5/image_properties_menu.jpg)
+
 
 This will open a display window showing the dimensions of the image and the scale will be automatically populated at the correct size.
 
-![](/assets/part5/image_properties_window.jpg)
+
 
 For this image we see the scale is automatically set at 2.2microns/pixel.
 
@@ -26,13 +26,13 @@ You do no need to make any changes here, select **OK** or close the window to ex
 
 You can also find the calibrated scale, this time in pixels/micron, by going to **Analyze -&gt; Set Scale**.
 
-![](/assets/part5/set_scale_menu.jpg)
 
-![](/assets/part5/set_scale_options.jpg)
+
+
 
 Here you will also find the dimensions correctly populated from the metadata if your image was already calibrated.
 
-Under **Set Scale** the calibration \(px/m\) is the inverse of that shown under image properties \(m/px\).
+Under **Set Scale** the calibration \(pixels/micron\) is the inverse of that shown under image properties \(microns/pixel\).
 
 You do no need to make any changes here, select **OK** or close the window to exit.
 
@@ -42,11 +42,21 @@ When opening a file using bio-formats importer you can also find the calibration
 
 To find the calibration in the metadata, ensure **Open Metadata** is selected in the bio-formats options as previously described.
 
-![](/assets/part5/metadata_display_option.jpg)
 
-Scroll down in the metadata window until you reach the **Reference Image Parameters**. Here you will find the fields **WidthConvertValue** and **WidthUnit.** These parameters represent the pixel calibration, ie: the scale for this image is 0.31m/px.
 
-![](/assets/ScaleInformationInMetadata.png)
+The scale information can look different in the metadata of one file compared to another. How it is listed will be dependent on the file type. 
+
+
+
+As shown previously you can also find information from the metadata by going to **Image -&gt; Show Info** \(or shortcut Ctrl + I\). This is useful if you dont need bio-formats importer to open your image. 
+
+
+
+You will find the scale information listed here if it was in the image metadata. Again, how it is listed may varry with file type.
+
+
+
+**Note:** Usually if the scale is listed in the metadata, FIJI will scale the images automatically upon opening. If your image is not scaled, you most likely won't find this information in the metadata either.
 
 ## Setting the Scale Manually {#setting-the-scale-manually}
 
