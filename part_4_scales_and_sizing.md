@@ -10,17 +10,27 @@ In some circumstances FIJI will be able to calibrate your image automatically by
 
 If the scale is already calibrated the dimensions shown on the image will be in microns instead of pixels.
 
+![](/assets/Part 4/Finding Scale Info/Finding Scale 1 - on image.JPG)
+
 In a calibrated image you can find the scale in microns/pixel by going to **Image -&gt; Properties** \(or use shortcut Ctrl+Shift+P\).
+
+![](/assets/Part 4/Finding Scale Info/Finding Scale 2 - properties menu.JPG)
 
 This will open a display window showing the dimensions of the image and the scale will be automatically populated at the correct size.
 
 For this image we see the scale is automatically set at 2.2microns/pixel.
 
+![](/assets/Part 4/Finding Scale Info/Finding Scale 3 - image properties.JPG)
+
 You do no need to make any changes here, select **OK** or close the window to exit.
 
 You can also find the calibrated scale, this time in pixels/micron, by going to **Analyze -&gt; Set Scale**.
 
+![](/assets/Part 4/Finding Scale Info/Finding Scale 4 -set scale menu.JPG)
+
 Here you will also find the dimensions correctly populated from the metadata if your image was already calibrated.
+
+![](/assets/Part 4/Finding Scale Info/Finding Scale 5 - scale.JPG)
 
 Under **Set Scale** the calibration \(pixels/micron\) is the inverse of that shown under image properties \(microns/pixel\).
 
@@ -30,13 +40,21 @@ You do no need to make any changes here, select **OK** or close the window to ex
 
 When opening a file using bio-formats importer you can also find the calibration in the metadata, although this can sometimes be hard to find within the long list of parameters.
 
-To find the calibration in the metadata, ensure **Open Metadata** is selected in the bio-formats options as previously described.
+To find the calibration in the metadata, ensure **Display** **Metadata** is selected in the bio-formats options as previously described.
 
-The scale information can look different in the metadata of one file compared to another. How it is listed will be dependent on the file type.
+![](/assets/Part 4/Finding Scale Info/Finding Scale 6 - Display Metadata.JPG)
+
+The scale information can look different in the metadata of one file compared to another. How it is listed will be dependent on the file type. In this example, if we scroll downt he metadata, we come to the units, listed as microns, and below that, the scale shown as X and Y resolutions of 0.454545. So this gives us the scale of 0.454545 pixels per micron.
+
+![](/assets/Part 4/Finding Scale Info/Finding Scale 7 - Scale in Metadata.JPG)
 
 As shown previously you can also find information from the metadata by going to **Image -&gt; Show Info** \(or shortcut Ctrl + I\). This is useful if you dont need bio-formats importer to open your image.
 
+![](/assets/Part 4/Finding Scale Info/Finding Scale 8 - Image Info Menu.JPG)
+
 You will find the scale information listed here if it was in the image metadata. Again, how it is listed may varry with file type.
+
+![](/assets/Part 4/Finding Scale Info/Finding Scale 9 - Scale in image Info.JPG)
 
 **Note:** Usually if the scale is listed in the metadata, FIJI will scale the images automatically upon opening. If your image is not scaled, you most likely won't find this information in the metadata either.
 
@@ -44,31 +62,33 @@ You will find the scale information listed here if it was in the image metadata.
 
 For a non-calibrated image, the dimensions of the image will appear in pixels in the top corner of the image.
 
-![](/assets/part5/scale_information_uncalibrated.jpg)
 
-If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows. To input it via **Image Properties** go to **Image -&gt; Properties** \(or shortcut Ctrl+Shift+P\), as previously described.
 
-![](/assets/part5/image_properties_menu_example2.jpg)
+If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows. 
 
-In an uncalibrated image the pixel dimensions will all be displayed as 1. Change the unit of length from pixels to microns and enter the conversion factor in microns \(ie: 1 px = x m\). For the example used here, the calibration in m/px is 0.45.
+To input the scale via **Image Properties** go to **Image -&gt; Properties** \(or shortcut Ctrl+Shift+P\), as previously described.
 
-![](/assets/part5/calibrating_scale_information.jpg)
+![](/assets/Part 4/Finding Scale Info/Finding Scale 2 - properties menu.JPG)
+
+In an uncalibrated image the pixel dimensions will all be displayed as 1. Change the unit of length from pixels to microns and enter the conversion factor in microns \(ie: 1 pixel = x microns\). For the example used here, the calibration in microns/pixel is 0.45.
+
+
 
 Select **OK** to save the calibration changes, then save the image to maintain the calibration permanently.
 
-If preferred, you can also input the calibration in px/m via the **Set Scale** tool. To do this, go to **Analyze -&gt; Set Scale**, as previously described.
+If preferred, you can also input the calibration in pixels/micron via the **Set Scale** tool. To do this, go to **Analyze -&gt; Set Scale**, as previously described.
 
-![](/assets/part5/set_scale_menu_example2.jpg)
+![](/assets/Part 4/Finding Scale Info/Finding Scale 4 -set scale menu.JPG)
 
 The pixel aspect ratio in the **Set Scale** window will be displayed as 1. To enter the scale, change the unit from pixels to microns and enter either the distance in pixels \(2.222 for this example\) or in microns \(0.45 for this example\)
 
-![](/assets/part5/calibrating_scale_information_example2.jpg)
+
 
 Select **OK** to save the scale, and save the image.
 
 Whichever method you chose, you will now have a calibrated image that you can easily add a scale bar too, or make accurate measurements on.
 
-![](/assets/part5/calibrating_scale_information_result.jpg)
+
 
 ## Adding Scale Bars {#adding-scale-bars}
 
