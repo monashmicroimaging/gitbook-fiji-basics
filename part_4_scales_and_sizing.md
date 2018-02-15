@@ -2,7 +2,7 @@
 
 For proper presentation of images it is essential to include a scale bar. This allows the viewer to see the scale of the image being presented and make their own conclusions about the data. Calibrating an image is also important if you want to get meaningful size-related measurements out of the image in any later analysis. Calibration is also important when resizing your images. In this section we will show you how to find calibration information from the image, and how to set the scale if the image is not calibrated. We will also demonstrate how to add a scale bar and how to crop and resize images without altering the image data.
 
-This section uses the images **Interstitium 2** and **TrichromeIHC**, as well as the metadata form **TSA\_1 **for demonstration.
+This section uses the images **Interstitium 2.tif** and **TrichromeIHC.tif **for demonstration.
 
 ## Finding Scale Information in the Image Properties {#finding-scale-information-in-the-image-properties}
 
@@ -10,25 +10,15 @@ In some circumstances FIJI will be able to calibrate your image automatically by
 
 If the scale is already calibrated the dimensions shown on the image will be in microns instead of pixels.
 
-
-
-In a calibrated image you can find the scale in m/px by going to **Image -&gt; Properties** \(or use shortcut Ctrl+Shift+P\).
-
-
+In a calibrated image you can find the scale in microns/pixel by going to **Image -&gt; Properties** \(or use shortcut Ctrl+Shift+P\).
 
 This will open a display window showing the dimensions of the image and the scale will be automatically populated at the correct size.
-
-
 
 For this image we see the scale is automatically set at 2.2microns/pixel.
 
 You do no need to make any changes here, select **OK** or close the window to exit.
 
 You can also find the calibrated scale, this time in pixels/micron, by going to **Analyze -&gt; Set Scale**.
-
-
-
-
 
 Here you will also find the dimensions correctly populated from the metadata if your image was already calibrated.
 
@@ -42,19 +32,11 @@ When opening a file using bio-formats importer you can also find the calibration
 
 To find the calibration in the metadata, ensure **Open Metadata** is selected in the bio-formats options as previously described.
 
+The scale information can look different in the metadata of one file compared to another. How it is listed will be dependent on the file type.
 
-
-The scale information can look different in the metadata of one file compared to another. How it is listed will be dependent on the file type. 
-
-
-
-As shown previously you can also find information from the metadata by going to **Image -&gt; Show Info** \(or shortcut Ctrl + I\). This is useful if you dont need bio-formats importer to open your image. 
-
-
+As shown previously you can also find information from the metadata by going to **Image -&gt; Show Info** \(or shortcut Ctrl + I\). This is useful if you dont need bio-formats importer to open your image.
 
 You will find the scale information listed here if it was in the image metadata. Again, how it is listed may varry with file type.
-
-
 
 **Note:** Usually if the scale is listed in the metadata, FIJI will scale the images automatically upon opening. If your image is not scaled, you most likely won't find this information in the metadata either.
 
