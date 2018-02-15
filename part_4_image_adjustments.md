@@ -1,12 +1,14 @@
 # PART 4: IMAGE ADJUSTMENTS {#part-4-image-adjustments}
 
-It is sometimes essential to adjust an image to make it better for publishing or highlighting an area of interest or assist in measurements. Some adjustments, such as image rotation are straight forward. However, others, such as adjusting the contrast in an image needs to be done carefully so as not to remove or add data from the original image. In this regard, it is usually safe to adjust linear parameters such as brightness and contrast \(histogram levels\) as long as under and over saturation is avoided. Adjusting non-linear parameters such as gamma and curves is generally discouraged as it will change the relationship of the data in the image.
+It is sometimes essential to adjust an image for publishing or to highlight an area of interest. Some adjustments, such as adjusting the contrast in an image, need to be done carefully so as not to remove or add data from the original image. In this regard, it is usually safe to adjust linear parameters such as brightness and contrast \(histogram levels\) as long as under and over saturation is avoided. Adjusting non-linear parameters such as gamma and curves is strongly discouraged under all circumstances as it will change the relationship of the data in the image. All adjustments made to images prior to publication should be linear adjustments only, should be applied equally across the entire image and should be disclosed in the methods and/or figure legends.
 
-Note: In general it is recommended that you do not perform any measurements on images which have been adjusted using any of these methods. Even linear adjustments are still altering the pixel information and measurements may not be an accurate representation of the data.
+**Note:** In general it is recommended that you avoid performing any measurements on images which have been adjusted using any of these methods. Whenever possible analysis should be carried out on the untouched original data.
 
 In this section we use the images **Nuclei-1**, **RGBstackProjected** and **NeuralTube** for demonstration purposes.
 
 ## Brightness and Contrast {#brightness-and-contrast}
+
+_Brightness and Contrast are considered linear adjustments, provided they are applied equally across the entire image._
 
 To adjust the brightness and contrast in an image, select the image and go to **Image -&gt; Adjust -&gt; Brightness/Contrast** \(or use shortcut Crtl+Shift+C\).
 
@@ -34,6 +36,8 @@ Below we see the difference between the original image and a duplicate with the 
 
 ## Gamma {#gamma}
 
+G_amma is a non-linear adjustment as it alters the relationship between the dark and light pixels._
+
 Gamma adjustments can be made to the image by selecting your image then going to **Process -&gt; Math -&gt; Gamma**.
 
 ![](/assets/part4/gamma_menu.jpg)
@@ -47,6 +51,8 @@ You will see from the images below that gamma adjustments have a significant imp
 ![](/assets/part4/gamma_adjustment_example.jpg)
 
 ## Colour Balance {#colour-balance}
+
+_Colour balance is considered a non-linear adjustment as it alters the relationship between different components \(channels\) of the same image, ie: one is changed without the others being changed equally._
 
 You can also adjust the levels of individual colours within an RGB image using the **Color Balance** tool. To find this go to **Image -&gt; Adjust -&gt; Color Balance**.
 
