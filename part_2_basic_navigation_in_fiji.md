@@ -28,6 +28,18 @@ Some basic image information can be found in the top left corner of your opened 
 
 ![](/assets/Part 2/Image Info Display/Info Display Annoted.JPG)
 
+## Detailed Image Information {#zooming-and-panning}
+
+You can find more detailed image information by going to **Image -&gt; Show Info **\(or use shortcut Ctrl + I\).
+
+![](/assets/Part 2/Detailed Image Info/Show Info 1 - menu.jpg)
+
+This will display information about the image based off the attached metadata. The more detailed the metadata, the more information you will get. For example, a raw format file such as .oif will have more information than a .tiff file. In turn a .tiff file will usually have more information than a .jpg file.
+
+![](/assets/Part 2/Detailed Image Info/Show Info 2 - info.jpg)
+
+
+
 ## Zooming and Panning {#zooming-and-panning}
 
 Select the magnifying glass from the tool bar on the FIJI interface to activate the **Zoom Tool**.
@@ -122,7 +134,7 @@ The co-ordinates and size of any ROI will be displayed in the information bar wh
 
 ### Angle Tool
 
-![](/assets/Part 2/ROIs/individuals/angle.jpg) Select the **Angle Tool** from the tool bar. 
+![](/assets/Part 2/ROIs/individuals/angle.jpg) Select the **Angle Tool** from the tool bar.
 
 Click on three points of interest in the image to measure the angle between them.
 
@@ -236,7 +248,7 @@ Once you have selected and added all ROIs of interest to the list, select **Meas
 
 ![](/assets/Part 2/ROI Manager/ROI manager 5 - More Options.JPG)
 
-Click on a set of co-ordinates in the list to highlight an individual ROI. The co-ordinates in the list will be highlighted blue and ROI will display in the imge \(or show as the active ROI if 'Show All' is selected\). 
+Click on a set of co-ordinates in the list to highlight an individual ROI. The co-ordinates in the list will be highlighted blue and ROI will display in the imge \(or show as the active ROI if 'Show All' is selected\).
 
 ![](/assets/Part 2/ROI Manager/ROI manager 6 - Select ROI.JPG)
 
@@ -298,7 +310,7 @@ You can alter the font, size and colour by opening the text options. You can als
 
 ![](/assets/Part 2/Adding Text To Images/Text 2 - options.JPG)
 
-You can move the text after adding it to the image by clicking and dragging inside the text box, similar to moving an ROI. **Do not click outside the text box as this will delete the text.** To keep the text on the image go to **Image -&gt; Overlay -&gt; Add Selection** \(or use shortcut Ctrl+B\). 
+You can move the text after adding it to the image by clicking and dragging inside the text box, similar to moving an ROI. **Do not click outside the text box as this will delete the text.** To keep the text on the image go to **Image -&gt; Overlay -&gt; Add Selection** \(or use shortcut Ctrl+B\).
 
 ![](/assets/Part 2/Adding Text To Images/Text 5 - Add Selection.JPG)
 
@@ -307,8 +319,6 @@ You can then work with the text as you would any other overlay \(show/hide/remov
 You can also go to **Edit -&gt; Draw** \(or shortcut Ctrl+D\) to incorporate text into the image, but this will keep text only. If you have a background colour this will be lost with this option, so ensure your text colour is clearly visible. When working with stacks this option will allow you to apply the text to all images in the stack.
 
 ![](/assets/Part 2/Adding Text To Images/Text 6 - Draw.JPG)
-
-
 
 ## Saving; Formats, Options and Image Quality {#saving-formats-options-and-image-quality}
 
@@ -332,7 +342,7 @@ To choose a specific format for saving, got to **File -&gt; Save As**, and selec
 
 Use **Save Results** from the file options to export all data in an active results window as a text file.
 
-Or; to export results as an Excel file, click on the results window and within the window select **File -&gt; Save As.** 
+Or; to export results as an Excel file, click on the results window and within the window select **File -&gt; Save As.**
 
 ![](/assets/Part 2/Saving/Saving 3 - Save results.jpg)
 

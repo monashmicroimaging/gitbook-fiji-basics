@@ -20,11 +20,11 @@ This will open a display window showing the dimensions of the image and the scal
 
 ![](/assets/part5/image_properties_window.jpg)
 
-For this image we see the scale is automatically set at 2.2m/px.
+For this image we see the scale is automatically set at 2.2microns/pixel.
 
 You do no need to make any changes here, select **OK** or close the window to exit.
 
-You can also find the calibrated scale, this time in px/m, by going to **Analyze -&gt; Set Scale**.
+You can also find the calibrated scale, this time in pixels/micron, by going to **Analyze -&gt; Set Scale**.
 
 ![](/assets/part5/set_scale_menu.jpg)
 
