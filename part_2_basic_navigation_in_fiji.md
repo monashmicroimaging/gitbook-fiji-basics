@@ -2,7 +2,7 @@
 
 The FIJI interface has many menus and options. In this section we will go through the basics for navigating the FIJI interface and opening and working with your images in the FIJI software.
 
-The image **Interstitium 2** will be used for demonstration throughout this section.
+The image _Interstitium 2.tiff_ will be used for demonstration throughout this section.
 
 ## The FIJI Interface {#the-fiji-interface}
 
@@ -166,7 +166,7 @@ ROIs can be modified in a number of ways after selection. This means you can und
 
 To **delete** an ROI click on the image outside of the ROI selection.
 
-To **resize** an ROI click and drag on any of the small white boxes around to ROI border.
+To **resize** an ROI click and drag on any of the small white boxes around the ROI border.
 
 ![](/assets/Part 2/Changing ROIs/Change ROIs 1 - resize annoted.JPG)
 
@@ -194,25 +194,25 @@ To select multiple ROIs for individual measurements you must use the ROI manager
 
 Holding ‘Shift’ when adding/merging the second ROI will create a symmetrical ROI. To avoid this, hold ‘Shift’ to initiate the second ROI then release it and drag the new ROI to the desired shape.
 
-**Note: **If you click and drag a point within a "merged" ROI, only that point will move, it will not resize the ROI in its current shape. The merged ROI essentially behaves as a polygon ROI.
+**Note: **If you click and drag a point within a "merged" ROI, such as that shown above, only that point will move, it will not resize the ROI in its current shape. The merged ROI essentially behaves as a polygon ROI.
 
 You can also **remove part** of an ROI by holding ‘Alt’ and drawing a second ROI of any type overlapping an existing ROI. For example; hold ‘Alt’ and draw a second circular ROI inside an existing circular ROI to create a donut shaped ROI.
 
 ![](/assets/Part 2/Changing ROIs/Change ROIs 3 - remove ROI.jpg)
 
-**Note:** Once this second ROI is drawn neither ROI can be resized, and as the inside of the second ROI is no longer considered a selection you must click and drag withint the space wbetween the original and second ROIs to move.
+**Note:** Once this second ROI is drawn neither ROI can be resized, and as the inside of the second ROI is no longer considered a selection you must click and drag within the space between the original and second ROIs to move it. If you click 'inside' the second ROI, your selection will be lost.
 
 ### Brush Tool
 
-ROIs can also be added or modified using the **Selection Brush Tool**, which is found under the options for elliptical ROIs in the tool bar. Right Click on the icon to select the brush tool from the drop down menu. Double click on the brush tool icon to open options. Here you can modify the size of the brush in pixels.
+ROIs can also be added or modified using the **Selection Brush Tool**, which is found under the options for oval/elliptical ROIs in the tool bar. Right Click on the icon to select the brush tool from the drop down menu. 
 
 ![](/assets/Part 2/Brush Tool/Brush 1 - Tool Bar.jpg)
 
-After selecting the tool you can double click on the **Brush Tool** Icon in the tool bar to change the pixel size of the 'brush'.
+After selecting the tool you can double click on the **Selection** **Brush Tool** icon in the tool bar to change the pixel size of the 'brush'.
 
 ![](/assets/Part 2/Brush Tool/Brush 2 - Options.jpg)
 
-You can then use the **Brush Tool** to paint on an ROI.
+You can then use the **Selection** **Brush Tool** to paint on an ROI.
 
 ![](/assets/Part 2/Brush Tool/Brush 3 - Paint on ROI.JPG)
 
@@ -226,19 +226,21 @@ To subtract from an existing ROI, start outside the ROI and sweep the brush inwa
 
 ## ROI Manager {#roi-manager}
 
-To measure multiple ROIs individually, you must add them to the ROI manager. To find the ROI manager go to **Analyze -&gt; Tools -&gt; ROI manager**. This will open the ROI manager window.
+To measure multiple ROIs individually, rather than a single 'merged' ROI measurement, you must add them to the ROI manager. To find the ROI manager go to **Analyze -&gt; Tools -&gt; ROI manager**.
 
 ![](/assets/Part 2/ROI Manager/ROI Manager 1 - menu.jpg)
 
-This opens the ROI manager window.
+This opens the ROI Manager window.
 
 ![](/assets/Part 2/ROI Manager/ROI manager 2 - Manager Window.JPG)
 
-Select your ROI tool and make your selection then click **Add** in the ROI manager \(or use the shortcut: t\). This will add the co-ordinates of the ROI to the list in ROI manager.
+Select your ROI tool and make your selection on the image, then click **Add** in the ROI Manager \(or use the shortcut: t\). This will add the co-ordinates of the ROI to the list in ROI Manager.
 
 ![](/assets/Part 2/ROI Manager/ROI manager 3 - Add to Manager.JPG)
 
-Only the most recent ROI will be active, and visible, in the image, but all ROIs are saved to the image. To view all saved ROIs, tick the box next to **Show All** in the ROI manager. Also ensure the box next to **Labels** is selected so that the ROIs on the image will be numbered according to their position in the list.
+Continue drawing and adding all ROIs required. To add multiple ROIs of identicle shape and size, once the first ROI has been added to the Manager, you can then move the original ROI to a new location and click **Add** again. repeat this process for all ROIs needed.
+
+Only the most recent ROI will be active, and visible, in the image, but all ROIs are saved within the image. To view all ROIs, tick the box next to **Show All** in the ROI manager. Also ensure the box next to **Labels** is selected so that the ROIs on the image will be numbered according to their position in the list.
 
 ![](/assets/Part 2/ROI Manager/ROI manager 4 - Show All.JPG)
 
@@ -250,7 +252,7 @@ Click on a set of co-ordinates in the list to highlight an individual ROI. The c
 
 ![](/assets/Part 2/ROI Manager/ROI manager 6 - Select ROI.JPG)
 
-You can then make individual adjustments to this ROI from the ROI manager options \(delete, rename, etc\) or measure it independantly by clicking measure. Click **Deselect** to return to the full list.
+You can then make individual adjustments to this ROI from the ROI manager options \(delete, rename, etc\) or measure it independantly by clicking measure while it is highlighted. Click **Deselect** to return to the full list.
 
 ## Overlay ROIs to a New Image {#overlay-rois-to-a-new-image}
 
@@ -263,6 +265,14 @@ All ROIs in the ROI manager will be duplicated on the second image.
 ![](/assets/Part 2/Overlay ROIs/Overlay from ROI 2 - original and duplicate.jpg)
 
 **Note: **These ROIs in the second image can't be resized or moved and will act as a 'merged' ROI in that only a single measurment for all ROIs combined will be given.
+
+If you want to measure the ROIs in he new image individually that is still possible. Click on the new image to make it the active image then select one of the ROIs in the ROI Manager. 
+
+
+
+This will now appear in the new image and you can click **Measure** in the ROI manager to get an individual measurement. Repeat for all ROIs.
+
+
 
 ## Overlaying Images {#overlaying-images}
 
