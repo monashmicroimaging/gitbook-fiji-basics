@@ -62,9 +62,9 @@ You will find the scale information listed here if it was in the image metadata.
 
 For a non-calibrated image, the dimensions of the image will appear in pixels in the top corner of the image.
 
+![](/assets/Part 4/Setting scale manually/Set scale 1 - displayed in pixels.JPG)
 
-
-If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows. 
+If you know the conversion factor, you can set the scale manually by inputting the conversion into either the image properties or set scale windows.
 
 To input the scale via **Image Properties** go to **Image -&gt; Properties** \(or shortcut Ctrl+Shift+P\), as previously described.
 
@@ -72,7 +72,7 @@ To input the scale via **Image Properties** go to **Image -&gt; Properties** \(o
 
 In an uncalibrated image the pixel dimensions will all be displayed as 1. Change the unit of length from pixels to microns and enter the conversion factor in microns \(ie: 1 pixel = x microns\). For the example used here, the calibration in microns/pixel is 0.45.
 
-
+![](/assets/Part 4/Setting scale manually/Set scale 2 - setting in image properties.JPG)
 
 Select **OK** to save the calibration changes, then save the image to maintain the calibration permanently.
 
@@ -80,25 +80,25 @@ If preferred, you can also input the calibration in pixels/micron via the **Set 
 
 ![](/assets/Part 4/Finding Scale Info/Finding Scale 4 -set scale menu.JPG)
 
-The pixel aspect ratio in the **Set Scale** window will be displayed as 1. To enter the scale, change the unit from pixels to microns and enter either the distance in pixels \(2.222 for this example\) or in microns \(0.45 for this example\)
+The pixel aspect ratio in the **Set Scale** window will be displayed as 1. To enter the scale, change the unit from pixels to microns and enter either the distance in pixels \(2.22222... for this example\) or in microns \(0.45 for this example\).
 
-
+![](/assets/Part 4/Setting scale manually/Set scale 3 - setting in set scale.JPG)
 
 Select **OK** to save the scale, and save the image.
 
 Whichever method you chose, you will now have a calibrated image that you can easily add a scale bar too, or make accurate measurements on.
 
-
+![](/assets/Part 4/Setting scale manually/Set scale 4 - calibrated image.JPG)
 
 ## Adding Scale Bars {#adding-scale-bars}
 
 To add a scale bar to your calibrated image, select the image and go to **Analyze -&gt; Tools -&gt; Scale Bar**.
 
-![](/assets/part5/scalebar_menu.jpg)
+
 
 In the resulting window, enter you scale bar preferences.
 
-![](/assets/part5/scalebar_options.jpg)
+
 
 Under **width** enter the size you’d like the scale bar to represent.
 
@@ -108,7 +108,7 @@ To show the scale bar only without dimensions check the box next to **Hide text*
 
 You will see a preview of the scale bar on the image as you make changes. Select **OK** and save the image to save the scale bar.
 
-![](/assets/part5/scalebar_result.jpg)
+
 
 ## Cropping Images {#cropping-images}
 
