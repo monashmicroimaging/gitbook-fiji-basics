@@ -38,8 +38,6 @@ This will display information about the image based off the attached metadata. T
 
 ![](/assets/Part 2/Detailed Image Info/Show Info 2 - info.jpg)
 
-
-
 ## Zooming and Panning {#zooming-and-panning}
 
 Select the magnifying glass from the tool bar on the FIJI interface to activate the **Zoom Tool**.
