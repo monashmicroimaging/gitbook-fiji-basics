@@ -6,7 +6,17 @@ We will use **NeuralTube** plus **NeuralTube Blue Saturated** and **TrichromeIHC
 
 ## Bit Depth {#bit-depth}
 
-The bit depth of an image will be determined by the camera that the image was captured on. Most images are captured in 8-bit or 16-bit. Three colour fluorescent images are RGB 24-bit format \(3 x 8-bit colour channels\). 8-bit or RGB are the format most standard image viewers and presentation software will show. Images at other bit-depths may appear as black boxes. Changing the bit depth to 8-bit or 24-bit RGB is very simple.
+The bit depth of an image essentially determines the number of colours that can be displayed within that image. The number of colours \(also referred to as dynamic range\) can be calculated by the simple equation: 2^bit-depth. 
+
+| Bit Depth | Dynamic Range |
+| :---: | :---: |
+| 8-bit | 0 - 255 \(or 256 colours\) |
+| 12-bit | 0 - 4,095 \(or 4,096 colours\) |
+| 14-bit | 0 - 16,383 \(or 16,384 colours\) |
+| 16-bit | 0 - 65,535 \(or 65,536 colours\) |
+| 24-bit \(also called 24-bit RGB = 3 x 8-bit channels\) | 0 - 16,777,215 \(or 16,777,216 colours\) |
+
+The bit depth of an image will be determined by the camera that the image was captured on. Most images are captured on 8-bit, 12-bit, 14-bit or 16-bit cameras. Three colour fluorescent images are RGB 24-bit format \(3 x 8-bit colour channels\). 8-bit or RGB are the format most standard image viewers and presentation software will show. Images at other bit-depths may appear as black boxes. To allow any software to display your image correctly you can change the bit depth to 8-bit or 24-bit RGB very simply.
 
 Select your image then navigate to **Image -&gt; Type** and select **8-bit** or **RGB Color** from the list.
 
@@ -193,6 +203,4 @@ You can then assign LUTs to each image and merge the ‘channels’ using the me
 ![](/assets/part6/color_deconvolution_merge_inverted_results_2.jpg)
 
 This will give you a pseudo-fluorescent version of your immunohistochemistry image.
-
-![](/assets/part6/color_deconvolution_pseudo_fluorescent_image_result.jpg)
 
