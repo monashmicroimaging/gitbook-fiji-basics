@@ -6,13 +6,13 @@ We will use **NeuralTube** plus **NeuralTube Blue Saturated** and **TrichromeIHC
 
 ## Bit Depth {#bit-depth}
 
-The bit depth of an image will be determined by the camera that the image was captured on. Images may be captured in 8-bit, 12-bit, or 16-bit. Most three colour fluorescent images are RGB 24-bit format \(3 x 8bit colour channels\). This is the format most standard image viewers and presentation software will show. Images at other bit-depths may appear as black boxes. Changing a single 12, 14 or 16bit image to 24bit RGB is very simple.
+The bit depth of an image will be determined by the camera that the image was captured on. Most images are captured in 8-bit or 16-bit. Three colour fluorescent images are RGB 24-bit format \(3 x 8-bit colour channels\). 8-bit or RGB are the format most standard image viewers and presentation software will show. Images at other bit-depths may appear as black boxes. Changing the bit depth to 8-bit or 24-bit RGB is very simple.
 
-Select your image then navigate to **Image -&gt; Type** and select **RGB Color** from the list.
+Select your image then navigate to **Image -&gt; Type** and select **8-bit** or **RGB Color** from the list.
 
 ![](/assets/part6/bit_depth_menu.jpg)
 
-Likewise, some functions of FIJI will not work on an RGB 24-bit image \(ie: thresholding\). You can convert a single channel RGB image to 8-bit using the same steps as above, but selecting **8-bit** from the choices. In a merged RGB image you can create 3 x 8-bit images by splitting channels as shown below.
+Likewise, some functions of FIJI will not work on an RGB 24-bit image \(ie: thresholding\). You can convert a single channel RGB image to 8-bit using the same steps as above, but selecting **8-bit** from the choices. In a merged RGB image you can also create 3 x 8-bit images by splitting channels as shown below.
 
 NOTE: **DO NOT** alter bit and colour depth if you plan to do any analysis on the image, always work on a duplicate image and/or save the results of the conversion as a separate file to preserve your original image.
 

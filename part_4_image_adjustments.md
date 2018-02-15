@@ -18,11 +18,9 @@ This will open a window with a histogram of the image data at the top with the r
 
 ![](/assets/part4/brigthness_contrast_window.jpg)
 
-In this example the range is 0-255, as it is an 8bit image. The dynamic range for the intensities will vary depending on the image format and bit- depth of the camera used.
+In this example the range is 0-255, as it is an 8bit image. The dynamic range for the intensities will vary depending on the image format and bit- depth of the camera used. Bit depth is discussed in more detail in Part 6 of these notes.
 
-You can adjusting the brightness and contrast in several different ways. You can move the **Minimum** and **Maximum** or **Brightness** and **Contrast**
-
-sliders. These should only be adjusted to the limit of the data and not beyond it.
+You can adjusting the brightness and contrast in several different ways. You can move the **Minimum** and **Maximum** or **Brightness** and **Contrast **sliders. These should only be adjusted to the limit of the data and not beyond it.
 
 The **Auto** button will calculate and apply a histogram stretch automatically, but does not always make an appropriate adjustment.
 
