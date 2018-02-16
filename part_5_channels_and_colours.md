@@ -24,7 +24,7 @@ It is helpful to know the bit depth of the camera used to capture your images so
 
 Select your image then navigate to **Image -&gt; Type** and select **8-bit** or **RGB Color** from the list.
 
-
+![](/assets/Part 5/Bit Depth/Bit Depth 1 - Menu.jpg)
 
 Likewise, some functions of FIJI will not work on an RGB 24-bit image \(ie: thresholding\). You can convert a single channel RGB image to 8-bit using the same steps as above, but selecting **8-bit** from the choices. In a merged RGB image you can also create 3 x 8-bit images by splitting channels as shown below.
 
@@ -34,15 +34,15 @@ Likewise, some functions of FIJI will not work on an RGB 24-bit image \(ie: thre
 
 To separate the channels in a merged image go to **Image -&gt; Color -&gt; Split Channels**.
 
-
+![](/assets/Part 5/Split Channels/Split 1 - Menu.jpg)
 
 This will automatically detect and separate red, green and blue into individual monochrome images.
 
-
+![](/assets/Part 5/Split Channels/Split 2 - Original to split.jpg)
 
 The channel will be identified for each image next to the image name.
 
-
+![](/assets/Part 5/Split Channels/Split 4 - channel label.jpg)
 
 ## Assigning or Changing Image Colours Using LUTs {#assigning-or-changing-image-colours-using-luts}
 
@@ -50,17 +50,9 @@ Monochrome images have a grey look up table applied, meaning that each intensity
 
 Click on the image you want to change and then go to **Image -&gt; LUTS** and select the colour/LUT you want to apply to the image.
 
-
-
 A red LUT has now been applied to this image.
 
-
-
 You can also find LUTs from the **LUT** icon in the tool bar. Click the icon to open the list of LUTs and select the one you want to apply to your image.
-
-
-
-
 
 ## Merge Channels {#merge-channels}
 
