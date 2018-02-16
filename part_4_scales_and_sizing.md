@@ -128,7 +128,7 @@ Select your ROI tool, as previously described, and draw a region of interest aro
 
 ![](/assets/Part 4/Cropping/Cropping 1 - ROI.JPG)
 
-Right click in the selection and choose **Duplicate** from the drop down menu. 
+Right click in the selection and choose **Duplicate** from the drop down menu.
 
 ![](/assets/Part 4/Cropping/Cropping 2 - duplicate ROI.JPG)
 
@@ -150,19 +150,19 @@ This will crop the active image to the selected ROI without any duplication.
 
 ## Resizing or Scaling Images {#resizing-or-scaling-images}
 
-You can resize, or scale, your image using several different methods. All of these methods resize your image by scaling the pixels. While size changes can be undone until the image is saved, but it is still recommended you work with a duplicate image when making changes to pixel information.
+You can resize, or scale, your image using several different methods. All of these methods resize your image by scaling the pixels. While size changes can be undone \(until you hit save\) it is still recommended you work with a duplicate image when making any changes to pixel information and always leave your original data unchanged.
 
-Because these methods alter the pixel information within the image they **should not** be used if any measurements are to be made on the image.
+Because these methods alter the pixel information within the image they **should not** be used prior to any measurements being made on an image.
 
 The first method is the **Image Size** tool, which is found under **Image -&gt; Adjust -&gt; Size**.
 
-![](/assets/part5/image_adjust_size_menu.jpg)
+
 
 This will open the **Resize** options window, where you can enter the new image size in pixels. You can also select to **Constrain Aspect Ratio** for the image and the **Interpolaiton**.
 
 Select **OK** to apply the changes to the image.
 
-![](/assets/part5/image_adjust_size_result.jpg)
+
 
 Note the difference in the pixel dimensions here following the image resizing.
 
