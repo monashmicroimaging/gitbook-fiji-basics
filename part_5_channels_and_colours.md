@@ -50,9 +50,19 @@ Monochrome images have a grey look up table applied, meaning that each intensity
 
 Click on the image you want to change and then go to **Image -&gt; LUTS** and select the colour/LUT you want to apply to the image.
 
-A red LUT has now been applied to this image.
+![](/assets/Part 5/LUTs/LUTs 1 - menu.JPG)
 
-You can also find LUTs from the **LUT** icon in the tool bar. Click the icon to open the list of LUTs and select the one you want to apply to your image.
+You can also find LUTs from the **LUT** icon in the tool bar. 
+
+![](/assets/Part 5/LUTs/LUTs 2 - tool bar icon.JPG)
+
+Click the icon to open the list of LUTs and select the one you want to apply to your image.
+
+![](/assets/Part 5/LUTs/LUTs 3 - tool bar list.JPG)
+
+To apply a LUT to your image, ensure it is active by clicking in the image, then choose the colour you want to assigne from either the menu or tool bar. Here we have applied a red LUT to the red channel from our previously seperated image.
+
+![](/assets/Part 5/LUTs/LUTS 4 - colour change.jpg)
 
 ## Merge Channels {#merge-channels}
 
