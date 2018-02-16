@@ -94,21 +94,15 @@ Whichever method you chose, you will now have a calibrated image that you can ea
 
 To add a scale bar to your calibrated image, select the image and go to **Analyze -&gt; Tools -&gt; Scale Bar**.
 
-
-
 In the resulting window, enter you scale bar preferences.
-
-
 
 Under **width** enter the size you’d like the scale bar to represent.
 
 Enter your **Font** size and select **Colour** and **Location** for the scale bar from the drop down menus.
 
-To show the scale bar only without dimensions check the box next to **Hide text**.
+To show the scale bar line only without dimensions labelled underneath it, check the box next to **Hide text**.
 
 You will see a preview of the scale bar on the image as you make changes. Select **OK** and save the image to save the scale bar.
-
-
 
 ## Cropping Images {#cropping-images}
 
