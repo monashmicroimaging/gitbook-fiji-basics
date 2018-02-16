@@ -186,17 +186,21 @@ Click **OK** to apply the changes to the image. A duplicated image, at the new s
 
 The third method is **Binning**, which is found under **Image -&gt; Transform -&gt; Bin**.
 
-
+![](/assets/Part 4/resizing/resize 7 - Binning Menu.JPG)
 
 Binning reduces an image by pixels similar to the other methods. The disadvantage of using binning is that it can only reduce image size, you can't scale up \(ie: create an enlargment, etc\). When using Re-sizing or Scaling you can increase or decrease image size. The main benefit of using Binning as your resizing method is that it is supported by the Undo command and therefore changes can be reversed. Binning is usually recommended more for reducing file size than changing image dimmensions for display/presentation purposes.
 
 In the Options, enter the **Shrink Factor** or how much you want to reduce the image. For example 2 x 2 binning will rduce the image size by half. Select your method from the **Bin Method** drop down menu. Here we have used **Averaging.**
 
-Click **OK** to apply the changes to the image. Again be aware of the change in pixel dimmensions of the image as well as size appearence. 
+![](/assets/Part 4/resizing/resize 8 - Binning Options.JPG)
+
+Click **OK** to apply the changes to the image. Again be aware of the change in pixel dimmensions of the image as well as size appearence.
+
+![](/assets/Part 4/resizing/resize 9 - binning original vs re-sized.JPG)
 
 The final method is **Scale to DPI**, which is found under **Image -&gt; Adjust -&gt; Scale to DPI**.
 
-![](/assets/part5/scale_dots_per_inch_menu.jpg)
+
 
 Under **Scale to DPI** you can enter a final image resolution size in dots per inch \(or DPI\) and the image will be scaled accordingly.
 
@@ -206,9 +210,9 @@ Select the check boxes next to **Average when downsizing** and **Create new wind
 
 Click **OK** to create the new image.
 
-![](/assets/part5/scale_dots_per_inch_options.jpg)
+
 
 A new window will be created with the re-sized image.
 
-![](/assets/part5/scale_dots_per_inch_result.jpg)
+
 
