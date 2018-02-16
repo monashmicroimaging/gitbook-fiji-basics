@@ -200,19 +200,23 @@ Click **OK** to apply the changes to the image. Again be aware of the change in 
 
 The final method is **Scale to DPI**, which is found under **Image -&gt; Adjust -&gt; Scale to DPI**.
 
+![](/assets/Part 4/resizing/resize 10 - DPI menu.JPG)
 
+Under **Scale to DPI** you can enter a final image resolution size in dots per inch \(or DPI\) and the image will be scaled accordingly. Enter your final required DPI in the first box and select the **Interpolation** method from the drop down menu and choose whether to average or not. Select the check boxe next to **Create new window**. You can give the resized image a new name if preferred. here we have again halved the image size by scaling froom 600 DPI to 300 DPI, and chose no interpolation and no averaging.
 
-Under **Scale to DPI** you can enter a final image resolution size in dots per inch \(or DPI\) and the image will be scaled accordingly.
+![](/assets/Part 4/resizing/resize 11 - DPI options.JPG)
 
-Enter your final required DPI in the first box and select the **Interpolation** method from the drop down menu.
+Click **OK** to create the new image. A new window will be created with the re-sized image. As always note teh difference in appearance and pixel dimmensions in the new image.
 
-Select the check boxes next to **Average when downsizing** and **Create new window**. You can give the resized image a new name if preferred.
+![](/assets/Part 4/resizing/resize 12 - DPI original vs resized.JPG)
 
-Click **OK** to create the new image.
+A benefit to using **Scale to DPi** to resize, along with the create new window option, is that you can also resize by entering a size in inched into the options and maintain the DPI. For example here we leave the DPI at 600, but enter size values of 1 inch by 1 inch. Again select your choices for **Interpolation** and **Averaging** and select **Create new window**.
 
+![](/assets/Part 4/resizing/resize 13 - DPI by size.JPG)
 
+In the new image now you will see a slightly different size to the previously resized images and teh dimmensions are now displayed as 1in x 1in. new pixel dimmensions can also be found in brackets beside the new dimmensions \(here: 600 x 600\).
 
-A new window will be created with the re-sized image.
+![](/assets/Part 4/resizing/resize 14 - DPI by size original vs resized.JPG)
 
-
+**Note:** The size entered here is the display size of the image, that is; as a panel in a larger image at 600DPI this picture would be 1 inch wide by 1 inch long. The sizes used here are not related to the scale of the image.
 
