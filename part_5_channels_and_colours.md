@@ -2,7 +2,7 @@
 
 Immunofluorescence experiments are almost always captured on highly sensitive monochrome cameras. This means that each fluorophore is captured as a different image with no associated colour. Often you will want to add colour to each channel \(usually in the colour of the fluorophores emission\) and to create composite images of 2 or more of the channels combined. This section will show you how to arrange and alter multi-channel images and change the colour of your images.
 
-We will use **NeuralTube** plus **NeuralTube Blue Saturated** and **TrichromeIHC** and the image set ‘**RGB- blue, RGB-green** and **RGB-red**’ for demonstration purposes.
+We will use the images _NeuralTube.jpg_ plus _NeuralTube Blue Saturated.tif_ and _TrichromeIHC.tif_ throughout this section, along with the image set _‘RGB- blue.tif, RGB-green.tif and RGB-red.tif'_.
 
 ## Bit Depth {#bit-depth}
 
@@ -16,7 +16,7 @@ The bit depth of an image essentially determines the number of colours that can 
 | 16-bit | 0 - 65,535 \(or 65,536 colours\) |
 | 24-bit \(also called 24-bit RGB = 3 x 8-bit channels\) | 0 - 16,777,215 \(or 16,777,216 colours\) |
 
-The bit depth of an image will be determined by the camera that the image was captured on. Most images are captured on 8-bit, 12-bit, 14-bit or 16-bit cameras. Three colour fluorescent images are RGB 24-bit format \(3 x 8-bit colour channels\). 
+The bit depth of an image will be determined by the camera that the image was captured on. Most images are captured on 8-bit, 12-bit, 14-bit or 16-bit cameras. Three colour fluorescent images are RGB 24-bit format \(made up of 3 x 8-bit colour channels\).
 
 It is helpful to know the bit depth of the camera used to capture your images so you know the dynamic range of your colours.
 
@@ -24,25 +24,25 @@ It is helpful to know the bit depth of the camera used to capture your images so
 
 Select your image then navigate to **Image -&gt; Type** and select **8-bit** or **RGB Color** from the list.
 
-![](/assets/part6/bit_depth_menu.jpg)
+
 
 Likewise, some functions of FIJI will not work on an RGB 24-bit image \(ie: thresholding\). You can convert a single channel RGB image to 8-bit using the same steps as above, but selecting **8-bit** from the choices. In a merged RGB image you can also create 3 x 8-bit images by splitting channels as shown below.
 
-NOTE: **DO NOT** alter bit and colour depth if you plan to do any analysis on the image, always work on a duplicate image and/or save the results of the conversion as a separate file to preserve your original image.
+**Note:** _DO NOT_ alter bit and colour depth if you plan to do any analysis on the image, always work on a duplicate image and/or save the results of the conversion as a separate file to preserve your original image.
 
 ## Split Channels {#split-channels}
 
 To separate the channels in a merged image go to **Image -&gt; Color -&gt; Split Channels**.
 
-![](/assets/part6/split_channels_menu.jpg)
+
 
 This will automatically detect and separate red, green and blue into individual monochrome images.
 
-![](/assets/part6/split_channels_result.jpg)
+
 
 The channel will be identified for each image next to the image name.
 
-![](/assets/part6/split_channel_information.jpg)
+
 
 ## Assigning or Changing Image Colours Using LUTs {#assigning-or-changing-image-colours-using-luts}
 
@@ -50,17 +50,17 @@ Monochrome images have a grey look up table applied, meaning that each intensity
 
 Click on the image you want to change and then go to **Image -&gt; LUTS** and select the colour/LUT you want to apply to the image.
 
-![](/assets/part6/lookup_tables_menu.jpg)
+
 
 A red LUT has now been applied to this image.
 
-![](/assets/part6/lookup_tables_result.jpg)
+
 
 You can also find LUTs from the **LUT** icon in the tool bar. Click the icon to open the list of LUTs and select the one you want to apply to your image.
 
-![](/assets/part6/lookup_tables_toolbar_button.jpg)
 
-![](/assets/part6/lookup_tables_toolbar_options.jpg)
+
+
 
 ## Merge Channels {#merge-channels}
 
