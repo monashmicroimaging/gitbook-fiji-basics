@@ -174,7 +174,7 @@ In the **Scale** window, enter the vale by which you want to scale your image \(
 
 Select settings you require for the **Interpolaiton** and **Averaging.**
 
-The biggest benefit to using Scale as your method of resizing is that you can select **Create new window** so changes will be made to a duplicate image, not the original. This means that you can skip duplicating the original before scaling and the original will always remain unchanged. You can give the new image a different name or keep the default. 
+The biggest benefit to using Scale as your method of resizing is that you can select **Create new window** so changes will be made to a duplicate image, not the original. This means that you can skip duplicating the original before scaling and the original will always remain unchanged. You can give the new image a different name or keep the default.
 
 Here we have used a scale factor of 0.5 to half the image size and selected no interpolation or averaging. This gives us essentially identical settings to those used using the Image Size tool above.
 
@@ -184,25 +184,15 @@ Click **OK** to apply the changes to the image. A duplicated image, at the new s
 
 ![](/assets/Part 4/resizing/resize 6 - scale original vs re-sized.JPG)
 
-
-
 The third method is **Binning**, which is found under **Image -&gt; Transform -&gt; Bin**.
 
 
 
-
-
-Binning reduces an image by pixels similar to the other methods. The disadvantage of using binning is that it can only reduce image size, you can't scale up \(ie: create an enlargment, etc\). When using Re-sizing or Scaling you can increase or decrease image size. The main benefit of using Binning as your resizing method is that it is supported by the Undo command and therefore changes can be reversed.
+Binning reduces an image by pixels similar to the other methods. The disadvantage of using binning is that it can only reduce image size, you can't scale up \(ie: create an enlargment, etc\). When using Re-sizing or Scaling you can increase or decrease image size. The main benefit of using Binning as your resizing method is that it is supported by the Undo command and therefore changes can be reversed. Binning is usually recommended more for reducing file size than changing image dimmensions for display/presentation purposes.
 
 In the Options, enter the **Shrink Factor** or how much you want to reduce the image. For example 2 x 2 binning will rduce the image size by half. Select your method from the **Bin Method** drop down menu. Here we have used **Averaging.**
 
-
-
-Click **OK** to apply the changes to the image.
-
-
-
-**Note:** With binning the image does not appear smaller in dimensions compared to the original but half of the pixels have been removed from the image. Binning is more useful for change the file size than the actual image size dimensions.
+Click **OK** to apply the changes to the image. Again be aware of the change in pixel dimmensions of the image as well as size appearence. 
 
 The final method is **Scale to DPI**, which is found under **Image -&gt; Adjust -&gt; Scale to DPI**.
 
