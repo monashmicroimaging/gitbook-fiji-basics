@@ -2,7 +2,7 @@
 
 For proper presentation of images it is essential to include a scale bar. This allows the viewer to see the scale of the image being presented and make their own conclusions about the data. Calibrating an image is also important if you want to get meaningful size-related measurements out of the image in any later analysis. Calibration is also important when resizing your images. In this section we will show you how to find calibration information from the image, and how to set the scale if the image is not calibrated. We will also demonstrate how to add a scale bar and how to crop and resize images without altering the image data.
 
-This section uses the images **Interstitium 2.tif** and **TrichromeIHC.tif **for demonstration.
+This section uses the images _Interstitium 2.tif_ and _TrichromeIHC.tif_** **for demonstration.
 
 ## Finding Scale Information in the Image Properties {#finding-scale-information-in-the-image-properties}
 
@@ -106,7 +106,7 @@ To show the scale bar line only without dimensions labelled underneath it, check
 
 ![](/assets/Part 4/Adding a Scale bar/Scal Bar 2 - scale bar options.jpg)
 
-Here we have set a scale bar of 100microns, in black at the lower right corner of the image. You will see a preview of the scale bar on the image as you make changes. 
+Here we have set a scale bar of 100microns, in black at the lower right corner of the image. You will see a preview of the scale bar on the image as you make changes.
 
 ![](/assets/Part 4/Adding a Scale bar/Scal Bar 3 - options set.jpg)
 
@@ -122,25 +122,27 @@ make any other changes you want and again, select **OK** and save the image to i
 
 ## Cropping Images {#cropping-images}
 
-You can easily crop an image by drawing an ROI and duplicating the section. Select your ROI tool, as previously described, and draw a region of interest around the area you want to crop.
+It is always reccommended that you keep your original image unaltered and create a duplicate for cropping. You can easily take care of duplication and cropping on one step by drawing an ROI in your original image and duplicating the section. 
 
-![](/assets/part5/crop_images_with_duplicate.jpg)
+Select your ROI tool, as previously described, and draw a region of interest around the area you want to crop.
+
+
 
 Right click in the selection and choose **Duplicate** from the drop down menu. In the Duplication window you can give the image a new name or keep the default.
 
-![](/assets/part5/duplicate_options.jpg)
+
 
 Click **OK** to create the duplicate as a new image.
 
-![](/assets/part5/duplicate_result.jpg)
 
-While it is always recommended that you keep the original image uncropped and create a duplicate in this way, you can also crop without creating a duplicate. Select your ROI tool and draw an ROI as above. Then go to **Image -&gt; Crop** \(or use shortcut Ctrl+Shift+X\).
 
-![](/assets/part5/crop_menu.jpg)
+To crop an already duplicated image, or without duplicating, select your ROI tool and draw an ROI as above. Then go to **Image -&gt; Crop** \(or use shortcut Ctrl+Shift+X\).
+
+
 
 This will crop the active image to the selected ROI.
 
-![](/assets/part5/crop_result.jpg)
+
 
 ## Resizing or Scaling Images {#resizing-or-scaling-images}
 
