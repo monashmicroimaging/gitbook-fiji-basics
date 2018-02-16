@@ -122,27 +122,31 @@ make any other changes you want and again, select **OK** and save the image to i
 
 ## Cropping Images {#cropping-images}
 
-It is always reccommended that you keep your original image unaltered and create a duplicate for cropping. You can easily take care of duplication and cropping on one step by drawing an ROI in your original image and duplicating the section. 
+It is always reccommended that you keep your original image unaltered and create a duplicate for cropping. You can easily take care of duplication and cropping on one step by drawing an ROI in your original image and duplicating the section.
 
 Select your ROI tool, as previously described, and draw a region of interest around the area you want to crop.
 
+![](/assets/Part 4/Cropping/Cropping 1 - ROI.JPG)
 
+Right click in the selection and choose **Duplicate** from the drop down menu. 
 
-Right click in the selection and choose **Duplicate** from the drop down menu. In the Duplication window you can give the image a new name or keep the default.
+![](/assets/Part 4/Cropping/Cropping 2 - duplicate ROI.JPG)
 
+In the Duplication window you can give the image a new name or keep the default.
 
+![](/assets/Part 4/Cropping/Cropping 3 - rename duplicate.JPG)
 
 Click **OK** to create the duplicate as a new image.
 
-
+![](/assets/Part 4/Cropping/Cropping 4 - original and crop .JPG)
 
 To crop an already duplicated image, or without duplicating, select your ROI tool and draw an ROI as above. Then go to **Image -&gt; Crop** \(or use shortcut Ctrl+Shift+X\).
 
+![](/assets/Part 4/Cropping/Cropping 5 - crop menu.JPG)
 
+This will crop the active image to the selected ROI without any duplication.
 
-This will crop the active image to the selected ROI.
-
-
+![](/assets/Part 4/Cropping/Cropping 6 - original cropped.JPG)
 
 ## Resizing or Scaling Images {#resizing-or-scaling-images}
 
