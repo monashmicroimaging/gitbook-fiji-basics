@@ -156,19 +156,21 @@ Because these methods alter the pixel information within the image they **should
 
 The first method is the **Image Size** tool, which is found under **Image -&gt; Adjust -&gt; Size**.
 
+![](/assets/Part 4/resizing/Resize 1 - Size Menu.jpg)
+
+This will open the **Resize** options window, where you can enter the new image size in pixels. You can also select to **Constrain Aspect Ratio** for the image and the **Interpolaiton**. We have set the new size for our image as 512 by 512 pixels and we have removed averaging and set interpolation to _None_. 
+
+![](/assets/Part 4/resizing/Resize 2 - Size Options combined.jpg)
+
+Select **OK** to apply the changes to the image. Note not only the difference in size here but also the difference in the pixel dimensions following the image resizing.
+
+![](/assets/Part 4/resizing/Resize 3 - original vs re-sized.jpg)
+
+The next method for changing image size is the **Scale** tool, which is found under **Image -&gt; Scale** \(or use shortcut Ctrl+E\).
 
 
-This will open the **Resize** options window, where you can enter the new image size in pixels. You can also select to **Constrain Aspect Ratio** for the image and the **Interpolaiton**.
 
-Select **OK** to apply the changes to the image.
 
-Note the difference in the pixel dimensions here following the image resizing.
-
-The next method is the **Scale** tool, which is found under **Image -&gt; Scale** \(or use shortcut Ctrl+E\).
-
-![](/assets/part5/scale_menu.jpg)
-
-![](/assets/part5/scale_options.jpg)
 
 In the **Scale** window, enter the vale by which you want to scale your image \(ie: scale factor of 2 will double the image size, scale factor of 0.5 will halve the image size\). In the Scale tool, the aspect ration will automatically be constrained, when you change the scale factor for X, the Y scale factor will adjust accordingly. The height and width \(in pixel\) will also automatically adjust according to the scale factor entered.
 
