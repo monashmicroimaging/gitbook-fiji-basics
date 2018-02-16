@@ -94,6 +94,8 @@ Whichever method you chose, you will now have a calibrated image that you can ea
 
 To add a scale bar to your calibrated image, select the image and go to **Analyze -&gt; Tools -&gt; Scale Bar**.
 
+![](/assets/Part 4/Adding a Scale bar/Scal Bar 1 - menu.jpg)
+
 In the resulting window, enter you scale bar preferences.
 
 Under **width** enter the size you’d like the scale bar to represent.
@@ -102,7 +104,21 @@ Enter your **Font** size and select **Colour** and **Location** for the scale ba
 
 To show the scale bar line only without dimensions labelled underneath it, check the box next to **Hide text**.
 
-You will see a preview of the scale bar on the image as you make changes. Select **OK** and save the image to save the scale bar.
+![](/assets/Part 4/Adding a Scale bar/Scal Bar 2 - scale bar options.jpg)
+
+Here we have set a scale bar of 100microns, in black at the lower right corner of the image. You will see a preview of the scale bar on the image as you make changes. 
+
+![](/assets/Part 4/Adding a Scale bar/Scal Bar 3 - options set.jpg)
+
+When you are happy with the appearence of your scale bar, select **OK** and save the image to save the scale bar.
+
+![](/assets/Part 4/Adding a Scale bar/Scal Bar 4 - image with scale bar.jpg)
+
+If you want your scale bar in a very precise location within your image, you can draw a line ROI in that location on your image then follow the steps to addthe scale bar. In the options window it will add a scale bar the same length as the ROI, you can over-ride this and enter any length you want. The location will show "At Selection".
+
+![](/assets/Part 4/Adding a Scale bar/Scal Bar 5 - scale bar at selection.jpg)
+
+make any other changes you want and again, select **OK** and save the image to insert and save the scale bar.
 
 ## Cropping Images {#cropping-images}
 
