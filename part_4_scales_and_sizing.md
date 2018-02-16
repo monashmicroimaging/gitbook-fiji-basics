@@ -162,8 +162,6 @@ This will open the **Resize** options window, where you can enter the new image 
 
 Select **OK** to apply the changes to the image.
 
-
-
 Note the difference in the pixel dimensions here following the image resizing.
 
 The next method is the **Scale** tool, which is found under **Image -&gt; Scale** \(or use shortcut Ctrl+E\).
