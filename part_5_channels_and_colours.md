@@ -94,7 +94,7 @@ Once you have assigned your images to colours and set your options, click **OK**
 
 ## Channels Tool {#channels-tool}
 
-A composite image will present as a stack with each channel represented by one slice of that stack. To make alterations to channels within a composite image you can use the channels tools. To open this tool, go to **Image -&gt; Color -&gt; Channels Tool** \(or use shortcut Ctrl+Shift+Z\).
+A composite image will present as a stack with each channel represented by one slice of that stack. To make alterations to channels within a composite image you can use the **Channels Tools**. To open this tool, go to **Image -&gt; Color -&gt; Channels Tool** \(or use shortcut Ctrl+Shift+Z\).
 
 ![](/assets/Part 5/Channels Tool/Channels Tool 1 - Menu.jpg)
 
@@ -128,27 +128,27 @@ You can also convert to RGB via **Image -&gt; Color -&gt; Stack to RGB.**
 
 ![](/assets/Part 5/Channels Tool/Channels Tool 8 - to RGB menu.jpg)
 
-This will create a new window containing a flat RGB image of whatever is displayed in the active slice. The composite will still be availble to make further changes.
+This will create a new window containing a flat RGB image of whatever is displayed in the active slice. The composite will still be availble to make further changes. In this way the channels tool is useful for saving several variations of merged images \(ie: different channel combinations\).
 
 ![](/assets/Part 5/Channels Tool/Channels Tool 9 - final RGB.jpg)
 
 ## Assigning or Changing Image Colours in Composites {#assigning-or-changing-image-colours-in-composites}
 
-You can also use the Channels Tool to assign different colours to each channel in a composite image before converting to RGB.
+As well as creating different merged images, you can also use the **Channels Tool **to assign different colours to each channel in a composite image before converting to RGB.
 
 To do this in composite mode, select the channel you wish to change using the slider at the bottom of the image. Then go to **More** and select your colour from the menu.
 
-![](/assets/part6/channel_tool_assign_colors1.jpg)
+
 
 You can also do this in colour or greyscale mode by selecting the channel using the check box or slider and repeating these steps.
 
-![](/assets/part6/channel_tool_assign_colors2.jpg)
+
 
 Colours can also be changed in composites by selecting the channel and changing the LUT using the same methods as described for monochrome images above.
 
-You can change all channels in the image in this way \(for example to give magenta, yellow & cyan instead of red, green & blue\) and then convert to a 24bit RGB image in the same way as above to create a single merged image in the new colours.
+You can change all channels in the image in this way \(for example chose magenta, yellow & cyan instead of red, green & blue\) and then convert to a 24bit RGB image in the same way as above to create a single merged image in the new colours.
 
-![](/assets/part6/channel_tool_assign_colors_result.jpg)
+
 
 ## Merging Images/Assigning Colours with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
@@ -162,7 +162,7 @@ In the resulting window make sure both boxes are ticked. You can give the stack 
 
 ![](/assets/part6/images_to_stack_options.jpg)
 
-Note: The images will be added into the stack in alphabetical order based on their names.
+**Note:** The images will be added into the stack in teh order they were opened in FIJI.
 
 To be able to change to colour of each channel in the stack, it needs to be converted to a composite image. Go to **Image -&gt; Colour -&gt; Make Composite**.
 
