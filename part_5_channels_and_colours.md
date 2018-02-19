@@ -154,35 +154,31 @@ You can change all channels in the image in this way \(for example chose magenta
 
 ## Merging Images/Assigning Colours with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
-There are only 8 options available when using the **Merge Channels** tool. So in order to create a merge of 8 or more colours a different method has to be used. The images that you want to colour need to be added into a stack.
+There are only 8 colour options available when using the **Merge Channels** tool, so in order to create a merge of 8 or more colours a different method has to be used. 
 
-Open the images you want to merge then go to **Images -&gt; Stack -&gt; Images to Stack**.
+First, the images that you want to colour need to be added into a stack. Open the images you want to merge then go to **Images -&gt; Stack -&gt; Images to Stack**.
 
-![](/assets/part6/images_to_stack_menu.jpg)
+
 
 In the resulting window make sure both boxes are ticked. You can give the stack a name, or just leave it as the default name - _Stack_.
 
-![](/assets/part6/images_to_stack_options.jpg)
 
-**Note:** The images will be added into the stack in teh order they were opened in FIJI.
 
-To be able to change to colour of each channel in the stack, it needs to be converted to a composite image. Go to **Image -&gt; Colour -&gt; Make Composite**.
+**Note:** The images will be added into the stack in the order they were opened in FIJI.
 
-![](/assets/part6/color_make_composite_menu.jpg)
+To be able to change the colour of each channel in the stack, it needs to be converted to a composite image. Go to **Image -&gt; Colour -&gt; Make Composite**.
 
-In the options window, leave the **Display Mode** as **Composite** and press **OK**.
 
-![](/assets/part6/color_make_composite_options.jpg)
 
-This will create a composite stack of your channels. In this example, we only have 3 channels, but this method can be used for any number of channels.
+In the options window, ensure the **Display Mode** is set as **Composite** and press **OK**. This will create a composite stack of your channels.
 
-Note: Colours will be assigned to images in the stack in the order Red-Green-Blue, if the alphabetical ordering in the stack does not match the channels, this will cause the colours to be incorrectly assigned. That’s OK – because we are doing this to change the colours anyway.
 
-![](/assets/part6/color_make_composite_result.jpg)
 
-You can now apply different colours to the channels in this composite stack and then create your RGB image using the methods shown above.
+**Note:** Colours will be assigned to images in the stack in the order Red-Green-Blue-Grey-Cyan-Magenta -Yellow-etc , if the ordering in the stack does not match the channels, this will cause the colours to be incorrectly assigned. That’s OK – because we are doing this to change the colours anyway.
 
-![](/assets/part6/color_make_composite_result_example1.jpg)
+You can now apply different colours to the channels in this composite stack and create your RGB image using the methods shown above.
+
+
 
 ## Saturation Indicator {#saturation-indicator}
 
