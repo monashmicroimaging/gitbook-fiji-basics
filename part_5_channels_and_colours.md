@@ -96,11 +96,11 @@ Once you have assigned your images to colours and set your options, click **OK**
 
 A composite image will present as a stack with each channel represented by one slice of that stack. To make alterations to channels within a composite image you can use the channels tools. To open this tool, go to **Image -&gt; Color -&gt; Channels Tool** \(or use shortcut Ctrl+Shift+Z\).
 
-
+![](/assets/Part 5/Channels Tool/Channels Tool 1 - Menu.jpg)
 
 In the **Channels** tool window you can select from the dropdown menu whether you want to work in composite mode, colour or greyscale.
 
-![](/assets/part6/channel_tool_options.jpg)
+
 
 In **Composite** mode – all images in the stack will appear to be a merged RGB image, however the active channel will be shown by the colour box surrounding the image.
 
@@ -112,19 +112,11 @@ In **Grayscale** – each channel will be displayed as an individual image in th
 
 In colour and greyscale you can switch between channels by selecting the check boxes next to the channel or by moving the slider at the bottom of the image. To make changes to a channel you must select it using the check box or move the slider across to make that channel the active channel.
 
-
-
 You can convert the composite to RGB at any time by selecting **More -&gt; Convert to RGB** in the **Channels** tool window.
-
-
 
 You can also convert to RGB via **Image -&gt; Color -&gt; Stack to RGB.**
 
-
-
 This will create a new window containing a flat RGB image of whatever is displayed in the active slice. The composite will still be availble to make further changes.
-
-
 
 ## Assigning or Changing Image Colours in Composites {#assigning-or-changing-image-colours-in-composites}
 
