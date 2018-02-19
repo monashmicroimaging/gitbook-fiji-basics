@@ -8,6 +8,8 @@ We will use the images _NeuralTube.jpg_ plus _NeuralTube Blue Saturated.tif_ and
 
 The bit depth of an image essentially determines the number of colours that can be displayed within that image. The number of colours \(also referred to as dynamic range\) can be calculated by the simple equation: 2^bit-depth.
 
+**Note:** in black and white images "colours" in the dynamic reange refer to shades of grey between white and black.
+
 | Bit Depth | Dynamic Range |
 | :---: | :---: |
 | 8-bit | 0 - 255 \(or 256 colours\) |
@@ -52,7 +54,7 @@ Click on the image you want to change and then go to **Image -&gt; LUTS** and se
 
 ![](/assets/Part 5/LUTs/LUTs 1 - menu.JPG)
 
-You can also find LUTs from the **LUT** icon in the tool bar. 
+You can also find LUTs from the **LUT** icon in the tool bar.
 
 ![](/assets/Part 5/LUTs/LUTs 2 - tool bar icon.JPG)
 
