@@ -70,17 +70,21 @@ To apply a LUT to your image, ensure it is active by clicking in the image, then
 
 If you have individual images of channels that you want to merge, select **Image -&gt; Color -&gt; Merge Channels**.
 
-![](/assets/part6/merge_channels_menu.jpg)
 
-A window will open with different channel/colour options. It will attempt to automatically input the correct images into the different channel options. If they are loaded incorrectly you can assign the individual images to the correct channel using the drop down menus.
 
-![](/assets/part6/merge_channels_options.jpg)
+A window will open with different channel/colour options. It will attempt to automatically input the correct images into the different channel options. It should be accurate for images which have channels assigned \(such as these\).
 
-If you want to keep the original single channel images open, check the box next to **Keep source images.** For a simple merge, where you do not want to continue altering individual channels you can uncheck **Create composite.** However, if you want to make further alterations to channels within the merged image, keep this box selected.
+
+
+If they are loaded incorrectly you can assign the individual images to the correct channel using the drop down menus beside each colour option. All open images will be displayed as an option.
+
+
+
+If you want to keep the original single channel images open, check the box next to **Keep source images.** For a simple merge, where you do not want to continue altering individual channels you can uncheck **Create composite.** However, if you want to make further alterations to channels within the merged image, keep this box selected to create a composite image. In the composite you can slide to each channel and use the channels tool to make further changes to individual channels.
 
 Select **OK** to create the merged image.
 
-![](/assets/part6/merge_channels_examples.png)
+
 
 ## Channels Tool {#channels-tool}
 
