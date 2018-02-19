@@ -218,5 +218,5 @@ In the new image now you will see a slightly different size to the previously re
 
 ![](/assets/Part 4/resizing/resize 14 - DPI by size original vs resized.JPG)
 
-**Note:** The size entered here is the display size of the image, that is; as a panel in a larger image at 600DPI this picture would be 1 inch wide by 1 inch long. The sizes used here are not related to the scale of the image.
+**Note:** The size entered here is the display size of the image, that is; as a panel in a larger image at 600DPI this picture would be 1 inch wide by 1 inch long. The sizes used here are not related to the pixel/micron scale of the image.
 
