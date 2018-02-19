@@ -138,11 +138,19 @@ As well as creating different merged images, you can also use the **Channels Too
 
 To do this in composite mode, select the channel you wish to change using the slider at the bottom of the image. Then go to **More** and select your colour from the menu.
 
+![](/assets/Part 5/Changing colours in composites/Composite 1 - composite toolbox.jpg)
+
 You can also do this in colour or greyscale mode by selecting the channel using the check box or slider and repeating these steps.
+
+![](/assets/Part 5/Changing colours in composites/Composite 2 - colour toolbox.jpg)
 
 Colours can also be changed in composites by selecting the channel and changing the LUT using the same methods as described for monochrome images above \(menu or LUT tool\).
 
+![](/assets/Part 5/Changing colours in composites/Composite 3 - colour LUT tool.jpg)
+
 You can change all channels in the image in this way \(for example chose magenta, yellow & cyan instead of red, green & blue\) and then convert to a 24bit RGB image in the same way as above to create a single merged image in the new colours.
+
+![](/assets/Part 5/Changing colours in composites/Composite 4 - final RGB.jpg)
 
 ## Merging Images/Assigning Colours with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
