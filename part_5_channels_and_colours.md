@@ -100,23 +100,37 @@ A composite image will present as a stack with each channel represented by one s
 
 In the **Channels** tool window you can select from the dropdown menu whether you want to work in composite mode, colour or greyscale.
 
-
+![](/assets/Part 5/Channels Tool/Channels Tool 2 - tool.jpg)
 
 In **Composite** mode – all images in the stack will appear to be a merged RGB image, however the active channel will be shown by the colour box surrounding the image.
 
+![](/assets/Part 5/Channels Tool/Channels Tool 3 - Composite.jpg)
+
 In composite mode, checking and unchecking the boxes beside an channel will turn it on or off in all images. To make changes to a channel you must move the slider across to make that channel the active channel.
+
+![](/assets/Part 5/Channels Tool/Channels Tool 4 - Composite Blue turned off.jpg)
 
 In **Color** – each channel will be displayed in the stack in the assigned colour. Only that channel will be visible when selected.
 
+![](/assets/Part 5/Channels Tool/Channels Tool 5 - Composite colour mode.jpg)
+
 In **Grayscale** – each channel will be displayed as an individual image in the stack in grey. Only that channel will be visible when selected.
+
+![](/assets/Part 5/Channels Tool/Channels Tool 6 - Composite greyscale mode.jpg)
 
 In colour and greyscale you can switch between channels by selecting the check boxes next to the channel or by moving the slider at the bottom of the image. To make changes to a channel you must select it using the check box or move the slider across to make that channel the active channel.
 
 You can convert the composite to RGB at any time by selecting **More -&gt; Convert to RGB** in the **Channels** tool window.
 
+![](/assets/Part 5/Channels Tool/Channels Tool 7 - to RGB toolbox.jpg)
+
 You can also convert to RGB via **Image -&gt; Color -&gt; Stack to RGB.**
 
+![](/assets/Part 5/Channels Tool/Channels Tool 8 - to RGB menu.jpg)
+
 This will create a new window containing a flat RGB image of whatever is displayed in the active slice. The composite will still be availble to make further changes.
+
+![](/assets/Part 5/Channels Tool/Channels Tool 9 - final RGB.jpg)
 
 ## Assigning or Changing Image Colours in Composites {#assigning-or-changing-image-colours-in-composites}
 
