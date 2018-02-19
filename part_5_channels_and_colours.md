@@ -154,29 +154,31 @@ You can change all channels in the image in this way \(for example chose magenta
 
 ## Merging Images/Assigning Colours with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
-There are only 8 colour options available when using the **Merge Channels** tool, so in order to create a merge of 8 or more colours a different method has to be used. 
+There are only 8 colour options available when using the **Merge Channels** tool, so in order to create a merge of 8 or more colours a different method has to be used. To demonstrate this I have opened the three channel images _RGB-blue.tif, RGB-green.tif _and_ RGB-red.tif_ several times to give me 8 "channels".
 
 First, the images that you want to colour need to be added into a stack. Open the images you want to merge then go to **Images -&gt; Stack -&gt; Images to Stack**.
 
-
-
 In the resulting window make sure both boxes are ticked. You can give the stack a name, or just leave it as the default name - _Stack_.
-
-
 
 **Note:** The images will be added into the stack in the order they were opened in FIJI.
 
-To be able to change the colour of each channel in the stack, it needs to be converted to a composite image. Go to **Image -&gt; Colour -&gt; Make Composite**.
+We now need to define in FIJi that this is an 8 channel image. To do this we go to **Images -&gt; Hyperstack -&gt; Stack to Hyperstack**.
 
+In the hyperstack window, ensure the number of channels, slices and frames is set correctly \(in this example 8 channels, 1 slice, 1 frame\).
 
+To change the colour of any channels in the stack use the **Channels Tool** in colour mode, or scroll to the channel and apply a LUT from the menu or tool bar as previously described.
 
-In the options window, ensure the **Display Mode** is set as **Composite** and press **OK**. This will create a composite stack of your channels.
+**Note:** Channels tool can only display 7 channels, so to change channel 8 or higher you need to scroll to the image int he stack and apply the LUT.
 
+Once you are happy with your colours, go to **Image -&gt; Colour -&gt; Stack to RGB**.
 
+This will not create a flat merge as it cannot handle more than 7 colours. This step is still neccessary howerver to create the RGB images.
 
-**Note:** Colours will be assigned to images in the stack in the order Red-Green-Blue-Grey-Cyan-Magenta -Yellow-etc , if the ordering in the stack does not match the channels, this will cause the colours to be incorrectly assigned. That’s OK – because we are doing this to change the colours anyway.
+To change the RGB stack into a flat merge go to **Image -&gt; Stacks -&gt; z Project**.
 
-You can now apply different colours to the channels in this composite stack and create your RGB image using the methods shown above.
+In the options, ensure all channels are included \(1-8\) and chose **Sum Slices** as the projection method. Click OK to create the flat merged image.
+
+ 
 
 
 
