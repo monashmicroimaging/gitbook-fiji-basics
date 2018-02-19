@@ -152,35 +152,55 @@ You can change all channels in the image in this way \(for example chose magenta
 
 ![](/assets/Part 5/Changing colours in composites/Composite 4 - final RGB.jpg)
 
-## Merging Images/Assigning Colours with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
+## Assigning Colours and Merging Images with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
-There are only 8 colour options available when using the **Merge Channels** tool, so in order to create a merge of 8 or more colours a different method has to be used. To demonstrate this I have opened the three channel images _RGB-blue.tif, RGB-green.tif _and_ RGB-red.tif_ several times to give me 8 "channels".
+There are only 8 colour options available when using the **Merge Channels** tool, so in order to create a merge of 8 or more colours a different method has to be used. To demonstrate this I have opened the three channel images _RGB-blue.tif, RGB-green.tif \_and_ RGB-red.tif\_ several times to give me 8 "channels".
 
-First, the images that you want to colour need to be added into a stack. Open the images you want to merge then go to **Images -&gt; Stack -&gt; Images to Stack**.
+First, the images that you want to colour and merge need to be added into a stack. Open the images you want to merge then go to **Images -&gt; Stack -&gt; Images to Stack**.
+
+![](/assets/Part 5/More than 8 colours/more colours 1 - stack menu.jpg)
 
 In the resulting window make sure both boxes are ticked. You can give the stack a name, or just leave it as the default name - _Stack_.
 
+![](/assets/Part 5/More than 8 colours/more colours 2 - stack options.jpg)
+
+Click **OK** to create your image stack.
+
+![](/assets/Part 5/More than 8 colours/more colours 3 - 8 channel stack.jpg)
+
 **Note:** The images will be added into the stack in the order they were opened in FIJI.
 
-We now need to define in FIJi that this is an 8 channel image. To do this we go to **Images -&gt; Hyperstack -&gt; Stack to Hyperstack**.
+We now need to define in FIJI that this is an 8 channel image. To do this we go to **Images -&gt; Hyperstack -&gt; Stack to Hyperstack**.
 
-In the hyperstack window, ensure the number of channels, slices and frames is set correctly \(in this example 8 channels, 1 slice, 1 frame\).
+![](/assets/Part 5/More than 8 colours/more colours 4 - stack to hyperstack.jpg)
+
+In the hyperstack window, ensure the number of channels, slices and frames is set correctly \(in this example 8 channels, 1 slice, 1 frame\). Choose **Colour** as the display mode. Then click **OK**.
+
+![](/assets/Part 5/More than 8 colours/more colours 5 - hyperstack options.jpg)
 
 To change the colour of any channels in the stack use the **Channels Tool** in colour mode, or scroll to the channel and apply a LUT from the menu or tool bar as previously described.
 
-**Note:** Channels tool can only display 7 channels, so to change channel 8 or higher you need to scroll to the image int he stack and apply the LUT.
+**Note:** Channels tool can only display 7 channels, so to change channel 8 or higher you need to scroll to the image in the stack and apply the LUT.
+
+![](/assets/Part 5/More than 8 colours/more colours 6 - assigning colour 8.jpg)
 
 Once you are happy with your colours, go to **Image -&gt; Colour -&gt; Stack to RGB**.
 
-This will not create a flat merge as it cannot handle more than 7 colours. This step is still neccessary howerver to create the RGB images.
+![](/assets/Part 5/More than 8 colours/more colours 7 - stack to RGB menu.jpg)
 
-To change the RGB stack into a flat merge go to **Image -&gt; Stacks -&gt; z Project**.
+This will not create a flat merge as it cannot handle more than 7 colours. This step is still neccessary however to create the RGB images.
+
+![](/assets/Part 5/More than 8 colours/more colours 8 - RGB stack.jpg)
+
+To change the RGB stack into a flat merge go to **Image -&gt; Stacks -&gt; Z Project**.
+
+![](/assets/Part 5/More than 8 colours/more colours 9 - z-project menu.jpg)
 
 In the options, ensure all channels are included \(1-8\) and chose **Sum Slices** as the projection method. Click OK to create the flat merged image.
 
- 
+![](/assets/Part 5/More than 8 colours/more colours 10 - z-project options.jpg)
 
-
+![](/assets/Part 5/More than 8 colours/more colours 11 - final merge.jpg)
 
 ## Saturation Indicator {#saturation-indicator}
 
