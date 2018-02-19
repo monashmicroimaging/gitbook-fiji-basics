@@ -80,13 +80,13 @@ If they are loaded incorrectly you can assign the individual images to the corre
 
 ![](/assets/Part 5/Merge Channels/Merge 3 - options imae selection.JPG)
 
-If you want to keep the original single channel images open, check the box next to **Keep source images.** 
+If you want to keep the original single channel images open, check the box next to **Keep source images.**
 
-For a simple merge, where you do not want to continue altering individual channels you can uncheck **Create composite.** 
+For a simple merge, where you do not want to continue altering individual channels you can uncheck **Create composite.**
 
 ![](/assets/Part 5/Merge Channels/Merge 4 - Flat merge.JPG)
 
-However, if you want to make further alterations to channels within the merged image, keep this box selected to create a composite image. In the composite you can slide to each channel and use the channels tool to make further changes to individual channels.
+However, if you want to make further alterations to channels within the merged image, keep this box selected to create a composite image. In the composite you can use the channels tool to make further changes to individual channels.
 
 ![](/assets/Part 5/Merge Channels/Merge 5 - composite merge.JPG)
 
@@ -96,7 +96,7 @@ Once you have assigned your images to colours and set your options, click **OK**
 
 A composite image will present as a stack with each channel represented by one slice of that stack. To make alterations to channels within a composite image you can use the channels tools. To open this tool, go to **Image -&gt; Color -&gt; Channels Tool** \(or use shortcut Ctrl+Shift+Z\).
 
-![](/assets/part6/channel_tool_menu.jpg)
+
 
 In the **Channels** tool window you can select from the dropdown menu whether you want to work in composite mode, colour or greyscale.
 
@@ -104,29 +104,27 @@ In the **Channels** tool window you can select from the dropdown menu whether yo
 
 In **Composite** mode – all images in the stack will appear to be a merged RGB image, however the active channel will be shown by the colour box surrounding the image.
 
-In **Color** – each channel be displayed as an individual image in the stack in the assigned colour.
+In composite mode, checking and unchecking the boxes beside an channel will turn it on or off in all images. To make changes to a channel you must move the slider across to make that channel the active channel.
 
-In **Grayscale** – each channel will be displayed as an individual image in the stack in grey.
+In **Color** – each channel will be displayed in the stack in the assigned colour. Only that channel will be visible when selected.
 
-In colour and greyscale you can switch between channels by selecting the check boxes next to the channel or by moving the slider at the bottom of the image.
+In **Grayscale** – each channel will be displayed as an individual image in the stack in grey. Only that channel will be visible when selected.
 
-![](/assets/part6/channel_tool_example1.jpg)
+In colour and greyscale you can switch between channels by selecting the check boxes next to the channel or by moving the slider at the bottom of the image. To make changes to a channel you must select it using the check box or move the slider across to make that channel the active channel.
 
-When working in composite mode you can turn channels on and off by checking, or unchecking, the box beside that channel. In the example below we turn off the DAPI, or blue channel, by unchecking the box beside channel 3. Channels are ordered Red-Green-Blue \(RGB\).
 
-![](/assets/part6/channel_tool_example2.jpg)
 
 You can convert the composite to RGB at any time by selecting **More -&gt; Convert to RGB** in the **Channels** tool window.
 
-![](/assets/part6/channel_tool_convert_to_rgb.jpg)
+
 
 You can also convert to RGB via **Image -&gt; Color -&gt; Stack to RGB.**
 
-![](/assets/part6/convert_to_rgb_menu.jpg)
 
-This will create a flat RGB image of whatever is displayed in the active slice. \(RGB\) will be displayed beside the image title in the new image window.
 
-![](/assets/part6/convert_to_rgb_result.jpg)
+This will create a new window containing a flat RGB image of whatever is displayed in the active slice. The composite will still be availble to make further changes.
+
+
 
 ## Assigning or Changing Image Colours in Composites {#assigning-or-changing-image-colours-in-composites}
 
