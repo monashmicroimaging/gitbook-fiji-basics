@@ -74,21 +74,29 @@ You can easily straighten an object in your image with the **Image Rotation** to
 
 To flip or rotate your image, go to **Image -&gt; Transform** and select your option.
 
-**Flip Horizontally** and **Flip Vertically** flip the image along the left hand side and top edges respectively. 
+![](/assets/Part 6/Image Rotation/Rotation 1 - menu.jpg)
+
+**Flip Horizontally** and **Flip Vertically** flip the image along the left hand side and top edges respectively.
+
+![](/assets/Part 6/Image Rotation/Rotation 2 - Horizontal.jpg)![](/assets/Part 6/Image Rotation/Rotation 3 - Vertical.jpg)
 
 **Rotate 90 Degrees Right** and **Rotate 90 Degrees Left** turn the images to the right or left.
 
-Examples for each rotation method are shown here:
+![](/assets/Part 6/Image Rotation/Rotation 4 - 90 right.jpg)![](/assets/Part 6/Image Rotation/Rotation 5 - 90 left.jpg)
 
-You can also rotate an image to other angels of your choosing. To define the angle yourself, select the option **Rotate** from the options under the transform menu. 
+You can also rotate an image to other angels of your choosing. To define the angle yourself, select the option **Rotate** from the options under the transform menu. This will open a new window where you can define the angle of rotation. Enter the angle in degrees in the first box.
 
-This will open a new window where you can define the angle of rotation. Enter the angle in degrees in the first box.
+![](/assets/Part 6/Image Rotation/Rotation 6 - rotate options.jpg)
 
-Select **None** from the drop down **Interpolation** menu to minimise any changes to pixel information.
+Select **None** from the drop down **Interpolation** menu to minimise any changes to pixel information. Selecting **Fill with Background Color** will ensure any resulting blank space is coloured the same as the image background \(usually black or white\).
+
+**Note:** for images with high background levels, esultingin greyish background colouring the bkack background fill will be more noticable.
 
 To preview the angle before completing the rotation select the check box next to **Preview**.
 
 Once you are happy with your rotation angel click **OK** to apply it to the image.
+
+![](/assets/Part 6/Image Rotation/Rotation 7 - rotate 25.jpg)
 
 ## Image Translation {#image-translation}
 
