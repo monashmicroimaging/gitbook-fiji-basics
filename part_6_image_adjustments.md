@@ -52,15 +52,21 @@ You will see from the images below that gamma adjustments have a significant imp
 
 ## Colour Balance {#colour-balance}
 
-_Colour balance is considered a non-linear adjustment as it alters the relationship between different components \(channels\) of the same image, ie: one is changed without the others being changed equally._
+_Colour balance is more of a grey area. It is a linear adjustment \(essentially equal to brightness and contrast\) when applied to the entire channel image. However, it considered a non-linear adjustment in general as it alters the relationship between different components \(channels\) of the same image, ie: one is changed without the others being changed equally. Changing the brightness of only one channel is particularly problematic when comparing intensities or looking at co-localisation. Therefore it is recommended that Colour Balance changes be avoided._
 
-You can also adjust the levels of individual colours within an RGB image using the **Color Balance** tool. To find this go to **Image -&gt; Adjust -&gt; Color Balance**.
+You can adjust the levels of individual colours within an RGB image using the **Color Balance** tool. To find this go to **Image -&gt; Adjust -&gt; Color Balance**.
+
+![](/assets/Part 6/Colour Balance/Colour Balance 1 - Menu.jpg)
 
 In the Colour Balance window you can select the channel from the drop down menu, then use the sliders to adjust the **Minimum** and **Maximum** as described above for a monochrome image.
 
+![](/assets/Part 6/Colour Balance/Colour Balance 2 - adjustment window.jpg)
+
 This will essentially alter the brightness and contrast of the selected channel only and as such alters the relationship between channels. For this reason, any measurements based off intensity or the relationship between channels should not be performed following changes to colour balance.
 
-In the example below you can see the difference between the original image on the left and the adjusted image on the right, which has the levels in the green channel altered.
+In the example below you can see the difference between the original image on the left and the adjusted image on the right, which has the levels adjusted for the green channel only.
+
+![](/assets/Part 6/Colour Balance/Colour Balance 3 - comparrison.jpg)
 
 ## Image Rotation {#image-rotation}
 
