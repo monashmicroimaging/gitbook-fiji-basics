@@ -154,7 +154,7 @@ You can change all channels in the image in this way \(for example chose magenta
 
 ## Assigning Colours and Merging Images with More Than 8 Channels {#merging-images-assigning-colours-with-more-than-8-channels}
 
-There are only 8 colour options available when using the **Merge Channels** tool, so in order to create a merge of 8 or more colours a different method has to be used. To demonstrate this I have opened the three channel images _RGB-blue.tif, RGB-green.tif _and RGB-red.tif several times to give me 8 "channels".
+There are only 8 colour options available when using the **Merge Channels** tool, so in order to create a merge of 8 or more colours a different method has to be used. To demonstrate this I have opened the three channel images \_RGB-blue.tif, RGB-green.tif \_and RGB-red.tif several times to give me 8 "channels".
 
 First, the images that you want to colour and merge need to be added into a stack. Open the images you want to merge then go to **Images -&gt; Stack -&gt; Images to Stack**.
 
@@ -208,11 +208,11 @@ The saturation indicator or **HiLo LUT** creates an image with some pixels in re
 
 To check the saturation levels, select your image and go to **Image -&gt; Lookup Tables -&gt; HiLo**.
 
-
+![](/assets/Part 5/Saturation Indicator/HiLo 1 - Lut Tool.jpg)
 
 In the demonstration image here \(_NeuralTube Blue Saturated.tif_\)we have adjusted the image deliberately to show a high level of over- and under-saturation, as shown by the red and blue in the resulting image.
 
-
+![](/assets/Part 5/Saturation Indicator/HiLo 2 - Saturation.jpg)
 
 ## Working with Colours in IHC Images {#working-with-colours-in-ihc-images}
 
