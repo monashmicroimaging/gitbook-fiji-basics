@@ -202,7 +202,19 @@ In the options, ensure all channels are included \(1-8\) and chose **Sum Slices*
 
 ![](/assets/Part 5/More than 8 colours/more colours 11 - final merge.jpg)
 
-## Saturation Indicator {#saturation-indicator}
+## Inverting Images {#saturation-indicator}
+
+Inverting an image will switch the colour and background, or “light and dark”, in the image. To invert, select the image and go to **Edit -&gt; Invert** \(or shortcut Ctrl+Shift+I\).
+
+![](/assets/Part 5/Invert/Invert 1 - menu.jpg)
+
+In monochrome images, such as in the example below, inverting will switch the image to a white background with black signal.
+
+![](/assets/Part 5/Invert/Invert 2 - comparrison.JPG)
+
+Inverting the image is reversible until saved, but it is still best to start out working on a duplicate copy of the original image and save the inverted images as a copy, with a new file name.
+
+## Saturation Indicator
 
 The saturation indicator or **HiLo LUT** creates an image with some pixels in red and some pixels in blue. The red and blue pixels represent intensity values at the two extremes of the range. Red pixels are fully saturated \(i.e. pure white\) and blue pixels are fully under saturated \(i.e. totally black\). Both these types of pixels contain no measurable information as you cannot be sure how far above or below saturation they are.
 

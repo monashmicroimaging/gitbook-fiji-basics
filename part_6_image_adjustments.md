@@ -68,17 +68,7 @@ In the example below you can see the difference between the original image on th
 
 ![](/assets/part4/color_balance_example.jpg)
 
-## Inverting Images {#inverting-images}
-
-Inverting an image will switch the colour and background, or “light and dark”, in the image. To invert, select the image and go to **Edit -&gt; Invert** \(or shortcut Ctrl+Shift+I\).
-
-![](/assets/part4/invert_image_menu.jpg)
-
-In monochrome images, such as in the example above, inverting will switch the image to a white background with black signal.
-
-![](/assets/part4/invert_image_result.jpg)
-
-Inverting the image is reversible until saved, but it is still best to start out working on a duplicate copy of the original image and save the inverted images as a copy, with a new file name.
+##  {#inverting-images}
 
 ## Image Rotation {#image-rotation}
 
