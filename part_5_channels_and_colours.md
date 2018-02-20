@@ -240,9 +240,11 @@ First you will need to invert each of the individual images. Do this for each im
 
 You can then assign LUTs to each image using the methods previously described. Here we have assigned LUTs in keeping with the 'red', 'green', and 'blue' colours of the Trichrome Dyes.
 
+![](/assets/Part 5/IHC/IHC 5 - inverted with LUTs.JPG)
 
+We then merge the channels as described for fluorescent images above to give you a pseudo-fluorescent version of the immunohistochemistry image.
 
-We then merged channels as described for fluorescent images above to give you a pseudo-fluorescent version of the immunohistochemistry image.
+![](/assets/Part 5/IHC/IHC 6 - pseudo-fluorescent image.jpg)
 
 **Note: **changing your IHC to pseudo-fluroescence does not make intensity measuements possible. the values are still not equivalent to a true fluorescent marker.
 
