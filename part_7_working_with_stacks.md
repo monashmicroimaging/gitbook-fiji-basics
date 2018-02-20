@@ -58,7 +58,7 @@ To add or delete slices from a stack, navigate to the slice you want to modify a
 
 Selecting add slice will insert a new blank/black slice into the current stack position. Selecting delete slice will remove the current slice from the stack.
 
-You can also add and delete multiple slices using the **Slice Keeper** or **Slice Remover** tools. 
+You can also add and delete multiple slices using the **Slice Keeper** or **Slice Remover** tools.
 
 **Slice Keeper** is found under **Image -&gt; Stacks -&gt; Tools**.
 
@@ -98,13 +98,23 @@ You can also select **Reverse** \(6\) to reverse the order of the entire stack.
 
 You can split a stack into smaller parts by selecting **Image -&gt; Stacks -&gt; Tools -&gt; Stack Splitter.**
 
+![](/assets/Part 7 Stacks/Split & concatenate/Split 1 - Menu.jpg)
+
 Enter the number of smaller stacks you wish to split into and select **OK**.
+
+![](/assets/Part 7 Stacks/Split & concatenate/Split 2 - split options.jpg)
 
 **Note:** The smaller stacks must be of equal size, so you need to enter a number divisible by the total number of slices. This allows the stack to split into multiple equal parts.
 
+![](/assets/Part 7 Stacks/Split & concatenate/Split 3 - split stack numbers.jpg)
+
 To combine multiple small stacks into one select **Image -&gt; Stacks -&gt; Tools -&gt; Concatenate.**
 
-In the resulting **Concatenator** window, ensure the smaller stacks are in the correct order by selecting from the drop down menus. You can give the new stack a name or keep the generic ‘Concatenated Stacks’ and check the box next to **Keep original images** if you wish to keep the smaller stacks open.
+![](/assets/Part 7 Stacks/Split & concatenate/Concat 1 - Menu.jpg)
+
+In the resulting **Concatenator** window, you can check the box to include **All open windows**, or add and sort the desired stacks in the correct order using the drop down menus. You can give the new stack a name or keep the generic ‘Concatenated Stacks’ and check the box next to **Keep original images** if you wish to keep the smaller stacks open.
+
+![](/assets/Part 7 Stacks/Split & concatenate/Concat 2 - Options.jpg)
 
 Then select **OK** to generate the combined stack.
 
@@ -112,21 +122,33 @@ Then select **OK** to generate the combined stack.
 
 You can use image stacks to generate side by side montages of channels, time points or z-sections. Select your stack then go to **Image -&gt; Stacks -&gt; Make Montage.**
 
-A window will open with a number of options for generating the montage, including the number of columns \(1\) and rows \(2\) that you want in the montage, scaling of the image \(3\), which slices of your stack you want to include \(4\), if you want to use increments \(5\) and border width \(6\).
+![](/assets/Part 7 Stacks/Make Montage/Montage 1 - menu.jpg)
 
-You can also select the check box to label the montage with the slice titles \(7\).
+A window will open with a number of options for generating the montage, including the number of columns and rows that you want in the montage, scaling of the images, which slices of your stack you want to include, if you want to use increments and border width. You can also select the check box to label the montage with the slice titles.
 
 Input your required options and select **OK** to create the montage.
 
-In the example below we have generated a montage of the individual channels and merged image using the settings shown in the options window above, but the same principles can be applied to create a montage of times or z-slices as well.
+![](/assets/Part 7 Stacks/Make Montage/Montage 2 - options.jpg)
+
+In the example below we have generated a montage of the individual channels plus the merged image using the settings shown in the options window above, but the same principles can be applied to create a montage of times or z-slices as well.
+
+![](/assets/Part 7 Stacks/Make Montage/Montage 3 - image.jpg)
 
 ## Maximum Intensity Projections {#maximum-intensity-projections}
 
 To create a maximum intensity projection of a confocal z-stack, open your stack and go to **Image -&gt; Stacks -&gt; Z-Project.**
 
-In the **ZProjection** window enter the first and last slice you want to project and the type of projection, in this case ‘Maximum Intensity’, then select **OK** to create the projection.
+![](/assets/Part 7 Stacks/MIP/MIP 1 - menu.jpg)
 
-A new window will open with the projected, single plane image. The new image will have the default name ‘MAX_\_imagename_’. You can rename this when saving by using the **Save As** function.
+In the **Z Projection** window enter the first and last slice you want to project and the type of projection. For a maximun intesnity projection, select **Maximum Intensity **from the drop down window. Click on **OK** to create the projection.
+
+![](/assets/Part 7 Stacks/MIP/MIP 2 - options.jpg)
+
+A new window will open with the projected, single plane image. 
+
+
+
+The new image will have the default name ‘MAX_\_imagename_’. You can rename this when saving by using the **Save As** function.
 
 ##  {#3d-projections}
 
