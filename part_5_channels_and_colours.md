@@ -228,7 +228,7 @@ In the colour deconvolution window, there are a number of options in the drop do
 
 This will separate the image into 3 ‘colours’ – in this case, each is representative of one dye used. For two colour stains such as H&E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used.
 
-
+![](/assets/Part 5/IHC/IHC 3 - colours.jpg)
 
 You can now use any of these ‘channel’ images for measurements like counts, or area. The methods for these are described in our FIJI Intermediate workshop.
 
@@ -236,7 +236,11 @@ You can also use these separated images to transform a histological stained imag
 
 First you will need to invert each of the individual images. Do this for each image by selecting the image and going to **Edit -&gt; Invert** \(or using shortcut Ctrl+Shift+I\).
 
+![](/assets/Part 5/IHC/IHC 4 - invert menu.jpg)
+
 You can then assign LUTs to each image using the methods previously described. Here we have assigned LUTs in keeping with the 'red', 'green', and 'blue' colours of the Trichrome Dyes.
+
+
 
 We then merged channels as described for fluorescent images above to give you a pseudo-fluorescent version of the immunohistochemistry image.
 
