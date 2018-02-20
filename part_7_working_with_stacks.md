@@ -66,23 +66,13 @@ You can also select **Reverse** \(6\) to reverse the order of the entire stack.
 
 You can split a stack into smaller parts by selecting **Image -&gt; Stacks -&gt; Tools -&gt; Stack Splitter.**
 
-
-
 Enter the number of smaller stacks you wish to split into and select **OK**.
 
-
-
-Note: The smaller stacks must be of equal size, so you need to enter a number divisible by the total number of slices. This allows the stack to split into multiple equal parts.
-
-
+**Note:** The smaller stacks must be of equal size, so you need to enter a number divisible by the total number of slices. This allows the stack to split into multiple equal parts.
 
 To combine multiple small stacks into one select **Image -&gt; Stacks -&gt; Tools -&gt; Concatenate.**
 
-![](/assets/part7/concatenate_stacks_menu.jpg)
-
 In the resulting **Concatenator** window, ensure the smaller stacks are in the correct order by selecting from the drop down menus. You can give the new stack a name or keep the generic ‘Concatenated Stacks’ and check the box next to **Keep original images** if you wish to keep the smaller stacks open.
-
-![](/assets/part7/concatenate_stacks_options.jpg)
 
 Then select **OK** to generate the combined stack.
 
@@ -90,9 +80,9 @@ Then select **OK** to generate the combined stack.
 
 You can use image stacks to generate side by side montages of channels, time points or z-sections. Select your stack then go to **Image -&gt; Stacks -&gt; Make Montage.**
 
-![](/assets/part7/montage_menu.jpg)
 
-![](/assets/part7/montage_options.jpg)
+
+
 
 A window will open with a number of options for generating the montage, including the number of columns \(1\) and rows \(2\) that you want in the montage, scaling of the image \(3\), which slices of your stack you want to include \(4\), if you want to use increments \(5\) and border width \(6\).
 
@@ -102,21 +92,21 @@ Input your required options and select **OK** to create the montage.
 
 In the example below we have generated a montage of the individual channels and merged image using the settings shown in the options window above, but the same principles can be applied to create a montage of times or z-slices as well.
 
-![](/assets/part7/montage_result.jpg)
+
 
 ## Maximum Intensity Projections {#maximum-intensity-projections}
 
 To create a maximum intensity projection of a confocal z-stack, open your stack and go to **Image -&gt; Stacks -&gt; Z-Project.**
 
-![](/assets/part7/z_project_menu.jpg)
+
 
 In the **ZProjection** window enter the first and last slice you want to project and the type of projection, in this case ‘Maximum Intensity’, then select **OK** to create the projection.
 
-![](/assets/part7/z_project_options.jpg)
+
 
 A new window will open with the projected, single plane image. The new image will have the default name ‘MAX_\_imagename_’. You can rename this when saving by using the **Save As** function.
 
-![](/assets/part7/z_project_result.jpg)
+
 
 ##  {#3d-projections}
 
