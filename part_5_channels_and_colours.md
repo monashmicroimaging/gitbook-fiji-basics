@@ -220,9 +220,15 @@ Immunohistochemistry images do not have individual RGB channels like fluorescenc
 
 To find the **Colour Devoncolution** tool go to **Image -&gt; Color -&gt; Colour Deconvolution**.
 
+![](/assets/Part 5/IHC/IHC 1 - Menu.jpg)
+
 In the colour deconvolution window, there are a number of options in the drop down menu. The first option, **From ROI**, lets you specify the different stains in your image manually. The others are preconfigured to work with most standard histological stains. Select your stain \(in this example we are using Masson Trichrome\) and press **OK**.
 
+![](/assets/Part 5/IHC/IHC 2 - options.jpg)
+
 This will separate the image into 3 ‘colours’ – in this case, each is representative of one dye used. For two colour stains such as H&E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used.
+
+
 
 You can now use any of these ‘channel’ images for measurements like counts, or area. The methods for these are described in our FIJI Intermediate workshop.
 
