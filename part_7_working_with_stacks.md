@@ -28,11 +28,9 @@ To reverse this and generate multiple single images from a stack go to **Image -
 
 You can use the **Duplicate** function for stacks also. Select your stack and follow the menu or shortcut to Duplicate as previously shown.
 
-When using **Duplicate** for a stack, only the current slice will be duplicated as a single image unless you select **Duplicate Stack **in the options window. 
+When using **Duplicate** for a stack, only the current slice will be duplicated as a single image.
 
-You can also nominate spceific slices to be duplicated intot he new stack.
-
-
+However, in the **Duplicate** window you will now have more options, where you select **Duplicate Stack** and can also nominate spceific slices to be duplicated intot he new stack. Use these options to duplicate multiple slices or the entire stack.
 
 When you are happy with your options, click **OK** to duplicate.
 
@@ -42,25 +40,27 @@ You can alter the slices in a stack by adding, deleting or rearranging them.
 
 To add or delete slices from a stack, navigate to the slice you want to modify and go to **Image -&gt; Stacks**, and select the desired option.
 
-![](/assets/part7/add_slice_menu.jpg)
+
 
 Selecting add slice will insert a new blank/black slice into the current stack position. Selecting delete slice will remove the current slice from the stack.
 
 You can also add and delete multiple slices using the **Slice Keeper** or **Slice Remover** tools. To find these go to **Image -&gt; Stacks -&gt; Tools**.
 
-![](/assets/part7/slice_keeper_menu.jpg) ![](/assets/part7/slice_remover_menu.jpg)
+
 
 **Slice Keeper** will ask you to nominate the slices you wish to keep in the stack, by number. You can also use **Increment** to keep every 2nd, 3rd, 4th, etc slice from the stack. Enter your numbers and select **OK** to generate the new stack.
 
-![](/assets/part7/slice_keeper_options.jpg)
+
 
 **Slice Remover** will prompt you to nominate the slices you wish to remove from the stack, by number. As with slice keeper, you can also use **Increment** to remove every 2nd, 3rd, 4th, etc slice from the stack. Enter your numbers and select **OK** to generate the new stack.
 
-![](/assets/part7/slice_remover_options.jpg)
+
+
+**Slice Keeper** and **Slice Remover** are fairly interchagable and ultimately serve the same function.
 
 You can also rearrange the order of slices in a stack using the **Stack Sorter** tool. Go to **Image -&gt; Stacks -&gt; Tools -&gt; Stack Sorter.**
 
-![](/assets/part7/stack_sorter_menu.jpg) ![](/assets/part7/stack_sorter_options.jpg)
+
 
 You can then move a slice forwards or backwards using the arrows \(1\) in the options box.
 
