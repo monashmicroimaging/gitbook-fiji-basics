@@ -100,11 +100,21 @@ Once you are happy with your rotation angel click **OK** to apply it to the imag
 
 ## Image Translation {#image-translation}
 
-You can also shift the image within the frame using the **Translate** tool. This can also be found under **Image -&gt; Transform**. This will open a window where you can enter your offset values to shift the image in x and y. The values are entered in pixels.
+You can also shift the image within the frame using the **Translate** tool. This can also be found under the  **Image -&gt; Transform **menu. 
 
-Again Select **Bilinear** under the Interpolation drop down menu to minimise pixel information changes.
+![](/assets/Part 6/Image Translation/Translate 1 - menu.jpg)
 
-Check the box next to **Preview** to see the changes before applying to the image.
+This will open a window where you can enter your offset values to shift the image in x and y. The values are entered in pixels.
+
+Again select **None** under the **Interpolation** drop down menu to minimise pixel information changes. Check the box next to **Preview** to see the changes before applying to the image. 
+
+![](/assets/Part 6/Image Translation/Translate 2 - options.jpg)
 
 When you are happy with the changes, click **OK** to apply.
+
+![](/assets/Part 6/Image Translation/Translate 3 - comparrison.jpg)
+
+Again any blank space created by moving the image will be filled with black, but hte image can be cropped to remove this if neccessary after translation is complete.
+
+**Note: **Always apply transform and translate movements to duplicates only and save as a copy. These tools should only be used for display purposes, never prior to analysis, and should always disclosed if used in published images. 
 
