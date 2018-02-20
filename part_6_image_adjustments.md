@@ -12,11 +12,11 @@ _Brightness and Contrast are considered linear adjustments, provided they are ap
 
 To adjust the brightness and contrast in an image, select the image and go to **Image -&gt; Adjust -&gt; Brightness/Contrast** \(or use shortcut Crtl+Shift+C\).
 
-![](/assets/part4/birghtness_contrast_menu.jpg)
+
 
 This will open a window with a histogram of the image data at the top with the range of intensities in the image shown.
 
-![](/assets/part4/brigthness_contrast_window.jpg)
+
 
 In this example the range is 0-255, as it is an 8bit image. The dynamic range for the intensities will vary depending on the image format and bit- depth of the camera used. Bit depth is discussed in more detail in Part 6 of these notes.
 
@@ -30,7 +30,7 @@ You will be able to see adjustments as a preview in the image as you alter the l
 
 Below we see the difference between the original image and a duplicate with the maximum level adjusted to 123.
 
-![](/assets/part4/brightness_contrast_example.jpg)
+
 
 ## Gamma {#gamma}
 
@@ -38,7 +38,7 @@ G_amma is a non-linear adjustment as it alters the relationship between the dark
 
 Gamma adjustments can be made to the image by selecting your image then going to **Process -&gt; Math -&gt; Gamma**.
 
-![](/assets/part4/gamma_menu.jpg)
+
 
 This will open a gamma adjustment window with a slider to adjust the gamma value up or down.
 
@@ -46,7 +46,7 @@ Adjust the slider as required, or input a value directly into the box. You can s
 
 You will see from the images below that gamma adjustments have a significant impact on the image, and as these are a non-linear adjustment the relationship between dark and light is altered. It is recommended that gamma adjustments are avoided, and definitely not used on images that will be measured or published.
 
-![](/assets/part4/gamma_adjustment_example.jpg)
+
 
 ## Colour Balance {#colour-balance}
 
@@ -54,19 +54,15 @@ _Colour balance is considered a non-linear adjustment as it alters the relations
 
 You can also adjust the levels of individual colours within an RGB image using the **Color Balance** tool. To find this go to **Image -&gt; Adjust -&gt; Color Balance**.
 
-![](/assets/part4/color_balance_menu.jpg)
+
 
 In the Colour Balance window you can select the channel from the drop down menu, then use the sliders to adjust the **Minimum** and **Maximum** as described above for a monochrome image.
 
-![](/assets/part4/color_balance_window.jpg)
 
-![](/assets/part4/color_balance_options.jpg)
 
 This will essentially alter the brightness and contrast of the selected channel only and as such alters the relationship between channels. For this reason, any measurements based off intensity or the relationship between channels should not be performed following changes to colour balance.
 
 In the example below you can see the difference between the original image on the left and the adjusted image on the right, which has the maximum level in the green channel altered to 120.
-
-![](/assets/part4/color_balance_example.jpg)
 
 
 
@@ -76,17 +72,17 @@ You can easily straighten an object in your image with the **Image Rotation** to
 
 To flip or rotate your image, go to **Image -&gt; Transform** and select your option.
 
-![](/assets/part4/rotate_image_menu.jpg)
+
 
 **Flip Horizontally** and **Flip Vertically** flip the image along the left hand side and top edges respectively. **Rotate 90 Degrees Right** and **Rotate 90 Degrees Left** turn the images to the right or left.
 
 Examples for each rotation method are shown here:
 
-![](/assets/part4/rotate_image_examples.jpg)
+
 
 You can also rotate an image to other angels of your choosing. To define the angle yourself, select the option **Rotate** from the options under the transform menu. This will open a new window where you can define the angle of rotation.
 
-![](/assets/part4/rotate_image_options.jpg)
+
 
 Enter the angle in degrees in the first box.
 
@@ -96,13 +92,13 @@ To preview the angle before completing the rotation select the check box next to
 
 Once you are happy with your rotation angel click **OK** to apply it to the image.
 
-![](/assets/part4/rotate_image_example_25degrees.jpg)
+
 
 ## Image Translation {#image-translation}
 
 You can also shift the image within the frame using the **Translate** tool. This can also be found under **Image -&gt; Transform**. This will open a window where you can enter your offset values to shift the image in x and y. The values are entered in pixels.
 
-![](/assets/part4/translate_image_options.jpg)
+
 
 Again Select **Bilinear** under the Interpolation drop down menu to minimise pixel information changes.
 
@@ -110,5 +106,5 @@ Check the box next to **Preview** to see the changes before applying to the imag
 
 When you are happy with the changes, click **OK** to apply.
 
-![](/assets/part4/translate_image_example.jpg)
+
 
