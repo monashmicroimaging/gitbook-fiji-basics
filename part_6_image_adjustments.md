@@ -38,11 +38,17 @@ G_amma is a non-linear adjustment as it alters the relationship between the dark
 
 Gamma adjustments can be made to the image by selecting your image then going to **Process -&gt; Math -&gt; Gamma**.
 
+![](/assets/Part 6/Gamma/Gamma 1 - menu.jpg)
+
 This will open a gamma adjustment window with a slider to adjust the gamma value up or down.
 
 Adjust the slider as required, or input a value directly into the box. You can see adjustments in the image as you make them by checking the box next to **Preview**. When you are happy with the adjustments, click **OK** to apply the changes.
 
+![](/assets/Part 6/Gamma/Gamma 2 - adjustment window.jpg)
+
 You will see from the images below that gamma adjustments have a significant impact on the image, and as these are a non-linear adjustment the relationship between dark and light is altered. It is recommended that gamma adjustments are avoided, and definitely not used on images that will be measured or published.
+
+![](/assets/Part 6/Gamma/Gamma 3 - comparrison.jpg)
 
 ## Colour Balance {#colour-balance}
 
