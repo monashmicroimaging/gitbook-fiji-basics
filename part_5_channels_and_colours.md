@@ -1,4 +1,4 @@
-# PART 6: CHANNELS AND COLOURS {#part-6-channels-and-colours}
+# PART 5: CHANNELS AND COLOURS {#part-5-channels-and-colours}
 
 Immunofluorescence experiments are almost always captured on highly sensitive monochrome cameras. This means that each fluorophore is captured as a different image with no associated colour. Often you will want to add colour to each channel \(usually in the colour of the fluorophores emission\) and to create composite images of 2 or more of the channels combined. This section will show you how to arrange and alter multi-channel images and change the colour of your images.
 
