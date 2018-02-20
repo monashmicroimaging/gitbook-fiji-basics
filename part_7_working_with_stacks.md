@@ -144,11 +144,11 @@ To create a maximum intensity projection of a confocal z-stack, open your stack 
 
 In the **Z Projection** window enter the first and last slice you want to project and the type of projection. For a maximun intesnity projection, select **Maximum Intensity **from the drop down window. Click on **OK** to create the projection.
 
-
+![](/assets/Part 7/MIP/MIP 2 - options.jpg)
 
 A new window will open with the projected, single plane image.
 
-
+![](/assets/Part 7/MIP/MIP 3 - stack vs final.jpg)
 
 The new image will have the default name ‘MAX_\_imagename_’. You can rename this when saving by using the **Save As** function.
 
