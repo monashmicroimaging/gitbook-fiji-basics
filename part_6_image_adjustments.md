@@ -90,7 +90,7 @@ You can also rotate an image to other angels of your choosing. To define the ang
 
 Select **None** from the drop down **Interpolation** menu to minimise any changes to pixel information. Selecting **Fill with Background Color** will ensure any resulting blank space is coloured the same as the image background \(usually black or white\).
 
-**Note:** for images with high background levels, esultingin greyish background colouring the bkack background fill will be more noticable.
+**Note:** for images with high background levels, esultingin greyish background colouring the bkack background fill will be more noticable. The image can be cropped after rotation to remove te backfilled areas.
 
 To preview the angle before completing the rotation select the check box next to **Preview**.
 
