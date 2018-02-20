@@ -144,9 +144,9 @@ In the **Z Projection** window enter the first and last slice you want to projec
 
 ![](/assets/Part 7 Stacks/MIP/MIP 2 - options.jpg)
 
-A new window will open with the projected, single plane image. 
+A new window will open with the projected, single plane image.
 
-
+![](/assets/Part 7 Stacks/Make Montage/MIP 3 - stack vs final.jpg)
 
 The new image will have the default name ‘MAX_\_imagename_’. You can rename this when saving by using the **Save As** function.
 
