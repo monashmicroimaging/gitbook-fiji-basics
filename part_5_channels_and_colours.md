@@ -76,7 +76,7 @@ A window will open with different channel/colour options. It will attempt to aut
 
 ![](/assets/Part 5/Merge Channels/Merge 2 - options default.JPG)
 
-If they are loaded incorrectly you can assign the individual images to the correct channel using the drop down menus beside each colour option. All open images will be displayed as an option.
+If they are loaded incorrectly you can assign the individual images to the correct channel using the drop down menus beside each colour option. All open images will be displayed as an option. For empty channels/colours need required leave the image set as **\*None\***.
 
 ![](/assets/Part 5/Merge Channels/Merge 3 - options imae selection.JPG)
 
@@ -220,29 +220,17 @@ Immunohistochemistry images do not have individual RGB channels like fluorescenc
 
 To find the **Colour Devoncolution** tool go to **Image -&gt; Color -&gt; Colour Deconvolution**.
 
-
-
 In the colour deconvolution window, there are a number of options in the drop down menu. The first option, **From ROI**, lets you specify the different stains in your image manually. The others are preconfigured to work with most standard histological stains. Select your stain \(in this example we are using Masson Trichrome\) and press **OK**.
-
-
 
 This will separate the image into 3 ‘colours’ – in this case, each is representative of one dye used. For two colour stains such as H&E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used.
 
-
-
 You can now use any of these ‘channel’ images for measurements like counts, or area. The methods for these are described in our FIJI Intermediate workshop.
-
-
 
 You can also use these separated images to transform a histological stained image into a pseudo fluorescent image.
 
 First you will need to invert each of the individual images. Do this for each image by selecting the image and going to **Edit -&gt; Invert** \(or using shortcut Ctrl+Shift+I\).
 
-
-
 You can then assign LUTs to each image using the methods previously described. Here we have assigned LUTs in keeping with the 'red', 'green', and 'blue' colours of the Trichrome Dyes.
-
-
 
 We then merged channels as described for fluorescent images above to give you a pseudo-fluorescent version of the immunohistochemistry image.
 
