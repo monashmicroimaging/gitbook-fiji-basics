@@ -12,9 +12,11 @@ _Brightness and Contrast are considered linear adjustments, provided they are ap
 
 To adjust the brightness and contrast in an image, select the image and go to **Image -&gt; Adjust -&gt; Brightness/Contrast** \(or use shortcut Crtl+Shift+C\).
 
-This will open a window with a histogram of the image data at the top with the range of intensities in the image shown.
+![](/assets/Part 6/Brightness and Contrast/B&C 1 - Menu.jpg)
 
-In this example the range is 0-255, as it is an 8bit image. The dynamic range for the intensities will vary depending on the image format and bit- depth of the camera used. Bit depth is discussed in more detail in Part 6 of these notes.
+This will open a window with a histogram of the image data at the top with the range of intensities in the image shown. In this example the range is 0-255, as it is an 8bit image. The dynamic range for the intensities will vary depending on the image format and bit- depth of the camera used. Bit depth is discussed in more detail in Part 4 of these notes.
+
+![](/assets/Part 6/Brightness and Contrast/B&C 2 - adjustment window.jpg)
 
 You can adjusting the brightness and contrast in several different ways. You can move the **Minimum** and **Maximum** or **Brightness** and **Contrast **sliders. These should only be adjusted to the limit of the data and not beyond it.
 
@@ -22,9 +24,13 @@ The **Auto** button will calculate and apply a histogram stretch automatically, 
 
 You can also press the **Set** button and enter values directly.
 
+![](/assets/Part 6/Brightness and Contrast/B&C 3 - set range.jpg)
+
 You will be able to see adjustments as a preview in the image as you alter the levels. Once you are happy with your settings press the **Apply** button. Once the **Apply** button is pressed the original values in the image are altered to the new ones and the original data is lost. For this reason it is best to work on a duplicate image and save the result as a different file so as not to lose the original data.
 
 Below we see the difference between the original image and an adjusted duplicate.
+
+![](/assets/Part 6/Brightness and Contrast/B&C 4 - original vs adjusted.jpg)
 
 ## Gamma {#gamma}
 
