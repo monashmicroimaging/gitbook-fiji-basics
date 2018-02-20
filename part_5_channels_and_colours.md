@@ -216,33 +216,35 @@ In the demonstration image here \(_NeuralTube Blue Saturated.tif_\)we have adjus
 
 ## Working with Colours in IHC Images {#working-with-colours-in-ihc-images}
 
-Immunohistochemistry images do not have individual RGB channels like fluorescence images. You can still separate out the individual colours for basic area or counting measurements however, using colour deconvolution. These separated ‘channels’ cannot be used for measurements like intensity.
+Immunohistochemistry images do not have individual RGB channels like fluorescence images. You can still separate out the individual colours for basic area or counting measurements however, using the **Colour Deconvolution** tool. These separated ‘channels’ cannot be used for measurements like intensity as histology stains do not work in the same way as fluorescent channels.
 
 To find the **Colour Devoncolution** tool go to **Image -&gt; Color -&gt; Colour Deconvolution**.
 
-![](/assets/part6/color_deconvolution_menu.jpg)
 
-In the colour deconvolution window, there are a number of options in the drop down menu. The first option, **From ROI**, lets you specify the different stains in your image manually. The others are preconfigured to work with most standard histological stains. Select your stain and press **OK** \(In this example we are using Masson Trichrome\).
 
-![](/assets/part6/color_deconvolution_options.jpg)
+In the colour deconvolution window, there are a number of options in the drop down menu. The first option, **From ROI**, lets you specify the different stains in your image manually. The others are preconfigured to work with most standard histological stains. Select your stain \(in this example we are using Masson Trichrome\) and press **OK**.
 
-This will separate the image into 3 ‘channels’ – in this case, each is representative of one dye used. For two colour stains such as H&E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used for separation.
 
-![](/assets/part6/color_deconvolution_result.jpg)
 
-You can now use any of these ‘channels’ for measurements like counts, or area. The methods for these are described in later sections.
+This will separate the image into 3 ‘colours’ – in this case, each is representative of one dye used. For two colour stains such as H&E or Dab the two stains will be separated and a third image will display the mathematical leftovers from the equation used.
+
+
+
+You can now use any of these ‘channel’ images for measurements like counts, or area. The methods for these are described in our FIJI Intermediate workshop.
+
+
 
 You can also use these separated images to transform a histological stained image into a pseudo fluorescent image.
 
-First you will need to invert each of the individual images. As previously described, do this for each image by selecting the image and going to **Edit -&gt; Invert** \(or using shortcut Ctrl+Shift+I\).
+First you will need to invert each of the individual images. Do this for each image by selecting the image and going to **Edit -&gt; Invert** \(or using shortcut Ctrl+Shift+I\).
 
-![](/assets/part6/color_deconvolution_invert_result.jpg)
 
-You can then assign LUTs to each image and merge the ‘channels’ using the methods previously described.
 
-![](/assets/part6/color_deconvolution_merge_inverted_results_1.jpg)
+You can then assign LUTs to each image using the methods previously described. Here we have assigned LUTs in keeping with the 'red', 'green', and 'blue' colours of the Trichrome Dyes.
 
-![](/assets/part6/color_deconvolution_merge_inverted_results_2.jpg)
 
-This will give you a pseudo-fluorescent version of your immunohistochemistry image.
+
+We then merged channels as described for fluorescent images above to give you a pseudo-fluorescent version of the immunohistochemistry image.
+
+**Note: **changing your IHC to pseudo-fluroescence does not make intensity measuements possible. the values are still not equivalent to a true fluorescent marker.
 
