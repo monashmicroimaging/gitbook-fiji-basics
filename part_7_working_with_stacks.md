@@ -10,29 +10,31 @@ The image _NeuralTube.jpeg_ along with its individual channels and image stack _
 
 You can easily move through the slices in a stack using the bar at the bottom of the image.
 
-
-
 Click and drag the slider \(1\) to move through the stacks. You can also click on the left \(2\) and right \(3\) arrows to move the stack by 1 slice or click the play button \(4\) to run through the stack slices automatically.
 
 You can monitor the slice number in the image information at the top left of the image window.
-
-
 
 ## Creating and Dismantling Stacks {#creating-and-dismantling-stacks}
 
 To create a stack from multiple individual images go to **Image -&gt; Stacks -&gt; Images to Stack.**
 
-
-
 An options window will open. You can give the stack a new name, or keep the generic ‘Stack’. To keep the original images select the box next to **Keep Source Images**.
-
-
 
 Click **OK** to generate the stack.
 
-
-
 To reverse this and generate multiple single images from a stack go to **Image -&gt; Stacks -&gt; Stack to Images.**
+
+## Duplicate Stack {#altering-stack-slices}
+
+You can use the **Duplicate** function for stacks also. Select your stack and follow the menu or shortcut to Duplicate as previously shown.
+
+When using **Duplicate** for a stack, only the current slice will be duplicated as a single image unless you select **Duplicate Stack **in the options window. 
+
+You can also nominate spceific slices to be duplicated intot he new stack.
+
+
+
+When you are happy with your options, click **OK** to duplicate.
 
 ## Altering Stack Slices {#altering-stack-slices}
 
