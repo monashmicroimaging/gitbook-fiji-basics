@@ -1,10 +1,10 @@
-# PART 4: IMAGE ADJUSTMENTS {#part-4-image-adjustments}
+# PART 6: IMAGE ADJUSTMENTS {#part-4-image-adjustments}
 
-It is sometimes essential to adjust an image for publishing or to highlight an area of interest. Some adjustments, such as adjusting the contrast in an image, need to be done carefully so as not to remove or add data from the original image. In this regard, it is usually safe to adjust linear parameters such as brightness and contrast \(histogram levels\) as long as under and over saturation is avoided. Adjusting non-linear parameters such as gamma and curves is strongly discouraged under all circumstances as it will change the relationship of the data in the image. All adjustments made to images prior to publication should be linear adjustments only, should be applied equally across the entire image and should be disclosed in the methods and/or figure legends.
+It is sometimes essential to adjust an image for publishing or to highlight an area of interest. Some adjustments need to be done carefully so as not to remove or add data from the original image. In this regard, it is usually safe to adjust linear parameters such as brightness and contrast \(histogram levels\) as long as under and over saturation is avoided. Adjusting non-linear parameters such as gamma and curves is strongly discouraged under all circumstances as it will change the relationship of the data in the image. All adjustments made to images prior to publication should be linear adjustments only, should be applied equally across the entire image and should be disclosed in the methods and/or figure legends.
 
-**Note:** In general it is recommended that you avoid performing any measurements on images which have been adjusted using any of these methods. Whenever possible analysis should be carried out on the untouched original data.
+**Note:** In general it is recommended that you avoid performing any measurements on images which have been adjusted. Whenever possible analysis should be carried out on the untouched original data.
 
-In this section we use the images **RGB-Blue.tif**, **RGBstackProjected.tif** and **NeuralTube.jpg** for demonstration purposes.
+In this section we use the images _RGB-Blue.tif, RGBstackProjected.tif_ and _NeuralTube.jpg_ for demonstration purposes.
 
 ## Brightness and Contrast {#brightness-and-contrast}
 
@@ -68,7 +68,7 @@ In the example below you can see the difference between the original image on th
 
 ![](/assets/part4/color_balance_example.jpg)
 
-##  {#inverting-images}
+
 
 ## Image Rotation {#image-rotation}
 
