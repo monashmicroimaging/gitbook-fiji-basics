@@ -4,7 +4,7 @@ Image stacks are composed of a number of related images opened on top of each ot
 
 This section goes through the tools and methods for working with image stacks. More detailed informaiton on working with multiple dimmensions in imaging and stacks is covered in FIJI Intermediate.
 
-The image _NeuralTube.jpeg_ along with its individual channels and image stack _RGBStack.tif_ will be used for demonstration throughout this section.
+The image _NeuralTube.jpeg_ along with its individual channels and image stacks _RGBStack.tif_ and _MovieStack.tif_ will be used for demonstration throughout this section.
 
 ## Navigating Stacks {#navigating-stacks}
 
@@ -40,27 +40,17 @@ You can alter the slices in a stack by adding, deleting or rearranging them.
 
 To add or delete slices from a stack, navigate to the slice you want to modify and go to **Image -&gt; Stacks**, and select the desired option.
 
-
-
 Selecting add slice will insert a new blank/black slice into the current stack position. Selecting delete slice will remove the current slice from the stack.
 
 You can also add and delete multiple slices using the **Slice Keeper** or **Slice Remover** tools. To find these go to **Image -&gt; Stacks -&gt; Tools**.
 
-
-
 **Slice Keeper** will ask you to nominate the slices you wish to keep in the stack, by number. You can also use **Increment** to keep every 2nd, 3rd, 4th, etc slice from the stack. Enter your numbers and select **OK** to generate the new stack.
 
-
-
 **Slice Remover** will prompt you to nominate the slices you wish to remove from the stack, by number. As with slice keeper, you can also use **Increment** to remove every 2nd, 3rd, 4th, etc slice from the stack. Enter your numbers and select **OK** to generate the new stack.
-
-
 
 **Slice Keeper** and **Slice Remover** are fairly interchagable and ultimately serve the same function.
 
 You can also rearrange the order of slices in a stack using the **Stack Sorter** tool. Go to **Image -&gt; Stacks -&gt; Tools -&gt; Stack Sorter.**
-
-
 
 You can then move a slice forwards or backwards using the arrows \(1\) in the options box.
 
@@ -76,15 +66,15 @@ You can also select **Reverse** \(6\) to reverse the order of the entire stack.
 
 You can split a stack into smaller parts by selecting **Image -&gt; Stacks -&gt; Tools -&gt; Stack Splitter.**
 
-![](/assets/part7/stack_splitter_menu.jpg)
+
 
 Enter the number of smaller stacks you wish to split into and select **OK**.
 
-![](/assets/part7/stack_splitter_options.jpg)
+
 
 Note: The smaller stacks must be of equal size, so you need to enter a number divisible by the total number of slices. This allows the stack to split into multiple equal parts.
 
-![](/assets/part7/stack_splitter_result.jpg)
+
 
 To combine multiple small stacks into one select **Image -&gt; Stacks -&gt; Tools -&gt; Concatenate.**
 
