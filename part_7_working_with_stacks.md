@@ -40,7 +40,7 @@ You can use the **Duplicate** function for stacks also. Select your stack and fo
 
 ![](/assets/Part 7 Stacks/Duplicate Stack/Duplicate 1 -  Menu.jpg)
 
-When using **Duplicate** for a stack, only the current slice will be duplicated as a single image.
+When using **Duplicate** for a stack, only the current slice will be duplicated as a single image. This can be useful if you want to extract a slingle slice from your stack for display or analysis purposes.
 
 However, in the **Duplicate** window you will now have more options, where you select **Duplicate Stack** and can also nominate spceific slices to be duplicated intot he new stack. Use these options to duplicate multiple slices or the entire stack.
 
