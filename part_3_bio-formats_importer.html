@@ -1,0 +1,405 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>PART 3: BIO-FORMATS IMPORTER · Fiji Basics</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Monash Micro Imaging">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="part_4_scales_and_sizing.html" />
+    
+    
+    <link rel="prev" href="part_2_basic_navigation_in_fiji.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Fiji Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part_1_introduction_to_fiji.html">
+            
+                <a href="part_1_introduction_to_fiji.html">
+            
+                    
+                    PART 1: INTRODUCTION TO FIJI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part_2_basic_navigation_in_fiji.html">
+            
+                <a href="part_2_basic_navigation_in_fiji.html">
+            
+                    
+                    PART 2: BASIC NAVIGATION IN FIJI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="part_3_bio-formats_importer.html">
+            
+                <a href="part_3_bio-formats_importer.html">
+            
+                    
+                    PART 3: BIO-FORMATS IMPORTER
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="part_4_scales_and_sizing.html">
+            
+                <a href="part_4_scales_and_sizing.html">
+            
+                    
+                    PART 4: SCALES AND SIZING
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="part_5_channels_and_colours.html">
+            
+                <a href="part_5_channels_and_colours.html">
+            
+                    
+                    PART 5: CHANNELS AND COLOURS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="part_6_image_adjustments.html">
+            
+                <a href="part_6_image_adjustments.html">
+            
+                    
+                    PART 6: IMAGE ADJUSTMENTS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="part_7_working_with_stacks.html">
+            
+                <a href="part_7_working_with_stacks.html">
+            
+                    
+                    PART 7: WORKING WITH STACKS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="acknowledgements.html">
+            
+                <a href="acknowledgements.html">
+            
+                    
+                    Acknowledgements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="use_and_distribution_of_workshop_notes.html">
+            
+                <a href="use_and_distribution_of_workshop_notes.html">
+            
+                    
+                    Use and Distribution of Workshop Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="demonstration_images.html">
+            
+                <a href="demonstration_images.html">
+            
+                    
+                    Demonstration  Images
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >PART 3: BIO-FORMATS IMPORTER</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="part-3-bio-formats-importer">PART 3: BIO-FORMATS IMPORTER </h1>
+<p>Images saved in raw file format from microscope software packages are unique to that software and often will not open in standard image viewing software. However, these formats can be easily opened in FIJI using the Bio-Formats Importer. This is a pre-bundled plugin in FIJI but it must be downloaded separately for ImageJ. It is also known as LOCI tools, this is the plugin name for ImageJ.</p>
+<p>Examples of the different file types discussed in this section (Leica, Olympus, Nikon, DeltaVision, Zeiss) can be found in the Bio-Formats folder of demonstration images.</p>
+<h2 id="configuration">Configuration </h2>
+<p>You can check the file types enabled in the Bio-Formats importer, as well as turn specific formats on and off and change preferences by opening the configuration settings. To do this go to <strong>Plugins -&gt; Bio-Formats -&gt; Bio-Formats Plugin Configurations.</strong></p>
+<p><img src="assets/Part 3/BioFormats 1 - configuration menu.jpg" alt=""></p>
+<p>This opens a configuration window. Select the <strong>Formats</strong> tab from the top to display and modify the available programs and equipment.</p>
+<p><img src="assets/Part 3/BioFormats 2 - formats tab.jpg" alt=""></p>
+<p>Select your file format from the list to check it is enabled and see compatible extensions.</p>
+<p><img src="assets/Part 3/BioFormats 3 - formats options.jpg" alt=""></p>
+<p>Selecting the <strong>Windowless</strong> box will open these file formats without first opening the import options window. This speeds up opening but means you cannot change import settings on individual images and all images will open with the default settings (or those previously set by you when opening files with Bio-Formats). You can come back to configurations and reverse this if you need to change import options at another time.</p>
+<h2 id="opening-with-bio-formats">Opening with Bio-Formats </h2>
+<p>You can import files by going to <strong>Plugins -&gt; Bio-Formats -&gt; Bio-Formats Importer</strong>.</p>
+<p><img src="assets/Part 3/BioFormats 4 - importer menu.jpg" alt=""></p>
+<p>With the Bio-Formats plugin installed, you can also open most compatible file types by going to <strong>File -&gt; Open</strong> and selecting your file, or dragging and dropping onto the FIJI interface as you would any other image file.</p>
+<p>During the opening process for all file formats the <strong>Import Options</strong> window will open, unless you have previously set &#x2018;windowless&#x2019; opening for that file type under configurations. In the options window you can change the settings for metadata, separating channels, z-planes or time points into single image windows and colour options.</p>
+<p><img src="assets/Part 3/BioFormats 5 - importer options.jpg" alt=""></p>
+<p>When you have selected all options you want, click <strong>OK</strong> to open the image.</p>
+<p>These different options and variations in opening files with the Bio-Formats Importer are discussed below followed by how these variations apply to common file formats.</p>
+<h2 id="metadata">Metadata </h2>
+<p>To view the in-built image information, known as metadata, select the box next to <strong>Display Metadata </strong>in the options window of bio-formats importer. Then click <strong>OK</strong> to open both the image and metadata.</p>
+<p><img src="assets/Part 3/BioFormats 6 - display metadata.jpg" alt=""></p>
+<p>Metadata will be displayed in a separate window to the image as a list. Here you will find information including things like bitdepth, channel information, acquisition parameters and scale.</p>
+<p><img src="assets/Part 3/BioFormats 7 - metadata.jpg" alt=""></p>
+<h2 id="channel-and-colour-options">Channel and Colour Options </h2>
+<p>Sometimes colours can&#x2019;t be assigned correctly from the metadata or you may want to assign specific colours to your image. You can do this in Bio-Formats Importer by selecting <strong>Custom</strong> from the drop down menu under <strong>Colour Mode</strong>.</p>
+<p><img src="assets/Part 3/BioFormats 8- colour options.jpg" alt=""></p>
+<p>In the resulting <strong>Bio-Formats Custom Colourization</strong> window you can set the RGB colour values for each of the channels. Once you are happy press <strong>OK.</strong> The file will open with the assigned colours.</p>
+<p><img src="assets/Part 3/BioFormats 9- custom colour.jpg" alt=""></p>
+<h2 id="split-channels-focal-planes-time-points">Split Channels/Focal Planes/Time Points </h2>
+<p>Selecting the boxes next to split channels, focal planes or time points will result in each plane opening as in individual image, rather than a stack or hyperstack.</p>
+<p>This can be useful if you want to extract a single z-plane or time point from a series, or only want to display one channel from your image. All images will open, but you can easily close the ones you don&#x2019;t need.</p>
+<p>Specific planes, channels or time points can also be extracted when working with stacks (discussed in section 8), but in some circumstances, opening separately can be a quicker or easier option to use.</p>
+<h2 id="opening-image-series">Opening Image Series </h2>
+<p>Some files will contain multiple image stacks or experiments within one file. These can be opened separately through bio-formats importer.</p>
+<p>When opening files with multiple experiments, a second window will be displayed after the opening options. This second window displays all of the experiments in a list.</p>
+<p><img src="assets/Part 3/BioFormats 10- Image Series.jpg" alt=""></p>
+<p>Tick the box next to the one you want to open and press <strong>OK</strong>. Ticking multiple boxes on will open multiple datasets, but doing this could put strain on the FIJI program memory and cause a crash.</p>
+<p>Images will open using the options selected in the initial opening window.</p>
+<h2 id="different-data-sets-olympus-leica-nikon-deltavision-zeiss">Different Data Sets (Olympus, Leica, Nikon, DeltaVision, Zeiss) </h2>
+<p>In general, the file will be displayed as you have selected during the opening process. However, there are a few variations in opening using bio-formats depending on the file. The common file formats are discussed below.</p>
+<p><strong>Leica (*.lif files): </strong>The saving format for Leica files means they will always contain multiple data sets in the single file. Follow the steps for opening image series as above.</p>
+<p><strong>Olympus (*.oif files): </strong>The channel information from Olympus files cannot be read correctly when opening these files in FIJI. You can open the file as normal and reassign LUTs (explained in section 6) or you can choose custom colour and assign colours to channels as you open, as described above.</p>
+<p><strong>Nikon (</strong><em><strong>.nd or </strong></em><strong>.nd2 files): </strong>Nikon files usually open without any special requirements. Some Nikon files may contain multiple datasets and require image sequence opening method to be used.</p>
+<p><strong>DeltaVision (*.dv files): </strong>Files from DeltaVision will open without special requirements, but open in grey scale and will need to be false coloured if required.</p>
+<p><strong>Zeiss (</strong><em><strong>.czi or </strong></em><strong>.lsm files): </strong>Zeiss files will open as a hyperstack directly without any dialog box being shown.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part_2_basic_navigation_in_fiji.html" class="navigation navigation-prev " aria-label="Previous page: PART 2: BASIC NAVIGATION IN FIJI">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="part_4_scales_and_sizing.html" class="navigation navigation-next " aria-label="Next page: PART 4: SCALES AND SIZING">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"PART 3: BIO-FORMATS IMPORTER","level":"1.4","depth":1,"next":{"title":"PART 4: SCALES AND SIZING","level":"1.5","depth":1,"path":"part_4_scales_and_sizing.md","ref":"part_4_scales_and_sizing.md","articles":[]},"previous":{"title":"PART 2: BASIC NAVIGATION IN FIJI","level":"1.3","depth":1,"path":"part_2_basic_navigation_in_fiji.md","ref":"part_2_basic_navigation_in_fiji.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Monash Micro Imaging","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Fiji Basics","gitbook":"*"},"file":{"path":"part_3_bio-formats_importer.md","mtime":"2018-02-20T06:04:59.347Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-20T06:22:30.102Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

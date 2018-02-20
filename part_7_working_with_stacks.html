@@ -1,0 +1,437 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>PART 7: WORKING WITH STACKS · Fiji Basics</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Monash Micro Imaging">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="acknowledgements.html" />
+    
+    
+    <link rel="prev" href="part_6_image_adjustments.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Fiji Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part_1_introduction_to_fiji.html">
+            
+                <a href="part_1_introduction_to_fiji.html">
+            
+                    
+                    PART 1: INTRODUCTION TO FIJI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part_2_basic_navigation_in_fiji.html">
+            
+                <a href="part_2_basic_navigation_in_fiji.html">
+            
+                    
+                    PART 2: BASIC NAVIGATION IN FIJI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="part_3_bio-formats_importer.html">
+            
+                <a href="part_3_bio-formats_importer.html">
+            
+                    
+                    PART 3: BIO-FORMATS IMPORTER
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="part_4_scales_and_sizing.html">
+            
+                <a href="part_4_scales_and_sizing.html">
+            
+                    
+                    PART 4: SCALES AND SIZING
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="part_5_channels_and_colours.html">
+            
+                <a href="part_5_channels_and_colours.html">
+            
+                    
+                    PART 5: CHANNELS AND COLOURS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="part_6_image_adjustments.html">
+            
+                <a href="part_6_image_adjustments.html">
+            
+                    
+                    PART 6: IMAGE ADJUSTMENTS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="part_7_working_with_stacks.html">
+            
+                <a href="part_7_working_with_stacks.html">
+            
+                    
+                    PART 7: WORKING WITH STACKS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="acknowledgements.html">
+            
+                <a href="acknowledgements.html">
+            
+                    
+                    Acknowledgements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="use_and_distribution_of_workshop_notes.html">
+            
+                <a href="use_and_distribution_of_workshop_notes.html">
+            
+                    
+                    Use and Distribution of Workshop Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="demonstration_images.html">
+            
+                <a href="demonstration_images.html">
+            
+                    
+                    Demonstration  Images
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >PART 7: WORKING WITH STACKS</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="part-7-working-with-stacks">PART 7: WORKING WITH STACKS </h1>
+<p>Image stacks are composed of a number of related images opened on top of each other in a single window. Stacks can represent different channels from the same image, z-slices captured on the microscope or time series. When channel, Z-series or time information is recorded the images are usually opened as stacks automatically when bio-formats importer is used to open the files. You can also generate a stack yourself from related TIFF or JPEG images.</p>
+<p>This section goes through the tools and methods for working with image stacks. More detailed informaiton on working with multiple dimmensions in imaging and stacks is covered in FIJI Intermediate.</p>
+<p>The image <em>NeuralTube.jpeg</em> along with its individual channels and image stacks <em>RGBStack.tif</em> and <em>MovieStack.tif</em> will be used for demonstration throughout this section.</p>
+<h2 id="navigating-stacks">Navigating Stacks </h2>
+<p>You can easily move through the slices in a stack using the bar at the bottom of the image.</p>
+<p><img src="assets/Part 7/Navigating Stacks/Navigate 1 - stack.JPG" alt=""></p>
+<p>Click and drag the slider (1) to move through the stacks. You can also click on the left (2) and right (3) arrows to move the stack by 1 slice or click the play button (4) to run through the stack slices automatically.</p>
+<p>You can monitor the slice number in the image information at the top left of the image window.</p>
+<p><img src="assets/Part 7/Navigating Stacks/Navigate 2 - slice info.JPG" alt=""></p>
+<h2 id="creating-and-dismantling-stacks">Creating and Dismantling Stacks </h2>
+<p>To create a stack from multiple individual images go to <strong>Image -&gt; Stacks -&gt; Images to Stack.</strong></p>
+<p><img src="assets/Part 7/Creating and Dismantling/Create 1 - images to stack menu.jpg" alt=""></p>
+<p>An options window will open. You can give the stack a new name, or keep the generic &#x2018;Stack&#x2019;. To keep the original images select the box next to <strong>Keep Source Images</strong>.</p>
+<p><img src="assets/Part 7/Creating and Dismantling/Create 2 - Stack Options.jpg" alt=""></p>
+<p>Click <strong>OK</strong> to generate the stack.</p>
+<p><img src="assets/Part 7/Creating and Dismantling/Create 3 - Images to Stack.jpg" alt=""></p>
+<p>To reverse this and generate multiple single images from a stack go to <strong>Image -&gt; Stacks -&gt; Stack to Images.</strong></p>
+<p><img src="assets/Part 7/Creating and Dismantling/Dismantle 1 - Stack to images menu.jpg" alt=""></p>
+<h2 id="altering-stack-slices">Duplicate Stack </h2>
+<p>You can use the <strong>Duplicate</strong> function for stacks also. Select your stack and follow the menu or shortcut to <strong>Duplicate</strong> as previously shown.</p>
+<p><img src="assets/Part 7/Duplicate Stack/Duplicate 1 -  Menu.jpg" alt=""></p>
+<p>When using <strong>Duplicate</strong> for a stack, only the current slice will be duplicated as a single image. This can be useful if you want to extract a slingle slice from your stack for display or analysis purposes.</p>
+<p>However, in the <strong>Duplicate</strong> window you will now have more options, where you select <strong>Duplicate Stack</strong> and can also nominate spceific slices to be duplicated intot he new stack. Use these options to duplicate multiple slices or the entire stack.</p>
+<p><img src="assets/Part 7/Duplicate Stack/Duplicate 2 -  Duplicate Stack Options.jpg" alt=""></p>
+<p>When you are happy with your options, click <strong>OK</strong> to duplicate.</p>
+<h2 id="altering-stack-slices">Altering Stack Slices </h2>
+<p>You can alter the slices in a stack by adding, deleting or rearranging them.</p>
+<p>To add or delete slices from a stack, navigate to the slice you want to modify and go to <strong>Image -&gt; Stacks</strong>, and select the desired option.</p>
+<p><img src="assets/Part 7/Altering/Alter 1 - Add &amp; Delete Menu.jpg" alt=""></p>
+<p>Selecting add slice will insert a new blank/black slice into the current stack position. Selecting delete slice will remove the current slice from the stack.</p>
+<p>You can also add and delete multiple slices using the <strong>Slice Keeper</strong> or <strong>Slice Remover</strong> tools.</p>
+<p><strong>Slice Keeper</strong> is found under <strong>Image -&gt; Stacks -&gt; Tools</strong>.</p>
+<p><img src="assets/Part 7/Altering/Alter 2 - Slice Keeper Menu.jpg" alt=""></p>
+<p><strong>Slice Keeper</strong> will ask you to nominate the slices you wish to keep in the stack, by number. You can also use <strong>Increment</strong> to keep every 2nd, 3rd, 4th, etc slice from the stack. Enter your numbers and select <strong>OK</strong> to generate the new stack.</p>
+<p><img src="assets/Part 7/Altering/Alter 3 - Slice Keeper Options.jpg" alt=""></p>
+<p><strong>Slice Remover</strong> is found on he same menu as <strong>Slice Keeper</strong>.</p>
+<p><img src="assets/Part 7/Altering/Alter 4 - Slice Remover Menu.jpg" alt=""></p>
+<p>The <strong>Slice Remover </strong>will prompt you to nominate the slices you wish to remove from the stack, by number. As with slice keeper, you can also use <strong>Increment</strong> to remove every 2nd, 3rd, 4th, etc slice from the stack. Enter your numbers and select <strong>OK</strong> to generate the new stack.</p>
+<p><img src="assets/Part 7/Altering/Alter 5 - Slice Remover Options.jpg" alt=""></p>
+<p><strong>Slice Keeper</strong> and <strong>Slice Remover</strong> are fairly interchagable and ultimately serve the same function.</p>
+<p>You can also rearrange the order of slices in a stack using the <strong>Stack Sorter</strong> tool. Go to <strong>Image -&gt; Stacks -&gt; Tools -&gt; Stack Sorter.</strong></p>
+<p><img src="assets/Part 7/Altering/Alter 6 - Sorter Menu.jpg" alt=""></p>
+<p>You can then move a slice forwards or backwards using the arrows (1) in the options box.</p>
+<p>You can also select <strong>First</strong> (2) or <strong>Last</strong> (3) to move the current slice to the front or back of the stack.</p>
+<p>Other options include duplicating a slice (4) or inserting a new image into the stack from a file (5).</p>
+<p>All of these commands will act on the current slice in the stack. Always scroll to the slice you want to change before selecting an option.</p>
+<p>You can also select <strong>Reverse</strong> (6) to reverse the order of the entire stack.</p>
+<p><img src="assets/Part 7/Altering/Alter 7 - Sorter Options.jpg" alt=""></p>
+<h2 id="split-and-concatenate-stacks">Split and Concatenate Stacks </h2>
+<p>You can split a stack into smaller parts by selecting <strong>Image -&gt; Stacks -&gt; Tools -&gt; Stack Splitter.</strong></p>
+<p><img src="assets/Part 7/Split &amp; concatenate/Split 1 - Menu.jpg" alt=""></p>
+<p>Enter the number of smaller stacks you wish to split into and select <strong>OK</strong>.</p>
+<p><img src="assets/Part 7/Split &amp; concatenate/Split 2 - split options.jpg" alt=""></p>
+<p><strong>Note:</strong> The smaller stacks must be of equal size, so you need to enter a number divisible by the total number of slices. This allows the stack to split into multiple equal parts.</p>
+<p><img src="assets/Part 7/Split &amp; concatenate/Split 3 - split stack numbers.jpg" alt=""></p>
+<p>To combine multiple small stacks into one select <strong>Image -&gt; Stacks -&gt; Tools -&gt; Concatenate.</strong></p>
+<p><img src="assets/Part 7/Split &amp; concatenate/Concat 1 - Menu.jpg" alt=""></p>
+<p>In the resulting <strong>Concatenator</strong> window, you can check the box to include <strong>All open windows</strong>, or add and sort the desired stacks in the correct order using the drop down menus. You can give the new stack a name or keep the generic &#x2018;Concatenated Stacks&#x2019; and check the box next to <strong>Keep original images</strong> if you wish to keep the smaller stacks open.</p>
+<p><img src="assets/Part 7/Split &amp; concatenate/Concat 2 - Options.jpg" alt=""></p>
+<p>Then select <strong>OK</strong> to generate the combined stack.</p>
+<h2 id="make-montage">Make Montage </h2>
+<p>You can use image stacks to generate side by side montages of channels, time points or z-sections. Select your stack then go to <strong>Image -&gt; Stacks -&gt; Make Montage.</strong></p>
+<p><img src="assets/Part 7/Make Montage/Montage 1 - menu.jpg" alt=""></p>
+<p>A window will open with a number of options for generating the montage, including the number of columns and rows that you want in the montage, scaling of the images, which slices of your stack you want to include, if you want to use increments and border width. You can also select the check box to label the montage with the slice titles.</p>
+<p>Input your required options and select <strong>OK</strong> to create the montage.</p>
+<p><img src="assets/Part 7/Make Montage/Montage 2 - options.jpg" alt=""></p>
+<p>In the example below we have generated a montage of the individual channels plus the merged image using the settings shown in the options window above, but the same principles can be applied to create a montage of times or z-slices as well.</p>
+<p><img src="assets/Part 7/Make Montage/Montage 3 - image.jpg" alt=""></p>
+<h2 id="maximum-intensity-projections">Maximum Intensity Projections </h2>
+<p>To create a maximum intensity projection of a confocal z-stack, open your stack and go to <strong>Image -&gt; Stacks -&gt; Z-Project.</strong></p>
+<p><img src="assets/Part 7/MIP/MIP 1 - menu.jpg" alt=""></p>
+<p>In the <strong>Z Projection</strong> window enter the first and last slice you want to project and the type of projection. For a maximun intesnity projection, select <strong>Maximum Intensity </strong>from the drop down window. Click on <strong>OK</strong> to create the projection.</p>
+<p><img src="assets/Part 7/MIP/MIP 2 - options.jpg" alt=""></p>
+<p>A new window will open with the projected, single plane image.</p>
+<p><img src="assets/Part 7/MIP/MIP 3 - stack vs final.jpg" alt=""></p>
+<p>The new image will have the default name &#x2018;MAX<em>_imagename</em>&#x2019;. You can rename this when saving by using the <strong>Save As</strong> function.</p>
+<h2 id="3d-projections"></h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part_6_image_adjustments.html" class="navigation navigation-prev " aria-label="Previous page: PART 6: IMAGE ADJUSTMENTS">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="acknowledgements.html" class="navigation navigation-next " aria-label="Next page: Acknowledgements">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"PART 7: WORKING WITH STACKS","level":"1.8","depth":1,"next":{"title":"Acknowledgements","level":"1.9","depth":1,"path":"acknowledgements.md","ref":"acknowledgements.md","articles":[]},"previous":{"title":"PART 6: IMAGE ADJUSTMENTS","level":"1.7","depth":1,"path":"part_6_image_adjustments.md","ref":"part_6_image_adjustments.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Monash Micro Imaging","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Fiji Basics","gitbook":"*"},"file":{"path":"part_7_working_with_stacks.md","mtime":"2018-02-20T06:04:59.348Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-20T06:22:30.102Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
