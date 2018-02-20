@@ -1,36 +1,36 @@
 # PART 7: WORKING WITH STACKS {#part-7-working-with-stacks}
 
-Image stacks are a number of related images opened on top of each other in a single window. Stacks can represent different channels from the same image, z-slices captured on the microscope or time series. When channel, Z-series or time information is recorded the images are usually opened as stacks automatically when bio-formats importer is used to open the files. You can also generate a stack yourself from related TIFF or JPEG images.
+Image stacks are composed of a number of related images opened on top of each other in a single window. Stacks can represent different channels from the same image, z-slices captured on the microscope or time series. When channel, Z-series or time information is recorded the images are usually opened as stacks automatically when bio-formats importer is used to open the files. You can also generate a stack yourself from related TIFF or JPEG images.
 
-This section goes through the tools and methods for working with image stacks.
+This section goes through the tools and methods for working with image stacks. More detailed informaiton on working with multiple dimmensions in imaging and stacks is covered in FIJI Intermediate.
 
-The image **NeuralTube** and image stacks **RGBStack**, **3D-1**, **MovieStack** and **HyperStack** will be used for demonstration throughout this section.
+The image _NeuralTube.jpeg_ along with its individual channels and image stack _RGBStack.tif_ will be used for demonstration throughout this section.
 
 ## Navigating Stacks {#navigating-stacks}
 
 You can easily move through the slices in a stack using the bar at the bottom of the image.
 
-![](/assets/part7/stacks_navigation_slider.jpg)
+
 
 Click and drag the slider \(1\) to move through the stacks. You can also click on the left \(2\) and right \(3\) arrows to move the stack by 1 slice or click the play button \(4\) to run through the stack slices automatically.
 
 You can monitor the slice number in the image information at the top left of the image window.
 
-![](/assets/part7/stacks_information.jpg)
+
 
 ## Creating and Dismantling Stacks {#creating-and-dismantling-stacks}
 
 To create a stack from multiple individual images go to **Image -&gt; Stacks -&gt; Images to Stack.**
 
-![](/assets/part7/images_to_stack_menu.jpg)
+
 
 An options window will open. You can give the stack a new name, or keep the generic ‘Stack’. To keep the original images select the box next to **Keep Source Images**.
 
-![](/assets/part7/images_to_stack_options.jpg)
+
 
 Click **OK** to generate the stack.
 
-![](/assets/part7/images_to_stack_result.jpg)
+
 
 To reverse this and generate multiple single images from a stack go to **Image -&gt; Stacks -&gt; Stack to Images.**
 
