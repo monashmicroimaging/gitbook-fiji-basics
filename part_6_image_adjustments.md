@@ -74,15 +74,17 @@ You can easily straighten an object in your image with the **Image Rotation** to
 
 To flip or rotate your image, go to **Image -&gt; Transform** and select your option.
 
-**Flip Horizontally** and **Flip Vertically** flip the image along the left hand side and top edges respectively. **Rotate 90 Degrees Right** and **Rotate 90 Degrees Left** turn the images to the right or left.
+**Flip Horizontally** and **Flip Vertically** flip the image along the left hand side and top edges respectively. 
+
+**Rotate 90 Degrees Right** and **Rotate 90 Degrees Left** turn the images to the right or left.
 
 Examples for each rotation method are shown here:
 
-You can also rotate an image to other angels of your choosing. To define the angle yourself, select the option **Rotate** from the options under the transform menu. This will open a new window where you can define the angle of rotation.
+You can also rotate an image to other angels of your choosing. To define the angle yourself, select the option **Rotate** from the options under the transform menu. 
 
-Enter the angle in degrees in the first box.
+This will open a new window where you can define the angle of rotation. Enter the angle in degrees in the first box.
 
-Select **Bilinear** from the drop down **Interpolation** menu to minimise any changes to pixel information.
+Select **None** from the drop down **Interpolation** menu to minimise any changes to pixel information.
 
 To preview the angle before completing the rotation select the check box next to **Preview**.
 
